@@ -1,8 +1,9 @@
 import React from 'react'
 import { AiOutlineClockCircle } from "react-icons/ai";
 import { CiLocationOn } from "react-icons/ci";
-import { Img } from "../data/data"
+import { Img } from "../../data/data"
 import {useState} from "react"
+import ProductRight from './ProductRight';
 
 function Product() {
     const [src, setSrc] = useState(Img[0])
@@ -54,37 +55,26 @@ function Product() {
                     <p>Lorem ipsum dolor sit amet consectetur. Hendrerit lacus malesuada enim nascetur felis. Mauris egestas purus vitae vitae sit pellentesque dui sit.</p>
             </div>
             <hr/>
+
+            <div className="py-5">
+                    <div className="border-l-4 border-orange-900 rounded-sm mb-3">
+                        <h1 className='text-2xl font-bold tracking-tight text-gray-900 pl-2'>Conditions and Features</h1>
+                    </div>
+                    <ul className="grid grid-cols-3 gap-3" style={{listStyle:"circle", listStyleType:"inherit", listStylePosition:"inside"}}>
+                        <li className="col-span-1 ">Size XL</li>
+                        <li className="col-span-1 ">Brand New</li>
+                        <li className="col-span-1 ">Shoe included</li>
+                        <li className="col-span-1 ">Men only</li>
+                        <li className="col-span-1 ">Complete Suit</li>
+                        <li className="col-span-1 ">Dark Red Color</li>
+                    </ul>
+            </div>
+            
         </div>
     
-        <div className="col-span-2 px-3 pt-10 flex flex-col items-center bg-white">
-            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" 
-            alt="profilepic" 
-            className="w-60 h-60 rounded-full border-4 border-blue-gray-900" />                
-            <h1 className='text-2xl font-bold tracking-tight text-gray-900'>Julian Benedict</h1>
-
-            <table className="table-auto text-left">
-            <tbody>
-                <tr>
-                    <td className="w-36">Faculty:</td>
-                    <td>Engineering</td>             
-                </tr>
-                <tr>
-                    <td>Dept:</td>
-                    <td>Computer Engineering</td>               
-                </tr>
-                <tr>                
-                    <td>Level:</td>
-                    <td>500level</td>
-                </tr>
-                <tr>                
-                    <td>Campus:</td>
-                    <td>Permsite</td>
-                </tr>
-            </tbody>
-            </table>
-
-
-        </div>
+       <section className='col-span-2 flex flex-col justify-between leading-6'>
+            <ProductRight />
+       </section>
     </div>
   )
 }
