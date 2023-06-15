@@ -1,8 +1,7 @@
 
 import Home from './Home'
 import Login from "./Login"
-import Navbar from "../components/Navbar"
-import Footer from "../components/Footer"
+import Account from "./Account"
 import {Routes, Route} from "react-router-dom"
 import RoutableHomeSide from '../components/RoutableHomeSide'
 // import Stock from "../components/Stock"
@@ -15,7 +14,7 @@ import Product from "../components/product/Product"
 export default function pages() {
   return (
     <>
-      <Navbar />
+      
       <Routes>
         <Route  element={<Home />}>
           <Route path="/" element={<RoutableHomeSide />}/>
@@ -25,9 +24,12 @@ export default function pages() {
           <Route path="/product" element={<Product />}/>
         </Route>
         <Route path="/login" element={<Login />}/>
-        <Route path="/account" element={<Account />}/>
+        <Route path="/account" element={<Account />}>
+                {/* <Route path="/" element={<Profile />}/>
+                <Route path="/additems" element={<AddItem />}/> */}
+        </Route>
       </Routes>
-      <Footer />
+      
     </>
   );
 }
