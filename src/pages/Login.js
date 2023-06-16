@@ -1,14 +1,13 @@
 import React from 'react'
-import Navbar from "../components/Navbar"
 
 function Login() {
   return (
     <>
-	<Navbar />
+	
       {/* <!-- component --> */}
 <div className="h-screen md:flex">
 	<div
-		className="relative overflow-hidden md:flex w-1/2 bg-gradient-to-tr from-yellow-800 to-orange-700 i justify-around items-center hidden">
+		className="relative overflow-hidden md:flex w-1/2 bg-gradient-to-tr from-orange-700 to-my-orange i justify-around items-center hidden">
 		<div>
 			<h1 className="text-white font-bold text-4xl font-sans">Get Empowered</h1>
 			<p className="text-white mt-1">Show what you have. Get what you need</p>
@@ -22,7 +21,7 @@ function Login() {
 	<div className="flex md:w-1/2 justify-center py-10 items-center bg-white">
 		<form className="bg-white">
 			<h1 className="text-gray-800 font-bold text-2xl mb-1">Hello!</h1>
-			<p className="text-sm font-normal text-gray-600 mb-7">You don't have an account? <span className="text-orange-600">Sign up</span></p>
+			<p className="text-sm font-normal text-gray-600 mb-7">You don't have an account? <span className="text-my-orange">Sign up</span></p>
 			<div className="flex items-center border-2 py-2 px-3 rounded-2xl mb-4">
 				<svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-gray-400" viewBox="0 0 20 20"
 					fill="currentColor">
@@ -56,8 +55,8 @@ function Login() {
 							</svg>
 							<input classNameName="pl-2 outline-none border-none" type="text" name="" id="" placeholder="Password" />
       </div>
-							<button type="submit" className="block w-full bg-orange-600 mt-4 py-2 rounded-2xl text-white font-semibold mb-2">Login</button>
-							<span className="text-sm ml-2 hover:text-yellow-500 cursor-pointer">Forgot Password ?</span>
+							<button type="submit" className="block w-full bg-my-orange mt-4 py-2 rounded-2xl text-white font-semibold mb-2">Login</button>
+							<span className="text-sm ml-2 hover:text-my-orange cursor-pointer">Forgot Password ?</span>
 		</form>
 	</div>
 </div>

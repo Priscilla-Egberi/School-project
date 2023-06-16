@@ -4,7 +4,7 @@ function Cards(props) {
   return (
     <div className="group relative">
         <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-300 lg:aspect-none group-hover:opacity-75 lg:h-80">
-          <div className='flex items-center justify-center'>
+          <div className='flex items-center justify-center h-full bg-my-orange'>
             <h2 className="text-2xl font-bold tracking-tight text-gray-900 text-center">{props.detail} </h2>
           </div>
         </div>
