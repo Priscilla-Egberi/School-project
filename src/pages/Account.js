@@ -6,19 +6,21 @@ import Navbar from "../components/account/NavbarAccount"
 function Account() {
   return (
     <>
-        <Navbar />
-        <div className='grid grid-cols-4'>
-                            {/* ----------Sidebar */}
-                        <div className="col-span-1" >
-                            <SideBar />
-                        </div>
+        <section className="h-screen grid grid-cols-6">
+              
+                                  {/* ----------Sidebar */}
+                              <div className="col-span-1" >
+                                  <SideBar />
+                              </div>
 
-                        {/* Routable side of the page */}                    
-                        <div className='col-span-3 '>
-                            <Body />
-                        </div>   
-                        
-        </div>    
+                              {/* Routable side of the page */}                    
+                              <div className='col-span-5 '>
+                              <Navbar />
+                                  <Body />
+                              </div>   
+                              
+           
+        </section> 
     </>
   )
 }

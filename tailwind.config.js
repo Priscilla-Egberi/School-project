@@ -16,7 +16,8 @@ module.exports = withMT({
   theme: {
     extend: {
       colors:{
-        'my-orange': '#EB6B39'
+        'my-orange': '#EB6B39',
+        'my-lightorange': '#e9bfaf'
       }
     },
   },
