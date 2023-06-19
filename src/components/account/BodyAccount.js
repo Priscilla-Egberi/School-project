@@ -3,21 +3,21 @@ import React from 'react'
 function BodyAccount() {
   return (
     <div>
-      <p class='py-3 px-5 border-b-2 border-gray text-xl font-bold tracking-tight text-gray-900'>My Profile</p>
-          <div class='my-5 px-5 flex flex-row items-center'>
+      <p className='py-3 px-16 border-b-2 border-gray text-xl font-bold tracking-tight text-gray-900'>My Profile</p>
+          <div className='my-4 px-16 flex flex-row items-center'>
                   <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" 
                   alt="" 
-                  class="w-28 h-28 rounded-full border-4 border-gray-700 my-0 mr-4" />
+                  className="w-24 h-24 rounded-full border-4 border-gray-700 my-0 mr-4" />
                   <div>
-                    <h1 class="text-2xl font-bold tracking-tight text-gray-900">Julian Benedict</h1>
+                    <h1 className="text-2xl font-bold tracking-tight text-gray-900">Julian Benedict</h1>
                     <p>17/EG/CO/1035</p>
                   </div>
           </div>
       {/* tables */}
       <div className="grid grid-cols-2">
           {/* table 1 */}
-          <div className="border border-gray-300 mx-5 rounded">
-                            <h1 className="px-5 py-3 border-b border-gray-300 text-xl font-bold tracking-tight text-gray-900 ">Information</h1>
+          <div className="border border-gray-300 ml-16 mr-4 rounded">
+                            <h1 className="px-5 py-2 border-b border-gray-300 text-xl font-bold tracking-tight text-gray-900 ">Information</h1>
                             <div className="px-5 my-3">
                                 <p className="text-sm text-gray-500 dark:text-gray-400">Display Name</p>
                                 <div className="flex flex-row justify-between">
@@ -60,8 +60,8 @@ function BodyAccount() {
         </div>
 
         {/* table 2 */}
-        <div class="border border-gray-300 mx-5 rounded">
-                    <h1 class="px-5 py-3 border-b border-gray-300 text-xl font-bold tracking-tight text-gray-900 ">Connection</h1>
+        <div class="border border-gray-300 ml-5 mr-10 rounded">
+                    <h1 class="px-5 py-2 border-b border-gray-300 text-xl font-bold tracking-tight text-gray-900 ">Connection</h1>
                     <div class="px-5 my-3">
                         <p class="text-base font-bold tracking-tight text-gray-900">Facebook</p>
                         <div class="flex flex-row justify-between items-baseline">

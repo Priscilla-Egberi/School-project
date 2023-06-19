@@ -14,8 +14,8 @@ function Account() {
                               </div>
 
                               {/* Routable side of the page */}                    
-                              <div className='col-span-5 '>
-                              <Navbar />
+                              <div className='col-span-5 bg-white'>
+                                  <Navbar />
                                   <Body />
                               </div>   
                               

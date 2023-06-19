@@ -7,7 +7,7 @@ import {
   IconButton,
 } from "@material-tailwind/react";
 import logo from "../../images/logo.jpg";
-import SearchComponent from "../SearchComponent";
+
 
  
 export default function Example() {
@@ -67,7 +67,7 @@ export default function Example() {
  
   return (
     <>
-      <Navbar className="h-max max-w-full rounded-none py-2 px-4 lg:px-8 lg:py-4">
+      <Navbar className="h-16 max-w-full rounded-none py-2 px-4 lg:px-8 lg:py-4">
         <div className="flex items-center justify-between text-blue-gray-900">
           <Typography
             as="a"
@@ -81,9 +81,7 @@ export default function Example() {
             <div variant="gradient"
              size="sm"
              className="hidden lg:inline-block">
-            <SearchComponent
-             
-            />
+            
             </div>
             
             <IconButton
@@ -127,7 +125,7 @@ export default function Example() {
         </div>
         <MobileNav open={openNav}>
           {navList}
-          <SearchComponent variant="gradient" size="sm" fullWidth className="mb-2"/>
+          
           
         </MobileNav>
       </Navbar>
