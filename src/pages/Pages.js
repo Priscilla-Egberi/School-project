@@ -27,8 +27,8 @@ export default function pages() {
         </Route>
         <Route path="/login" element={<Login />}/>
         <Route path="/account" element={<Account />}>
-                <Route path="/" element={<Body />}/>
-                <Route path="/additems" element={<AddItem />}/>
+                <Route path="/account" element={<Body />}/>
+                <Route path="/account/additems" element={<AddItem />}/>
         </Route>
       </Routes>
       

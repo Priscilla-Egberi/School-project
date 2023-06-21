@@ -1,6 +1,5 @@
 import React from 'react'
 import SideBar from "../components/account/SidebarAccount"
-import Body from "../components/account/BodyAccount"
 import Navbar from "../components/account/NavbarAccount"
 import { Outlet } from 'react-router-dom'
 
