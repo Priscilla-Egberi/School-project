@@ -9,6 +9,8 @@ import Electronics from "../components/Electronics"
 import Clothings from "../components/Clothings"
 import Tutorial from "../components/Tutorial"
 import Product from "../components/product/Product"
+import Body from "../components/account/BodyAccount"
+import AddItem from "../components/account/AddNewItem"
 
 
 export default function pages() {
@@ -25,8 +27,8 @@ export default function pages() {
         </Route>
         <Route path="/login" element={<Login />}/>
         <Route path="/account" element={<Account />}>
-                {/* <Route path="/" element={<Profile />}/>
-                <Route path="/additems" element={<AddItem />}/> */}
+                <Route path="/" element={<Body />}/>
+                <Route path="/additems" element={<AddItem />}/>
         </Route>
       </Routes>
       

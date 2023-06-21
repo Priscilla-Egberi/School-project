@@ -2,6 +2,7 @@ import React from 'react'
 import SideBar from "../components/account/SidebarAccount"
 import Body from "../components/account/BodyAccount"
 import Navbar from "../components/account/NavbarAccount"
+import { Outlet } from 'react-router-dom'
 
 function Account() {
   return (
@@ -16,7 +17,7 @@ function Account() {
                               {/* Routable side of the page */}                    
                               <div className='col-span-5 bg-white'>
                                   <Navbar />
-                                  <Body />
+                                  <Outlet />
                               </div>   
                               
            
