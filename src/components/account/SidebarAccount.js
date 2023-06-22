@@ -13,7 +13,7 @@ function SideBar() {
   return (
     <section className='font-semibold h-full bg-white flex flex-col justify-between border-r-gray border-2'>
         <div>
-              <div id="title" className="flex flex-row items-center text-white p-2  h-16" style={{backgroundColor:"#EB6B39"}}> <AiOutlineUserAdd className="mr-2"/> Account</div>
+              <div id="title" className="flex flex-row items-center text-white pl-4 py-2  h-16" style={{backgroundColor:"#EB6B39"}}> <AiOutlineUserAdd className="mr-2"/> Account</div>
               <Link to="/account/additems"  className="mt-4 mx-3 rounded-sm flex flex-row items-center justify-center py-3 text-my-orange bg-my-lightorange"> <AiOutlinePlus className="mr-2" /> Add New Item</Link>
               <div className="mt-3 px-4  flex flex-col gap-y-6 ">        
                   <Link to="/account" className="flex items-center"><AiOutlineUser className="mr-2"/> My Profile</Link>
