@@ -10,7 +10,7 @@ function Goods() {
                 <p className='border-b-2 border-my-orange'>Available</p>
                 <p>Not-available</p>
             </div>
-            <div className="grid grid-cols-2 gap-x-6">            
+            <div className="grid grid-cols-2 gap-x-14">            
             <Card />           
             <Card />           
             <Card />           
