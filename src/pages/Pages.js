@@ -11,6 +11,7 @@ import Tutorial from "../components/Tutorial"
 import Product from "../components/product/Product"
 import Body from "../components/account/BodyAccount"
 import AddItem from "../components/account/AddNewItem"
+import VerficationNot from '../components/account/VerficationNot'
 
 
 export default function pages() {
@@ -29,6 +30,7 @@ export default function pages() {
         <Route path="/account" element={<Account />}>
                 <Route path="/account" element={<Body />}/>
                 <Route path="/account/additems" element={<AddItem />}/>
+                <Route path="/account/verification" element={<VerficationNot />}/>
         </Route>
       </Routes>
       

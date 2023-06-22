@@ -20,7 +20,7 @@ function SideBar() {
                   <Link to="/account/goods" className="flex items-center"><BsBagDash  className="mr-2"/> My Goods</Link>
                   <p className="flex items-center"><RiHandCoinLine className="mr-2"/> My Services</p>
                   <p className="flex items-center"><IoStatsChartOutline className="mr-2"/> Insights</p>
-                  <p className="flex items-center"><GoVerified className="mr-2"/> Verification</p>
+                  <Link to="/account/verification" className="flex items-center"><GoVerified className="mr-2"/> Verification</Link>
               </div>
         </div>
 
