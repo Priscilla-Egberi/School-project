@@ -26,7 +26,7 @@ function SideBar() {
 
         <div>
             <hr className='w-full'/>
-            <h1 className=" flex flex-row items-center justify-center py-3 text-my-orange bg-my-lightorange">log out</h1>
+            <h1 className=" flex flex-row items-center justify-center py-3 text-my-orange bg-my-lightorange">LOG OUT</h1>
         </div>
 
         
