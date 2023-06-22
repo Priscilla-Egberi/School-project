@@ -4,7 +4,7 @@ function Goods() {
   return (
     <div>
     <p className='py-3 px-16 border-b-2 border-gray text-xl font-bold tracking-tight text-gray-900'>Goods</p>
-    <div className="container">
+    <div className="mx-10">
             <div className="flex flex-row gap-x-4">
                 <p>Available</p>
                 <p>Not-available</p>
