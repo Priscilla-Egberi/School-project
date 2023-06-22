@@ -12,7 +12,7 @@ function VerficationNot() {
             </div>
             <h1 className="my-3 text-xl font-bold tracking-tight text-gray-900 text-center">Your account is currently not verified</h1>
             <p className="text-center">You cannot sell on this platform without verifying your account as a student.<br/>Please providethe necessary requirements to indicate that you are a student of university of Uyo</p>
-            <Button className="mt-4 mx-3 rounded-sm flex flex-row items-center justify-center py-3 text-my-orange bg-my-orange"> <AiOutlinePlus className="mr-2" /> Verify your account</Button>
+            <Button className="mt-4 mx-3 rounded-sm flex flex-row items-center justify-center py-3 text-my-orange bg-my-orange"> Verify your account</Button>
         </div>
        
       </div>
