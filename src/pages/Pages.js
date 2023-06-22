@@ -13,6 +13,7 @@ import Body from "../components/account/BodyAccount"
 import AddItem from "../components/account/AddNewItem"
 import VerficationNot from '../components/account/VerficationNot'
 import Verified from '../components/account/Verified'
+import Goods from '../components/account/Goods'
 
 
 export default function pages() {
@@ -33,6 +34,7 @@ export default function pages() {
                 <Route path="/account/additems" element={<AddItem />}/>
                 <Route path="/account/verification" element={<VerficationNot />}/>
                 <Route path="/account/verified" element={<Verified />}/>
+                <Route path="/account/goods" element={<Goods />}/>
         </Route>
       </Routes>
       
