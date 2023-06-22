@@ -18,8 +18,8 @@ function SideBar() {
               <div className="mt-3 px-4  flex flex-col gap-y-6 ">        
                   <Link to="/account" className="flex items-center"><AiOutlineUser className="mr-2"/> My Profile</Link>
                   <Link to="/account/goods" className="flex items-center"><BsBagDash  className="mr-2"/> My Goods</Link>
-                  <p className="flex items-center"><RiHandCoinLine className="mr-2"/> My Services</p>
-                  <p className="flex items-center"><IoStatsChartOutline className="mr-2"/> Insights</p>
+                  <Link to="/account/services" className="flex items-center"><RiHandCoinLine className="mr-2"/> My Services</Link>
+                  <Link className="flex items-center"><IoStatsChartOutline className="mr-2"/> Insights</Link>
                   <Link to="/account/verification" className="flex items-center"><GoVerified className="mr-2"/> Verification</Link>
               </div>
         </div>
