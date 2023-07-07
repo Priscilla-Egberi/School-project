@@ -49,8 +49,8 @@ function AddGoods() {
                         </label>
                     </div>
                   
-            </Card>
                     <Button className="mt-4 rounded-sm flex flex-row items-center justify-center py-3 text-white bg-my-orange"> Post</Button>
+            </Card>
         </div>
         </div>
     </div>
