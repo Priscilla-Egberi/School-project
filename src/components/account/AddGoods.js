@@ -3,6 +3,7 @@ import {
     Card,
     Input,          
     Typography,
+    Button
   } from "@material-tailwind/react";
 
 function AddGoods() {
@@ -48,7 +49,7 @@ function AddGoods() {
                         </label>
                     </div>
                     <Button className="mt-4 rounded-sm flex flex-row items-center justify-center py-3 text-white bg-my-orange mx-auto"> Post</Button>
-                    <p>foodsareweeds</p>
+                  
             </Card>
         </div>
         </div>
