@@ -12,7 +12,7 @@ function AddGoods() {
         <div className='grid grid-cols-3 gap-16'>
         {/* ----------first col */}
         <div className="col-span-2" >            
-                <Card color="transparent px-4 py-3 w-11/12">                
+                <Card color="transparent px-4 py-3 w-max">                
                             <Typography color="gray" className="mt-1 font-normal">
                                 Enter your details to register.
                             </Typography>
