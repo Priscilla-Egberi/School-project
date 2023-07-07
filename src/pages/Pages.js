@@ -14,7 +14,7 @@ import AddItem from "../components/account/AddNewItem"
 import VerficationNot from '../components/account/VerficationNot'
 import Verified from '../components/account/Verified'
 import Goods from '../components/account/Goods'
-import Services from '../components/account/Servicess'
+import Services from '../components/account/Services'
 
 
 export default function pages() {
