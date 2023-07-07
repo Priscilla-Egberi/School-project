@@ -15,6 +15,9 @@ import VerficationNot from '../components/account/VerficationNot'
 import Verified from '../components/account/Verified'
 import Goods from '../components/account/Goods'
 import Services from '../components/account/Services'
+import AddGoods from '../components/account/AddGoods'
+import AddServices from '../components/account/AddServices'
+import AddNewItem from '../components/account/AddNewItem'
 
 
 export default function pages() {
@@ -30,9 +33,14 @@ export default function pages() {
           <Route path="/product" element={<Product />}/>
         </Route>
         <Route path="/login" element={<Login />}/>
+        {/* -------------------ACCOUNT */}
         <Route path="/account" element={<Account />}>
                 <Route path="/account" element={<Body />}/>
-                <Route path="/account/additems" element={<AddItem />}/>
+                <Route path="/account/additems" element={<AddItem />}>
+                  <Route path="/account/additems" element={<AddNewItem />} />
+                  <Route path="/account/additems/goods" element={<AddGoods />} />
+                  <Route path="/account/additems/services" element={<AddServices />} />
+                </Route>
                 <Route path="/account/verification" element={<VerficationNot />}/>
                 <Route path="/account/verified" element={<Verified />}/>
                 <Route path="/account/goods" element={<Goods />}/>
