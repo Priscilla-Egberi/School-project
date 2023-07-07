@@ -28,7 +28,7 @@ function AddGoods() {
                 </Card>
         </div>
         {/* ----------second col */}
-        <div className="col-span-2" >
+        <div className="col-span-3" >
             <Card>
                     <div class="max-w-xl">
                         <label
@@ -47,6 +47,7 @@ function AddGoods() {
                             <input type="file" name="file_upload" className="hidden" />
                         </label>
                     </div>
+                    <Button className="mt-4 mx-3 rounded-sm flex flex-row items-center justify-center py-3 text-white bg-my-orange mx-auto"> Post</Button>
             </Card>
         </div>
         </div>
