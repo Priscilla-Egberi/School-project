@@ -11,7 +11,7 @@ function AddGoods() {
     <div className="px-4">
         <div className='grid grid-cols-3 gap-16'>
         {/* ----------first col */}
-        <div className="col-span-2 mx-auto" >            
+        <div className="col-span-2 px-4 py-3" >            
                 <Card color="transparent">                
                             <Typography color="gray" className="mt-1 font-normal">
                                 Enter your details to register.
