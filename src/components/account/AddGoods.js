@@ -9,9 +9,9 @@ function AddGoods() {
   return (
     <>
     <div className="px-16">
-        <div className='grid grid-cols-4 gap-16'>
+        <div className='grid grid-cols-6 gap-16'>
         {/* ----------first col */}
-        <div className="col-span-2" >            
+        <div className="col-span-3" >            
                 <Card color="transparent" className=' px-4 py-3 max-w-max'>                
                             <Typography color="gray" className="mt-1 font-normal">
                                 Enter your details to register.
@@ -28,7 +28,7 @@ function AddGoods() {
                 </Card>
         </div>
         {/* ----------second col */}
-        <div className="col-span-1" >
+        <div className="col-span-2" >
                         <Card>
                             <Typography>Thank you Lord for who you are</Typography>
                         </Card>
