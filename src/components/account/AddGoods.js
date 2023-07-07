@@ -47,7 +47,7 @@ function AddGoods() {
                             <input type="file" name="file_upload" className="hidden" />
                         </label>
                     </div>
-                    <Button className="mt-4 mx-3 rounded-sm flex flex-row items-center justify-center py-3 text-white bg-my-orange mx-auto"> Post</Button>
+                    <Button className="mt-4 rounded-sm flex flex-row items-center justify-center py-3 text-white bg-my-orange mx-auto"> Post</Button>
             </Card>
         </div>
         </div>

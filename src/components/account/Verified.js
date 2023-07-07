@@ -8,7 +8,7 @@ function Verified() {
       
         <div className="mx-auto mt-14 max-w-sm p-5 flex flex-col justify-center items-center ">
             <div className='rounded-full bg-my-lightorange p-6'>
-            <FaUserCheck />
+            <FaUserCheck size={32} />
             </div>
             <h1 className="my-3 text-xl font-bold tracking-tight text-gray-900 text-center">Verified</h1>
             <p className="text-center">Your Account is Currently verified</p>
