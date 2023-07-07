@@ -30,8 +30,8 @@ function AddGoods() {
         </div>
         {/* ----------second col */}
         <div className="col-span-3" >
-            <Card>
-                    <div class="max-w-xl">
+            <Card className='px-4 py-3'>
+                    <div className="max-w-xl">
                         <label
                             className="flex justify-center w-full h-32 px-4 transition bg-white border-2 border-gray-300 border-dashed rounded-md appearance-none cursor-pointer hover:border-gray-400 focus:outline-none">
                             <span className="flex items-center space-x-2">
@@ -48,7 +48,7 @@ function AddGoods() {
                             <input type="file" name="file_upload" className="hidden" />
                         </label>
                     </div>
-                    <Button className="mt-4 rounded-sm flex flex-row items-center justify-center py-3 text-white bg-my-orange mx-auto"> Post</Button>
+                    <Button className="mt-4 rounded-sm flex flex-row items-center justify-center py-3 text-white bg-my-orange"> Post</Button>
                   
             </Card>
         </div>
