@@ -8,11 +8,11 @@ import {
 function AddGoods() {
   return (
     <>
-    <div className="px-4">
+    <div className="px-16">
         <div className='grid grid-cols-3 gap-16'>
         {/* ----------first col */}
         <div className="col-span-2" >            
-                <Card color="transparent px-4 py-3">                
+                <Card color="transparent px-4 py-3 w-11/12">                
                             <Typography color="gray" className="mt-1 font-normal">
                                 Enter your details to register.
                             </Typography>
