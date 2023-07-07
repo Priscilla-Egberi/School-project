@@ -9,7 +9,7 @@ function AddGoods() {
   return (
     <>
     <div className="px-16">
-        <div className='grid grid-cols-3 gap-16'>
+        <div className='grid grid-cols-4 gap-16'>
         {/* ----------first col */}
         <div className="col-span-2" >            
                 <Card color="transparent" className=' px-4 py-3 max-w-max'>                
