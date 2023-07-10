@@ -11,7 +11,7 @@ import {Link} from "react-router-dom"
 
 function SideBar() {
   return (
-    <section className='hidden font-semibold h-full bg-white md:flex flex-col justify-between border-r-gray border-2'>
+    <section className='font-semibold h-full bg-white flex flex-col justify-between border-r-gray border-2'>
         <div>
               <div id="title" className="flex flex-row items-center text-white pl-4 py-3 text-xl font-bold tracking-tight" style={{backgroundColor:"#EB6B39"}}> <AiOutlineUserAdd className="mr-2"/> Account</div>
               <Link to="/account/additems"  className="mt-4 mx-3 rounded-sm flex flex-row items-center justify-center py-3 text-my-orange bg-my-lightorange"> <AiOutlinePlus className="mr-2" /> Add New Item</Link>

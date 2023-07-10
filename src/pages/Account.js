@@ -9,7 +9,7 @@ function Account() {
         <section className="h-screen grid grid-cols-6">
               
                                   {/* ----------Sidebar */}
-                              <div className="col-span-1" >
+                              <div className="hidden md:block col-span-1" >
                                   <SideBar />
                               </div>
 
