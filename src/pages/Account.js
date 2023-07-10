@@ -5,7 +5,7 @@ import CollasibleSidebar from "../components/account/CollasibleSidebar"
 import { Outlet } from 'react-router-dom'
 
 function Account() {
-  const [check, setCheck] = useState('false');
+  const [check, setCheck] = useState('true');
   return (
     <>
         <section className="md:h-screen md:grid grid-cols-6">
