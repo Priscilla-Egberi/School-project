@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import { FaBars } from "react-icons/fa";
 
 
-function BodyAccount() {
-    const [check, setCheck] = useState('true');
+function BodyAccount({check, setCheck}) {
+    
   
  
     function handleChange() {

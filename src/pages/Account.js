@@ -1,9 +1,10 @@
-import React from 'react'
+import React, {useState} from 'react'
 import SideBar from "../components/account/SidebarAccount"
 // import Navbar from "../components/account/NavbarAccount"
 import { Outlet } from 'react-router-dom'
 
 function Account() {
+  const [check, setCheck] = useState('true');
   return (
     <>
         <section className="md:h-screen md:grid grid-cols-6">
@@ -16,7 +17,7 @@ function Account() {
                               {/* Routable side of the page */}                    
                               <div className='col-span-5 bg-white'>
                                   {/* <Navbar /> */}
-                                  <Outlet />
+                                  <Outlet check={check} setCheck={setCheck} />
                               </div>   
                               
            

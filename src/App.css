@@ -4,3 +4,21 @@
     font-family:  Inter var, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     /* color: #eedfd9 */
 }
+
+.side-bar{
+    position:fixed;
+    height:100vh;
+    top:0px;
+    bottom:0;   
+    width:0% !important;
+    transition: 0.2s;
+    z-index: 5000 !important;
+    display:block !important;
+    overscroll-behavior-y:contain !important;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  .openSidebar{
+   width:100% !important;
+   translate:ease;
+  }
