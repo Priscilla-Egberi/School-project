@@ -1,9 +1,25 @@
 import React from 'react'
+import { useState } from "react";
+import { FaBars } from "react-icons/fa";
+
 
 function BodyAccount() {
+    const [check, setCheck] = useState('true');
+  
+ 
+    function handleChange() {
+      setCheck(prevCheck => !prevCheck);
+    }
+
   return (
     <div>
-      <p className='py-3 px-16 border-b-2 border-gray text-xl font-bold tracking-tight text-gray-900'>My Profile</p>
+      <div className='py-3 px-16 border-b-2 border-gray'>
+        <p className='text-xl font-bold tracking-tight text-gray-900'>My Profile</p>
+        <div className="inline">
+                  <input type="checkbox" id="toggle" className="hidden" onChange={handleChange} value={check} />
+                  <label htmlFor="toggle"><FaBars size={28} className="ml-3  lg:hidden" id="openSidebar"/></label>
+          </div>
+        </div>
           <div className='my-4 px-16 flex flex-row items-center'>
                   <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" 
                   alt="" 
