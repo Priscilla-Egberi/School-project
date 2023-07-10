@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import {Link} from "react-router-dom"
 import {
   Navbar,
@@ -11,14 +12,13 @@ import { FaBars } from "react-icons/fa";
 
  
 export default function Example() {
-  const [openNav, setOpenNav] = React.useState(false);
+  const [check, setCheck] = useState('true');
+  
  
-  React.useEffect(() => {
-    window.addEventListener(
-      "resize",
-      () => window.innerWidth >= 960 && setOpenNav(false)
-    );
-  }, []);
+  function handleChange() {
+    setCheck(prevCheck => !prevCheck);
+  }
+  
  
   const navList = (
     <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
