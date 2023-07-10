@@ -35,7 +35,7 @@ export default function pages() {
         <Route path="/login" element={<Login />}/>
         {/* -------------------ACCOUNT */}
         <Route path="/account" element={<Account />}>
-                <Route path="/account" element={<Body />}/>
+                <Route path="/account" element={<Body check={check} setCheck={setCheck} />}/>
                 <Route path="/account/additems" element={<AddItem />}>
                   <Route path="/account/additems" element={<AddNewItemOptions />} />
                   <Route path="/account/additems/goods" element={<AddGoods />} />
