@@ -2,9 +2,7 @@ import React from "react";
 import {Link} from "react-router-dom"
 import {
   Navbar,
-  MobileNav,
   Typography,
-  IconButton,
 } from "@material-tailwind/react";
 import logo from "../../images/logo.jpg";
 import { FaBars } from "react-icons/fa";
