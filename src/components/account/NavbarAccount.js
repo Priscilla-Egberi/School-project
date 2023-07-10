@@ -74,7 +74,7 @@ export default function Example() {
             href="#"
             className="mr-4 cursor-pointer py-1.5 font-medium"
           >
-            UniUyo Market <img src={logo} alt="logo" className='inline w-6' />
+            UniUyo Maaaaaarket <img src={logo} alt="logo" className='inline w-6' />
           </Typography>
           <div className="inline">
                   <input type="checkbox" id="toggle" className="hidden" onChange={handleChange} value={check} />
