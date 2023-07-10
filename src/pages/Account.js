@@ -11,7 +11,7 @@ function Account() {
         <section className="md:h-screen md:grid grid-cols-6">
               
                                   {/* ----------Sidebar */}
-                              <CollasibleSidebar />
+                              <CollasibleSidebar check={check} setCheck={setCheck} />
                               <div className="hidden md:block col-span-1" >
                                   <SideBar />
                               </div>
