@@ -14,10 +14,10 @@ function BodyAccount() {
   return (
     <div>
       <div className='py-3 px-16 border-b-2 border-gray'>
-        <p className='text-xl font-bold tracking-tight text-gray-900'>My Profile</p>
+        <p className='text-xl font-bold tracking-tight text-gray-900'>My Prooooofile</p>
         <div className="inline">
                   <input type="checkbox" id="toggle" className="hidden" onChange={handleChange} value={check} />
-                  <label htmlFor="toggle"><FaBars size={28} className="ml-3  lg:hidden" id="openSidebar"/></label>
+                  <label htmlFor="toggle"><FaBars size={32} className="ml-3  lg:hidden" id="openSidebar"/></label>
           </div>
         </div>
           <div className='my-4 px-16 flex flex-row items-center'>
