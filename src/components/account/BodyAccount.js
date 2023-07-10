@@ -80,14 +80,14 @@ function BodyAccount() {
                     <div class="px-5 my-3">
                         <p class="text-base font-bold tracking-tight text-gray-900">Facebook</p>
                         <div class="flex flex-row justify-between items-baseline">
-                            <p class="text-sm text-gray-500 dark:text-gray-400">www.facabook/julianbenedict</p>
+                            <p class="text-sm text-gray-500 dark:text-gray-400">julianbenedict</p>
                             <p class="bg-gray-300 hover:bg-gray-600 font-semibold text-xs hover:text-gray-200 py-2 px-3 rounded">Edit</p>
                         </div>
                     </div>
                     <div class="px-5 my-3">
                         <p class="text-base font-bold tracking-tight text-gray-900">Whatsapp</p>
                         <div class="flex flex-row justify-between items-baseline">
-                            <p class="text-sm text-gray-500 dark:text-gray-400">www.whatsapp/90909090909</p>
+                            <p class="text-sm text-gray-500 dark:text-gray-400">09034078558</p>
                             <p class="bg-gray-300 hover:bg-gray-600 font-semibold text-xs hover:text-gray-200 py-2 px-3 rounded">Edit</p>
                         </div>
                     </div>
