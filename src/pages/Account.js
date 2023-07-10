@@ -6,7 +6,7 @@ import { Outlet } from 'react-router-dom'
 function Account() {
   return (
     <>
-        <section className="md:h-screen grid grid-cols-6">
+        <section className="md:h-screen md:grid grid-cols-6">
               
                                   {/* ----------Sidebar */}
                               <div className="hidden md:block col-span-1" >
