@@ -15,7 +15,7 @@ function BodyAccount({check, setCheck}) {
       <div className='py-3 px-16 border-b-2 border-gray'>
         <p className='text-xl font-bold tracking-tight text-gray-900'>My ProfileP</p>
         <div className="inline">
-                  <input type="checkbox" id="toggle" className="hidden" onChange={handleChange} value={check} />
+                  <input type="checkbox" id="toggle" className="" onChange={handleChange} value={check} />
                   <label htmlFor="toggle"><FaBars size={32} className="ml-3  lg:hidden" id="openSidebar"/></label>
           </div>
         </div>
