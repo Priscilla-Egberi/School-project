@@ -7,6 +7,8 @@ import {
   IconButton,
 } from "@material-tailwind/react";
 import logo from "../../images/logo.jpg";
+import { FaBars } from "react-icons/fa";
+
 
 
  
