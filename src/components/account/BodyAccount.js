@@ -29,9 +29,9 @@ function BodyAccount() {
                   </div>
           </div>
       {/* tables */}
-      <div className="md:grid grid-cols-2">
+      <div className="ml-16 md:grid grid-cols-2">
           {/* table 1 */}
-          <div className="border border-gray-300 ml-16 mr-4 rounded">
+          <div className="border border-gray-300 mr-4 rounded">
                             <h1 className="px-5 py-2 border-b border-gray-300 text-xl font-bold tracking-tight text-gray-900 ">Information</h1>
                             <div className="px-5 my-3">
                                 <p className="text-sm text-gray-500 dark:text-gray-400">Display Name</p>
@@ -75,7 +75,7 @@ function BodyAccount() {
         </div>
 
         {/* table 2 */}
-        <div className="border border-gray-300 ml-5 mr-10 rounded">
+        <div className="border border-gray-300 mr-10 rounded">
                     <h1 class="px-5 py-2 border-b border-gray-300 text-xl font-bold tracking-tight text-gray-900 ">Connection</h1>
                     <div class="px-5 my-3">
                         <p class="text-base font-bold tracking-tight text-gray-900">Facebook</p>
