@@ -1,12 +1,12 @@
 import React, {useContext} from 'react'
 import { FaBars } from "react-icons/fa";
-import MyContext from './CheckContext';
+import CheckContext from './CheckContext';
 
 
 
 export function BodyAccount () {
 
-    const [check, setCheck] = useContext(MyContext)
+    const [check, setCheck] = useContext(CheckContext)
 
     function handleChange() {
         setCheck(prevCheck => !prevCheck);

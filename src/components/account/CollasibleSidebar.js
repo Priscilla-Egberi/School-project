@@ -1,15 +1,16 @@
-import React from 'react';
-import { GoVerified} from "react-icons/go";
+import React, {useContext} from 'react';
+import { GoVerified } from "react-icons/go";
 import { AiOutlineUserAdd, AiOutlinePlus, AiOutlineUser } from "react-icons/ai";
 import {BsBagDash} from "react-icons/bs";
 import {RiHandCoinLine} from "react-icons/ri";
 import {IoStatsChartOutline} from "react-icons/io5";
 import {Link} from "react-router-dom"
+import CheckContext from './CheckContext';
 
 
 
-
-function SideBar({check, setCheck}) {
+function SideBar() {
+  const [check, setCheck] = useContext(CheckContext)
   return (
     <section onClick={()=>{setCheck(true)}}  id="openSidebarHere" className={`side-bar md:hidden ${check? "":'openSidebar'} font-semibold h-full bg-white flex flex-col justify-between border-r-gray border-2`}>
         <div>
