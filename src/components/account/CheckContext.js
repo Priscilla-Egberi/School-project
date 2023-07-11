@@ -1,20 +1,15 @@
 import React, {createContext, useState} from 'react'
 
 
-const MyContext = createContext()
+const CheckContext = createContext()
 
 export function CheckProvider () {
     const [check, setCheck] = useState('true');
-    
- 
-    function handleChange() {
-      setCheck(prevCheck => !prevCheck);
-    }
 
   return (
-    <MyContext.Provider value={[check, setCheck]}>
-    </MyContext.Provider>
+    <CheckContext.Provider value={[check, setCheck]}>
+    </CheckContext.Provider>
   )
 }
 
-export default MyContext;
+export default CheckContext;

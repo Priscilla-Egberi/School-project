@@ -4,7 +4,6 @@ import Login from "./Login"
 import Account from "./Account"
 import {Routes, Route} from "react-router-dom"
 import RoutableHomeSide from '../components/RoutableHomeSide'
-// import Stock from "../components/Stock"
 import Electronics from "../components/Electronics"
 import Clothings from "../components/Clothings"
 import Tutorial from "../components/Tutorial"
