@@ -124,4 +124,4 @@ export function BodyAccount () {
   )
 }
 
-export default MyContext;
+export default BodyAccount;
