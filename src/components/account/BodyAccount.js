@@ -15,7 +15,7 @@ export function BodyAccount () {
 
   return (
     <div>
-      <div className='py-3 px-16 border-b-2 border-gray'>
+      <div className='py-3 px-16 border-b-2 border-gray flex items-center justify-between'>
         <p className='text-xl font-bold tracking-tight text-gray-900'>My Profile</p>
         <div className="inline">
                   <input type="checkbox" id="toggle" className="" onChange={handleChange} value={check} />

@@ -34,7 +34,10 @@ function SideBar() {
                   <Link to="/account/verification" className="flex items-center"><GoVerified className="mr-2"/> Verification</Link>
               </div>
         </div>
-
+          <div className="inline">
+            <input type="checkbox" id="toggle" className="" onChange={handleChange} value={check} />
+            <label htmlFor="toggle"><FaBars size={32} className="ml-3  lg:hidden" id="openSidebar"/></label>
+          </div>
         <div>
             <hr className='w-full'/>
             <h1 className=" flex flex-row items-center justify-center py-3 text-my-orange bg-my-lightorange">LOG OUT</h1>
