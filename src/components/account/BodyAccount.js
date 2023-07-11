@@ -1,14 +1,16 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import { FaBars } from "react-icons/fa";
+import MyContext from './CheckContext';
 
 
-function BodyAccount({check, setCheck}) {
-    
-  
- 
+
+export function BodyAccount () {
+
+    const [check, setCheck] = useContext(MyContext)
+
     function handleChange() {
-      setCheck(prevCheck => !prevCheck);
-    }
+        setCheck(prevCheck => !prevCheck);
+      }
 
   return (
     <div>
@@ -119,4 +121,4 @@ function BodyAccount({check, setCheck}) {
   )
 }
 
-export default BodyAccount
+export default MyContext;

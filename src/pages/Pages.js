@@ -18,11 +18,13 @@ import Services from '../components/account/Services'
 import AddGoods from '../components/account/AddGoods'
 import AddServices from '../components/account/AddServices'
 import AddNewItemOptions from '../components/account/AddNewItemOptions'
+import {CheckProvider} from "../components/account/CheckContext"
+
 
 
 export default function pages() {
   return (
-    <>
+    <CheckProvider>
       
       <Routes>
         <Route  element={<Home />}>
@@ -48,6 +50,6 @@ export default function pages() {
         </Route>
       </Routes>
       
-    </>
+    </CheckProvider>
   );
 }
