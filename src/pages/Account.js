@@ -1,7 +1,6 @@
 import React from 'react'
 import SideBar from "../components/account/SidebarAccount"
 import CollasibleSidebar from "../components/account/CollasibleSidebar"
-// import Navbar from "../components/account/NavbarAccount"
 import { Outlet } from 'react-router-dom'
 
 function Account() {
@@ -17,8 +16,7 @@ function Account() {
                               </div>
 
                               {/* Routable side of the page */}                    
-                              <div className='col-span-5 bg-white'>
-                                  {/* <Navbar /> */}
+                              <div className='col-span-5 bg-white'>                                  
                                   <Outlet />
                               </div>   
                               
