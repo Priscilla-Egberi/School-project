@@ -11,6 +11,11 @@ import CheckContext from './CheckContext';
 
 function SideBar() {
   const [check, setCheck] = useContext(CheckContext)
+
+  function handleChange() {
+    setCheck(prevCheck => !prevCheck);
+  }
+
   return (
     <section onClick={()=>{setCheck(true)}}  id="openSidebarHere" className={`side-bar md:hidden ${check? "":'openSidebar'} font-semibold h-full bg-white flex flex-col justify-between border-r-gray border-2`}>
         <div>

@@ -7,7 +7,7 @@ import CheckContext from './CheckContext';
 export function BodyAccount () {
 
     const [check, setCheck] = useContext(CheckContext)
-    
+    console.log(check)
 
     function handleChange() {
         setCheck(prevCheck => !prevCheck);
