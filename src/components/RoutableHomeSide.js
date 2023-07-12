@@ -13,7 +13,7 @@ function RoutableHomeSide() {
 
                 {/* ----------Home images */}
                       <div className="row-span-1 grid grid-cols-2 md:grid-cols-3 gap-3 grid-flow-row-dense">
-                        <div className="col-span-2 md:row-span-2">
+                        <div className="col-span-2 row-span-2">
                           <img src={firstImage} alt="firstImage" className='w-full ' />
                         </div>
                         <div className="col-span-1">
