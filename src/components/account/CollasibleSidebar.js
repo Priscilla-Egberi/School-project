@@ -12,17 +12,16 @@ import CheckContext from './CheckContext';
 function SideBar() {
   const [check, setCheck] = useContext(CheckContext)
 
-  function handleChange() {
-    setCheck(prevCheck => !prevCheck);
-  }
+  // function handleChange() {
+  //   setCheck(true);
+  // }
 
   return (
     <section onClick={()=>{setCheck(true)}}  id="openSidebarHere" className={`side-bar md:hidden ${check? "":'openSidebar'} font-semibold h-full bg-white flex flex-col justify-between border-r-gray border-2`}>
         <div>
               <div id="title" className="flex flex-row items-center justify-between text-white pl-4 py-3 text-xl font-bold tracking-tight" style={{backgroundColor:"#EB6B39"}}> <AiOutlineUserAdd className="mr-2"/> Account
               <div className="inline">
-                  <input type="checkbox" id="toggle" className="" onChange={handleChange} value={check} />
-                  <label htmlFor="toggle"><IoClose size={32} className="ml-3  lg:hidden" id="openSidebar"/></label>
+                <IoClose size={32} className="ml-3  lg:hidden" id="openSidebar"/>
             </div>
               </div>
               <Link to="/account/additems"  className="mt-4 mx-3 rounded-sm flex flex-row items-center justify-center py-3 text-my-orange bg-my-lightorange"> <AiOutlinePlus className="mr-2" /> Add New Item</Link>
@@ -34,10 +33,7 @@ function SideBar() {
                   <Link to="/account/verification" className="flex items-center"><GoVerified className="mr-2"/> Verification</Link>
               </div>
         </div>
-          <div className="inline">
-            <input type="checkbox" id="toggle" className="" onChange={handleChange} value={check} />
-            <label htmlFor="toggle"><FaBars size={32} className="ml-3  lg:hidden" id="openSidebar"/></label>
-          </div>
+          
         <div>
             <hr className='w-full'/>
             <h1 className=" flex flex-row items-center justify-center py-3 text-my-orange bg-my-lightorange">LOG OUT</h1>

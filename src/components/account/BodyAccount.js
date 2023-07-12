@@ -12,13 +12,13 @@ export function BodyAccount () {
     function handleChange() {
         setCheck(prevCheck => !prevCheck);
       }
-
+    
   return (
     <div>
-      <div className='py-3 px-16 border-b-2 border-gray flex items-center justify-between'>
-        <p className='text-xl font-bold tracking-tight text-gray-900'>My Profile</p>
+      <div className='py-3 px-16 border-b-2 border-gray text-xl font-bold tracking-tight text-gray-900 flex items-center justify-between'>
+        My Profile
         <div className="inline">
-                  <input type="checkbox" id="toggle" className="" onChange={handleChange} value={check} />
+                  <input type="checkbox" id="toggle" className="hidden" onChange={handleChange} value={check} />
                   <label htmlFor="toggle"><FaBars size={32} className="ml-3  lg:hidden" id="openSidebar"/></label>
           </div>
         </div>
