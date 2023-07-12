@@ -3,7 +3,7 @@ import logo from "../images/logo.jpg"
 
 function Footer() {
   return (
-    <div className='px-20 py-10 text-white grid grid-cols-4 gap-x-20 leading-loose' style={{backgroundColor:"#EB6B39"}}>
+    <div className='px-20 py-10 text-white md:grid grid-cols-4 gap-x-20 leading-loose' style={{backgroundColor:"#EB6B39"}}>
       <ul  className="pt-4" style={{listStyle:"circle", listStyleType:"inherit", listStylePosition:"inside"}}>
         <li>About Us</li>
         <li>Contact Us</li>
@@ -12,7 +12,7 @@ function Footer() {
         <li>Privacy Policy</li>
       </ul>
 
-      <div className="col-span-2 grid grid-cols-2 gap-x-3 justify-between bg-white text-black pt-2 px-4">
+      <div className="hidden col-span-2 md:grid grid-cols-2 gap-x-3 justify-between bg-white text-black pt-2 px-4">
         <div className="flex flex-col border-r-2">
           <h4 className="mb-2 bold ">Goods</h4>
           <ul style={{listStyle:"circle", listStyleType:"inherit", listStylePosition:"inside"}}>
