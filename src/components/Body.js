@@ -8,10 +8,10 @@ function Body() {
     {/* Electronics */}
     <div classNameName="bg-white">
   <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-    <h2 className="text-2xl font-bold tracking-tight text-gray-900 flex justify-between items-center">
-      <p className="text-2xl font-bold tracking-tight text-gray-900">Electronics</p>
+    <div className="text-2xl font-bold tracking-tight text-gray-900 flex justify-between items-center">
+      <h2 className="text-2xl font-bold tracking-tight text-gray-900">Electronics</h2>
       <p>See more <IoArrowForwardSharp className="ml-3" /></p>
-      </h2>
+      </div>
 
     <div className="mt-6 grid grid-cols-3 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
     <Cards detail="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg" />
