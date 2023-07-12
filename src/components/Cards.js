@@ -3,8 +3,7 @@ import React from 'react'
 function Cards(props) {
   return (
     <div className="group relative">
-        <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-          {/* <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg" alt="Basic Tee in black." className="h-full w-full object-cover object-center lg:h-full lg:w-full"/> */}
+        <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">          
           <img src={props.detail} alt="Basic Tee in black." className="h-full w-full object-cover object-center lg:h-full lg:w-full"/>
         </div>
         <div className="mt-4 flex justify-between">
