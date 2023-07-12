@@ -2,7 +2,8 @@ import React from 'react'
 
 function Cards(props) {
   return (
-    <div className="group relative">
+    <div className={props.className}>
+        <div className="group relative">
         <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">          
           <img src={props.detail} alt="Basic Tee in black." className="h-full w-full object-cover object-center lg:h-full lg:w-full"/>
         </div>
@@ -19,6 +20,7 @@ function Cards(props) {
           <p className="text-sm font-medium text-gray-900">$35</p>
         </div>
       </div>
+    </div>
   )
 }
 
