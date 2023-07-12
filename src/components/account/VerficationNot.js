@@ -4,10 +4,19 @@ import {FaUserTimes} from "react-icons/fa"
 
 
 function VerficationNot() {
+  function handleChange() {
+    setCheck(prevCheck => !prevCheck);
+  }
+
   return (
     <div>
-      <p className='py-3 px-16 border-b-2 border-gray text-xl font-bold tracking-tight text-gray-900'>Verification</p>
-      
+      <div className='py-3 px-16 border-b-2 border-gray text-xl font-bold tracking-tight text-gray-900 flex items-center justify-between'>
+        Verification
+        <div className="inline">
+                  <input type="checkbox" id="toggle" className="hidden" onChange={handleChange} value={check} />
+                  <label htmlFor="toggle"><FaBars size={32} className="ml-3  lg:hidden" id="openSidebar"/></label>
+          </div>
+        </div>
         <div className="mx-auto mt-14 max-w-sm p-5 flex flex-col justify-center items-center ">
             <div className='rounded-full bg-my-lightorange p-6'>
                 <FaUserTimes size={32} />
