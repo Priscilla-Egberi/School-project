@@ -1,7 +1,12 @@
 import React from 'react'
 import Card from "./GoodsCard"
+import { FaBars } from "react-icons/fa";
+import CheckContext from './CheckContext';
 
-function Goods() {
+function Services() {
+
+  const [check, setCheck] = useContext(CheckContext)
+
   function handleChange() {
     setCheck(prevCheck => !prevCheck);
   }
@@ -40,4 +45,4 @@ function Goods() {
   )
 }
 
-export default Goods
+export default Services

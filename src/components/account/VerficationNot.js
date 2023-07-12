@@ -1,9 +1,14 @@
 import { Button } from '@material-tailwind/react'
 import React from 'react'
 import {FaUserTimes} from "react-icons/fa"
+import { FaBars } from "react-icons/fa";
+import CheckContext from './CheckContext';
 
 
 function VerficationNot() {
+
+  const [check, setCheck] = useContext(CheckContext)
+  
   function handleChange() {
     setCheck(prevCheck => !prevCheck);
   }
