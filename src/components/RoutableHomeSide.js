@@ -2,7 +2,7 @@ import React from 'react'
 import firstImage from "../images/Group 34.jpg"
 import secondImage from "../images/Group 11.jpg"
 import thirdImage from "../images/Group 12.jpg"
-import Card from "../components/Card"
+import Card from "../components/Cards"
 import Body from "../components/Body"
 
 function RoutableHomeSide() {
