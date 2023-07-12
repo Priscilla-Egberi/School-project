@@ -11,7 +11,7 @@ function Product() {
         setSrc(Img[myIndex])
     }
   return (
-    <div className='grid grid-cols-5 gap-x-8'>
+    <div className='md:grid grid-cols-5 gap-x-8'>
        
         <div className="col-span-3 px-5 pt-10  leading-8 bg-white">
             {/* slide-section1 */}
