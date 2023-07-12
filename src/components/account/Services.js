@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import Card from "./GoodsCard"
 import { FaBars } from "react-icons/fa";
 import CheckContext from './CheckContext';
