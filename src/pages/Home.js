@@ -13,15 +13,15 @@ function Home() {
   return (
     <>
     <Navbar />
-      <div className='w-11/12 mx-auto  grid grid-cols-4 gap-16 mt-12 h-auto'>
+      <div className='w-11/12 mx-auto  md:grid grid-cols-4 gap-16 mt-12 h-auto'>
         {/* ----------Sidebar */}
-      <div className="hidden md:col-span-1" >
+      <div className="hidden md:block col-span-1" >
         <SideBar />
       </div>
 
       {/* Routable side of the page */}
       
-      <div className='md:col-span-3 '>
+      <div className='col-span-3 '>
 
       <Outlet />
       </div>
