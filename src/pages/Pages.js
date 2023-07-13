@@ -2,6 +2,7 @@ import Home from './Home'
 import Login from "./Login"
 import Account from "./Account"
 import Goods from "./Goods"
+import Services from "./Services"
 import Navbar from "../components/Navbar"
 import {Routes, Route} from "react-router-dom"
 import RoutableHomeSide from '../components/RoutableHomeSide'
@@ -14,7 +15,7 @@ import AddItem from "../components/account/AddNewItem"
 import VerficationNot from '../components/account/VerficationNot'
 import Verified from '../components/account/Verified'
 import AccountGoods from '../components/account/Goods'
-import Services from '../components/account/Services'
+import AccountServices from '../components/account/Services'
 import AddGoods from '../components/account/AddGoods'
 import AddServices from '../components/account/AddServices'
 import AddNewItemOptions from '../components/account/AddNewItemOptions'
@@ -53,7 +54,7 @@ export default function pages() {
                 <Route path="/account/verification" element={<VerficationNot />}/>
                 <Route path="/account/verified" element={<Verified />}/>
                 <Route path="/account/goods" element={<AccountGoods />}/>
-                <Route path="/account/services" element={<Services />}/>
+                <Route path="/account/services" element={<AccountServices />}/>
         </Route>
       </Routes>
       
