@@ -1,8 +1,9 @@
 import React from "react";
 
-export default function SearchComponent() {
+export default function SearchComponent(props) {
     return (
-        <div className="flex items-center">
+        <div className={props.className}>
+            <div className="flex items-center">
             <div className="flex border border-orange-200 rounded">
                 <input
                     type="text"
@@ -13,6 +14,7 @@ export default function SearchComponent() {
                     Search
                 </button>
             </div>
+        </div>
         </div>
     );
 }
