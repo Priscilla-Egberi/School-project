@@ -11,7 +11,7 @@ function Goods() {
         <SearchComponent variant="gradient" size="sm" fullWidth className="md:hidden mb-5"/>
         <DropDown />
         </div>
-        <div className="ml-20 my-12">
+        <div className="hidden md:block ml-20 my-12">
         <DropDown />
         </div>
                       <div className="mt-5 mx-3 md:mx-20 grid grid-cols-3 md:grid-cols-6 gap-4 ">
