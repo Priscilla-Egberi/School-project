@@ -7,8 +7,11 @@ function Goods() {
   return (
     <div> 
       <h2 className="text-2xl semibold md:hidden ml-3">Goods</h2>
-        <div className="flex flex-col md:flex-row items-center justify-between g-y-5">
+        <div className="flex flex-col md:hidden items-center justify-between g-y-5">
         <SearchComponent variant="gradient" size="sm" fullWidth className="md:hidden mb-5"/>
+        <DropDown />
+        </div>
+        <div className="ml-20 my-12">
         <DropDown />
         </div>
                       <div className="mt-5 mx-3 md:mx-20 grid grid-cols-3 md:grid-cols-6 gap-4 ">
