@@ -39,6 +39,9 @@ export default function pages() {
         <Route path="/goods" element={<Goods />}>
 
         </Route>
+        <Route path="/services" element={<Services />}>
+
+        </Route>
         {/* -------------------ACCOUNT */}
         <Route path="/account" element={<Account />}>
                 <Route path="/account" element={<Body />}/>
