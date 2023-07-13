@@ -2,6 +2,7 @@ import Home from './Home'
 import Login from "./Login"
 import Account from "./Account"
 import Goods from "./Goods"
+import Navbar from "../components/Navbar"
 import {Routes, Route} from "react-router-dom"
 import RoutableHomeSide from '../components/RoutableHomeSide'
 import Electronics from "../components/Electronics"
@@ -24,7 +25,7 @@ import {CheckProvider} from "../components/account/CheckContext"
 export default function pages() {
   return (
     <CheckProvider>
-      
+       <Navbar />
       <Routes>
         <Route  element={<Home />}>
           <Route path="/" element={<RoutableHomeSide />}/>
