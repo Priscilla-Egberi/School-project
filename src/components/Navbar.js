@@ -127,7 +127,7 @@ export default function Example() {
         </div>
         <MobileNav open={openNav}>
           {navList}
-          <SearchComponent variant="gradient" size="sm" fullWidth className="mb-2"/>
+          {/* <SearchComponent variant="gradient" size="sm" fullWidth className="mb-2"/> */}
           
         </MobileNav>
       </Navbar>
