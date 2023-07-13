@@ -1,5 +1,5 @@
 import React from 'react'
-import SearchComponent from "./SearchComponent";
+import SearchComponent from "../components/SearchComponent";
 import DropDown from "../components/Goods/DropDown"
 
 function Goods() {
