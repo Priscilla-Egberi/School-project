@@ -9,7 +9,7 @@ import SearchComponent from "./SearchComponent";
 function RoutableHomeSide() {
   return (
     <>
-    <SearchComponent variant="gradient" size="sm" fullWidth className="mb-2"/>
+    <SearchComponent variant="gradient" size="sm" fullWidth className="hidden md:block mb-2"/>
     <div className='grid grid-rows-2 gap-y-12'>
 
                 {/* ----------Home images */}
