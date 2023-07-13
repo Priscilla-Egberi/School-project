@@ -6,7 +6,7 @@ import Cards from "../components/Cards"
 function Goods() {
   return (
     <div> 
-      <p className="text-2xl semibold md:block">Goods</p>
+      <h2 className="text-2xl semibold md:block">Goods</h2>
         <div className="flex flex-col md:flex-row items-center justify-between g-y-5">
         <SearchComponent variant="gradient" size="sm" fullWidth className="md:hidden mb-5"/>
         <DropDown />
