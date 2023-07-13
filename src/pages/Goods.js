@@ -1,8 +1,15 @@
 import React from 'react'
+import SearchComponent from "./SearchComponent";
+import DropDown from "../components/Goods/DropDown"
 
 function Goods() {
   return (
-    <div>Goods</div>
+    <div>Goods
+        <div className="flex flex-row items-center justify-center">
+        <SearchComponent variant="gradient" size="sm" fullWidth className="hidden md:block mb-5"/>
+        <DropDrown />
+        </div>
+    </div>
   )
 }
 
