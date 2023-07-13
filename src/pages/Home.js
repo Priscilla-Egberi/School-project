@@ -13,7 +13,7 @@ function Home() {
   return (
     <>
     <Navbar />
-      <div className='w-11/12 mx-auto  md:grid grid-cols-4 gap-16 mt-12 h-auto'>
+      <div className='w-11/12 mx-auto  md:grid grid-cols-4 gap-16 mt-5 md:mt-12 h-auto'>
         {/* ----------Sidebar */}
       <div className="hidden md:block col-span-1" >
         <SideBar />
