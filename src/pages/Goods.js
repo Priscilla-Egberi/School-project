@@ -5,11 +5,12 @@ import Cards from "../components/Cards"
 
 function Goods() {
   return (
-    <div> Goods
+    <div> 
+      <p className="text-2xl semibold md:block">Goods</p>
         <div className="flex flex-col md:flex-row items-center justify-between g-y-5">
         <SearchComponent variant="gradient" size="sm" fullWidth className="md:hidden mb-5"/>
         <DropDown />
-                      <div className="grid grid-cols-4 gap-4 ">
+                      <div className="mt-5 grid grid-cols-4 gap-4 ">
                               <Cards detail="https://images.unsplash.com/photo-1434389677669-e08b4cac3105?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y2xvdGhlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" className="col-span-1" />
                               <Cards detail="https://images.unsplash.com/photo-1601524909162-ae8725290836?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGxhcHRvcCUyMGNvbXB1dGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" className="col-span-1" />
                               <Cards detail="https://images.unsplash.com/photo-1434389677669-e08b4cac3105?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y2xvdGhlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" className="col-span-1" />
