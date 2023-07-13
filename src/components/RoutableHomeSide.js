@@ -4,11 +4,12 @@ import secondImage from "../images/Group 11.jpg"
 import thirdImage from "../images/Group 12.jpg"
 import Cards from "../components/Cards"
 import Body from "../components/Body"
+import SearchComponent from "./SearchComponent";
 
 function RoutableHomeSide() {
   return (
     <>
-    
+    <SearchComponent variant="gradient" size="sm" fullWidth className="mb-2"/>
     <div className='grid grid-rows-2 gap-y-12'>
 
                 {/* ----------Home images */}
