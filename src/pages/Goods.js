@@ -7,7 +7,7 @@ function Goods() {
     <div>Goods
         <div className="flex flex-row items-center justify-center">
         <SearchComponent variant="gradient" size="sm" fullWidth className="hidden md:block mb-5"/>
-        <DropDrown />
+        <DropDown />
         </div>
     </div>
   )
