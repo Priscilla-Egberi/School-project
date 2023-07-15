@@ -1,25 +1,25 @@
-import React, {useContext, useState} from "react";
+import React, {useContext, useState, useEffect} from "react";
 import {Link} from "react-router-dom"
 import {
   Navbar,
-  Collapse,
   Typography,
   IconButton,
 } from "@material-tailwind/react";
 import logo from "../images/logo.jpg";
 import SearchComponent from "./SearchComponent";
-import CheckHomeContext from '../components/checkHomeContext';
+import CheckHomeContext from './CheckHomeContext';
 
  
 export default function Example() {
   const [openNav, setOpenNav] = useState(false);
-  const [check, setCheck] = useContext(CheckHomeContext)
-    console.log(check)
+  const [checks, setChecks] = useContext(CheckHomeContext)
+    console.log(checks)
 
     function handleChange() {
-        setCheck(prevCheck => !prevCheck);
+        setCheck(prevChecks => !prevChecks);
       }
-  React.useEffect(() => {
+
+  useEffect(() => {
     window.addEventListener(
       "resize",
       () => window.innerWidth >= 960 && setOpenNav(false)
@@ -98,7 +98,7 @@ export default function Example() {
               ripple={false}
               onClick={()=> handleChange()}      
             >
-              <input type="checkbox" id="toggle" className="hidden" value={check} />
+              <input type="checkbox" id="toggle" className="hidden" value={checks} />
               {openNav ? (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

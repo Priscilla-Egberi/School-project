@@ -4,10 +4,10 @@ import React, {createContext, useState} from 'react'
 const CheckHomeContext = createContext()
 
 export function CheckHomeProvider({children}) {
-    const [check, setCheck] = useState('true');
+    const [checks, setChecks] = useState('true');
 
   return (
-    <CheckHomeContext.Provider value={[check, setCheck]}>
+    <CheckHomeContext.Provider value={[checks, setChecks]}>
       {children}
     </CheckHomeContext.Provider>
   )

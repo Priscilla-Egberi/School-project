@@ -5,19 +5,19 @@ import {BsBagDash} from "react-icons/bs";
 import {RiHandCoinLine} from "react-icons/ri";
 import {IoStatsChartOutline, IoClose} from "react-icons/io5";
 import {Link} from "react-router-dom"
-import CheckHomeContext from '../components/checkHomeContext';
+import CheckHomeContext from '../components/CheckHomeContext';
 
 
 
 function SideBar() {
-  const [check, setCheck] = useContext(CheckHomeContext)
+  const [checks, setChecks] = useContext(CheckHomeContext)
 
   // function handleChange() {
   //   setCheck(true);
   // }
 
   return (
-    <section onClick={()=>{setCheck(true)}}  id="openSidebarHere" className={`side-bar md:hidden ${check? "":'openSidebar'} font-semibold h-full bg-white flex flex-col justify-between border-r-gray border-2`}>
+    <section onClick={()=>{setChecks(true)}}  id="openSidebarHere" className={`side-bar md:hidden ${check? "":'openSidebar'} font-semibold h-full bg-white flex flex-col justify-between border-r-gray border-2`}>
         <div>
               <div id="title" className="flex flex-row items-center justify-between text-white pl-4 py-3 text-xl font-bold tracking-tight" style={{backgroundColor:"#EB6B39"}}> <p className='flex'><AiOutlineUserAdd className="mr-2"/> Account</p>
               <div className="inline">

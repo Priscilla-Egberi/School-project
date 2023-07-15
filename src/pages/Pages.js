@@ -20,7 +20,7 @@ import AddGoods from '../components/account/AddGoods'
 import AddServices from '../components/account/AddServices'
 import AddNewItemOptions from '../components/account/AddNewItemOptions'
 import {CheckProvider} from "../components/account/CheckContext"
-import {CheckHomeProvider} from "../components/checkHomeContext"
+import {CheckHomeProvider} from "../components/CheckHomeContext"
 
 
 
