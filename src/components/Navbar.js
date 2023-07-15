@@ -96,9 +96,9 @@ export default function Example() {
               variant="text"
               className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
               ripple={false}
-              onClick={()=> setCheck(false)}      
+              onClick={()=> handleChange()}      
             >
-              <input type="checkbox" id="toggle" className="hidden" onChange={handleChange} value={check} />
+              <input type="checkbox" id="toggle" className="hidden" value={check} />
               {openNav ? (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
