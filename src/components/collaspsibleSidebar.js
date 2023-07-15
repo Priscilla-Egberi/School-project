@@ -5,12 +5,12 @@ import {BsBagDash} from "react-icons/bs";
 import {RiHandCoinLine} from "react-icons/ri";
 import {IoStatsChartOutline, IoClose} from "react-icons/io5";
 import {Link} from "react-router-dom"
-import CheckHomeContext from './CheckHomeContext';
+import CheckHomContext from './CheckHomContext';
 
 
 
 function SideBar() {
-  const [checks, setChecks] = useContext(CheckHomeContext)
+  const [checks, setChecks] = useContext(CheckHomContext)
 
   // function handleChange() {
   //   setCheck(true);
