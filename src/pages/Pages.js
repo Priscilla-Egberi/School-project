@@ -20,14 +20,14 @@ import AddGoods from '../components/account/AddGoods'
 import AddServices from '../components/account/AddServices'
 import AddNewItemOptions from '../components/account/AddNewItemOptions'
 import {CheckProvider} from "../components/account/CheckContext"
-// import {CheckHomeProvider} from "../components/CheckHomeContext"
+import {CheckHomProvider} from "../components/CheckHomContext"
 
 
 
 export default function pages() {
   return (
     <CheckProvider>
-    {/* <CheckHomeProvider> */}
+    <CheckHomProvider>
        <Navbar />
       <Routes>
         <Route  element={<Home />}>
@@ -60,7 +60,7 @@ export default function pages() {
         </Route>
       </Routes>
       
-    {/* </CheckHomeProvider> */}
+    </CheckHomProvider>
     </CheckProvider>
   );
 }

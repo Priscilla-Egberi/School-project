@@ -7,7 +7,7 @@ import {
 } from "@material-tailwind/react";
 import logo from "../images/logo.jpg";
 import SearchComponent from "./SearchComponent";
-import CheckHomeContext from './CheckHomeContext';
+import CheckHomContext from './CheckHomContext';
 
  
 export default function Example() {
