@@ -16,7 +16,7 @@ export default function Example() {
     console.log(checks)
 
     function handleChange() {
-        setCheck(prevChecks => !prevChecks);
+        setChecks(prevChecks => !prevChecks);
       }
 
   useEffect(() => {
