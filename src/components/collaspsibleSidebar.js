@@ -5,7 +5,7 @@ import {BsBagDash} from "react-icons/bs";
 import {RiHandCoinLine} from "react-icons/ri";
 import {IoStatsChartOutline, IoClose} from "react-icons/io5";
 import {Link} from "react-router-dom"
-import CheckHomeContext from '../components/CheckHomeContext';
+import CheckHomeContext from './CheckHomeContext';
 
 
 
