@@ -12,7 +12,7 @@ import CheckHomContext from './CheckHomContext';
  
 export default function Example() {
   const [openNav, setOpenNav] = useState(false);
-  const [checks, setChecks] = useContext(CheckHomeContext)
+  const [checks, setChecks] = useContext(CheckHomContext)
     console.log(checks)
 
     function handleChange() {
