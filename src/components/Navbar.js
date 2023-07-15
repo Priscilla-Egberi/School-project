@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useContext, useState} from "react";
 import {Link} from "react-router-dom"
 import {
   Navbar,
@@ -8,11 +8,17 @@ import {
 } from "@material-tailwind/react";
 import logo from "../images/logo.jpg";
 import SearchComponent from "./SearchComponent";
+import CheckHomeContext from '../components/checkHomeContext';
 
  
 export default function Example() {
-  const [openNav, setOpenNav] = React.useState(false);
- 
+  const [openNav, setOpenNav] = useState(false);
+  const [check, setCheck] = useContext(CheckHomeContext)
+    console.log(check)
+
+    function handleChange() {
+        setCheck(prevCheck => !prevCheck);
+      }
   React.useEffect(() => {
     window.addEventListener(
       "resize",
@@ -90,7 +96,7 @@ export default function Example() {
               variant="text"
               className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
               ripple={false}
-              onClick={() => setOpenNav(!openNav)}
+              onChange={handleChange} value={check}
             >
               {openNav ? (
                 <svg
@@ -125,11 +131,7 @@ export default function Example() {
             </IconButton>
           </div>
         </div>
-        <Collapse open={openNav}>
-          {navList}
-          {/* <SearchComponent variant="gradient" size="sm" fullWidth className="mb-2"/> */}
-          
-        </Collapse>
+        
       </Navbar>
       
     </>
