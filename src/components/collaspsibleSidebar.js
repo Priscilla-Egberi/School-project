@@ -17,7 +17,7 @@ function SideBar() {
   // }
 
   return (
-    <section onClick={()=>{setChecks(true)}}  id="openSidebarHere" className={`side-bar md:hidden ${check? "":'openSidebar'} font-semibold h-full bg-white flex flex-col justify-between border-r-gray border-2`}>
+    <section onClick={()=>{setChecks(true)}}  id="openSidebarHere" className={`side-bar md:hidden ${checks? "":'openSidebar'} font-semibold h-full bg-white flex flex-col justify-between border-r-gray border-2`}>
         <div>
               <div id="title" className="flex flex-row items-center justify-between text-white pl-4 py-3 text-xl font-bold tracking-tight" style={{backgroundColor:"#EB6B39"}}> <p className='flex'><AiOutlineUserAdd className="mr-2"/> Account</p>
               <div className="inline">
