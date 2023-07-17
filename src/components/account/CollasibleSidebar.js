@@ -1,4 +1,4 @@
-import React, {useContext} from 'react';
+import React, {useContext, useEffect} from 'react';
 import { GoVerified } from "react-icons/go";
 import { AiOutlineUserAdd, AiOutlinePlus, AiOutlineUser } from "react-icons/ai";
 import {BsBagDash} from "react-icons/bs";
@@ -11,7 +11,17 @@ import CheckContext from './CheckContext';
 
 function SideBar() {
   const [check, setCheck] = useContext(CheckContext)
-  console.log(`this is ${check}`)
+  
+  useEffect(() => {
+    // Code to be executed
+    console.log(`this is ${check}`)
+    // Return a cleanup function (optional)
+    return () => {
+      // Cleanup code (if needed)
+    };
+  }, [check]); // Empty dependency array means it will only run once on component mount
+
+  
 
   // function handleChange() {
   //   setCheck(true);
