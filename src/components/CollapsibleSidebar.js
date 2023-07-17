@@ -1,10 +1,14 @@
 import React, {useContext, useEffect} from 'react';
 import logo from "../images/logo.jpg";
-import { GoVerified } from "react-icons/go";
-import { AiOutlineUserAdd, AiOutlinePlus, AiOutlineUser } from "react-icons/ai";
-import {BsBagDash} from "react-icons/bs";
-import {RiHandCoinLine} from "react-icons/ri";
-import {IoStatsChartOutline, IoClose} from "react-icons/io5";
+import {GiPencilRuler, GiComputerFan} from "react-icons/gi";
+import {MdComputer} from "react-icons/md";
+import {IoShirtOutline, IoClose} from "react-icons/io5";
+import {CgGirl} from "react-icons/cg";
+import {TbDotsCircleHorizontal} from  "react-icons/tb";
+import {CiForkAndKnife} from "react-icons/ci";
+import {BiBookBookmark} from "react-icons/bi";
+import {TfiPaintRoller} from "react-icons/tfi";
+import {TiScissorsOutline} from "react-icons/ti";
 import {Link} from "react-router-dom"
 import CheckHomContext from './CheckHomContext';
 
@@ -35,14 +39,26 @@ function SideBar() {
                 <IoClose size={32} className="ml-3  lg:hidden" id="openSidebar"/>
             </div>
               </div>
-              <Link to="/account/additems"  className="mt-4 mx-3 rounded-sm flex flex-row items-center justify-center py-3 text-my-orange bg-my-lightorange"> <AiOutlinePlus className="mr-2" /> Add New Item</Link>
-              <div className="mt-3 px-4  flex flex-col gap-y-6 ">        
-                  <Link to="/account" className="flex items-center"><AiOutlineUser className="mr-2"/> My Profile</Link>
-                  <Link to="/account/goods" className="flex items-center"><BsBagDash  className="mr-2"/> My Goods</Link>
-                  <Link to="/account/services" className="flex items-center"><RiHandCoinLine className="mr-2"/> My Services</Link>
-                  <Link className="flex items-center"><IoStatsChartOutline className="mr-2"/> Insights</Link>
-                  <Link to="/account/verification" className="flex items-center"><GoVerified className="mr-2"/> Verification</Link>
-              </div>
+              <div className="px-4  flex flex-col gap-y-3">
+            <p className="text-gray-500 mt-7 mb-4">Goods______________________</p>
+            <Link to="/electronics" className="flex items-center"><MdComputer className="mr-2"/> Electronics</Link>
+            <Link to="/clothings" className="flex items-center"><IoShirtOutline  className="mr-2"/> Clothings and Jewelries</Link>
+            <p className="flex items-center"><GiPencilRuler className="mr-2"/> School materials</p>
+            <p className="flex items-center"><GiComputerFan className="mr-2"/> Home Utensils</p>
+            <p className="flex items-center"><CgGirl className="mr-2"/> Health and Beauty</p>
+            <p className="flex items-center"><TbDotsCircleHorizontal className="mr-2"/>Others</p>
+        </div>
+        <div className="px-4 mt-4 mb-8 flex flex-col gap-y-3">
+            <p className="text-gray-500 my-4">Services_____________________</p>
+            <Link to="/tutorial" className="flex items-center"><BiBookBookmark className="mr-2"/> Tutoring</Link>
+            <p className="flex items-center"><TfiPaintRoller className="mr-2"/> House Painting</p>
+            <p className="flex items-center"><CgGirl className="mr-2"/> Hair Dressing</p>
+            <p className="flex items-center"><MdComputer className="mr-2"/> Laptop and Phone Repairs</p>
+            <p className="flex items-center"><CiForkAndKnife className="mr-2"/> Catering</p>
+            <p className="flex items-center"><MdComputer className="mr-2"/> Tech related Jobs</p>
+            <p className="flex items-center"><TiScissorsOutline className="mr-2"/> Tailoring</p>
+            <p className="flex items-center"><TbDotsCircleHorizontal className="mr-2"/> Others</p>
+        </div>
         </div>
           
         <div>
