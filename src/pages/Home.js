@@ -1,6 +1,6 @@
 import React from 'react'
 import firstImage from "../images/Group 34.jpg"
-
+import collaspsibleSidebar from "../components/collaspsibleSidebar"
 import SideBar from '../components/SideBar'
 import { Outlet } from 'react-router-dom'
 import Footer from "../components/Footer"
@@ -13,6 +13,7 @@ function Home() {
   return (
     <>
     <Navbar />
+    <collaspsibleSidebar />
       <div className='w-11/12 mx-auto  md:grid grid-cols-4 gap-16 mt-2 md:mt-12 h-auto'>
         {/* ----------Sidebar */}
       <div className="hidden md:block col-span-1" >
