@@ -11,6 +11,7 @@ import CheckHomContext from './CheckHomContext';
 
 function SideBar() {
   const [checks, setChecks] = useContext(CheckHomContext)
+  
 
   // function handleChange() {
   //   setCheck(true);

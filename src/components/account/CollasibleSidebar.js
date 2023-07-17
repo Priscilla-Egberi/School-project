@@ -11,6 +11,7 @@ import CheckContext from './CheckContext';
 
 function SideBar() {
   const [check, setCheck] = useContext(CheckContext)
+  console.log(`this is ${check}`)
 
   // function handleChange() {
   //   setCheck(true);
