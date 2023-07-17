@@ -1,4 +1,5 @@
 import React, {useContext, useEffect} from 'react';
+import logo from "../images/logo.jpg";
 import { GoVerified } from "react-icons/go";
 import { AiOutlineUserAdd, AiOutlinePlus, AiOutlineUser } from "react-icons/ai";
 import {BsBagDash} from "react-icons/bs";
@@ -28,7 +29,8 @@ function SideBar() {
   return (
     <section onClick={()=>{setChecks(true)}}  id="openSidebarHere" className={`side-bar md:hidden ${checks? "":'openSidebar'} font-semibold h-full bg-white flex flex-col justify-between border-r-gray border-2`}>
         <div>
-              <div id="title" className="flex flex-row items-center justify-between text-white pl-4 py-3 text-xl font-bold tracking-tight" style={{backgroundColor:"#EB6B39"}}> <p className='flex'><AiOutlineUserAdd className="mr-2"/> Account</p>
+              <div id="title" className="flex flex-row items-center justify-between pl-4 py-3 text-xl font-bold tracking-tight"> 
+              <p className='flex'>CampusBuy <img src={logo} alt="logo" className='inline w-6' /></p>
               <div className="inline">
                 <IoClose size={32} className="ml-3  lg:hidden" id="openSidebar"/>
             </div>
