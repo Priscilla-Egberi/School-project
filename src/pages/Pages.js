@@ -4,6 +4,8 @@ import Account from "./Account"
 import Goods from "./Goods"
 import Services from "./Services"
 import {Routes, Route} from "react-router-dom"
+import SignUp from '../login/SignUp'
+import LoginMain from "../login/Login"
 import RoutableHomeSide from '../components/RoutableHomeSide'
 import Electronics from "../components/Electronics"
 import Clothings from "../components/Clothings"
@@ -36,7 +38,10 @@ export default function pages() {
           <Route path="/tutorial" element={<Tutorial />}/>
           <Route path="/product" element={<Product />}/>
         </Route>
-        <Route path="/login" element={<Login />}/>
+        <Route path="/login" element={<Login />}>
+        <Route path="/login" element={<LoginMain />}>
+          <Route path="/signup" element={<SignUp />} />
+        </Route>
         {/* ------------------- GOODS */}
         <Route path="/goods" element={<Goods />}>
 
