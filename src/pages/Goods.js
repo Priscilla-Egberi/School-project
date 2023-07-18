@@ -1,10 +1,13 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
 import SearchComponent from "../components/SearchComponent";
 import DropDown from "../components/Goods/DropDown"
 import Cards from "../components/Cards"
 
 function Goods() {
   return (
+    <>
+    <Navbar />
     <div> 
       <h2 className="text-2xl semibold md:hidden ml-3 my-3">Goods</h2>
         <div className="flex flex-col md:hidden items-center justify-between g-y-5">
@@ -25,7 +28,7 @@ function Goods() {
                               <Cards detail="https://images.unsplash.com/photo-1617775047746-5b36a40109f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YWlyJTIwaHVtaWRpZmllcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" />
                       </div>
        
-    </div>
+    </div></>
   )
 }
 

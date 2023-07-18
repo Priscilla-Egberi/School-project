@@ -1,10 +1,13 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
 import SearchComponent from "../components/SearchComponent";
 import DropDown from "../components/Goods/DropDown"
 import Cards from "../components/Cards"
 
 function Services() {
   return (
+    <>
+    <Navbar />
     <div> 
       <h2 className="text-2xl semibold md:hidden ml-3 my-3">Services</h2>
         <div className="flex flex-col md:hidden items-center justify-between g-y-5">
@@ -26,6 +29,7 @@ function Services() {
                       </div>
        
     </div>
+    </>
   )
 }
 
