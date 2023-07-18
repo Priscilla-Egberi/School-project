@@ -63,6 +63,7 @@ function SignUpForm() {
                             id="firstName"
                             name="firstName"
                             placeholder="first name"
+                            required
                             value={formData.firstName}
                             onChange={handleChange}
                             />
@@ -79,6 +80,7 @@ function SignUpForm() {
                             id="lastName"
                             name="lastName"
                             placeholder="last name"
+                            required
                             value={formData.lastName}
                             onChange={handleChange}
                             />
@@ -95,6 +97,7 @@ function SignUpForm() {
                             id="email"
                             name="email"
                             placeholder="email"
+                            required
                             value={formData.email}
                             onChange={handleChange}
                             />
@@ -113,6 +116,7 @@ function SignUpForm() {
                                 id="password"
                                 name="password"
                                 placeholder="password"
+                                required
                                 value={formData.password}
                                 onChange={handleChange}
                                 />
