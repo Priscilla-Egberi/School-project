@@ -12,18 +12,7 @@ import CheckContext from './CheckContext';
 function SideBar() {
   const [check, setCheck] = useContext(CheckContext)
   
-  useEffect(() => {
-    // Code to be executed
-    console.log(`this is ${check}`)
-    // Return a cleanup function (optional)
-    return () => {
-      // Cleanup code (if needed)
-    };
-  }, [check]); // Empty dependency array means it will only run once on component mount
-
-  
-
-  // function handleChange() {
+   // function handleChange() {
   //   setCheck(true);
   // }
 
@@ -48,9 +37,7 @@ function SideBar() {
         <div>
             <hr className='w-full'/>
             <h1 className=" flex flex-row items-center justify-center py-3 text-my-orange bg-my-lightorange">LOG OUT</h1>
-        </div>
-
-        
+        </div>        
     </section>
   )
 }

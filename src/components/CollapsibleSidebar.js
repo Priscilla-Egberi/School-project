@@ -17,18 +17,6 @@ import CheckHomContext from './CheckHomContext';
 function SideBar() {
   const [checks, setChecks] = useContext(CheckHomContext)
   
-  useEffect(() => {
-    // Code to be executed
-    console.log(`this is ${checks}`)
-    // Return a cleanup function (optional)
-    return () => {
-      // Cleanup code (if needed)
-    };
-  }, [checks]); // Empty dependency array means it will only run once on component mount
-
-  // function handleChange() {
-  //   setCheck(true);
-  // }
 
   return (
     <section onClick={()=>{setChecks(true)}}  id="openSidebarHere" className={`side-bar md:hidden ${checks? "":'openSidebar'} font-semibold h-full bg-white flex flex-col justify-between border-r-gray border-2`}>
