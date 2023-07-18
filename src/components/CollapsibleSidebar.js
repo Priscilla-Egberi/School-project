@@ -1,4 +1,4 @@
-import React, {useContext, useEffect} from 'react';
+import React, {useContext} from 'react';
 import logo from "../images/logo.jpg";
 import {GiPencilRuler, GiComputerFan} from "react-icons/gi";
 import {MdComputer} from "react-icons/md";
