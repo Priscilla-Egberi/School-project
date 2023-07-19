@@ -6,6 +6,7 @@ import Cards from "../components/Cards"
 import Card from "../components/Card"
 import Body from "../components/Body"
 import SearchComponent from "./Search";
+import data from "../data/data"
 
 function RoutableHomeSide() {
   return (
