@@ -4,7 +4,7 @@ export default function SearchComponent(props) {
     return (
         <div className={props.className}>
             <div className="flex items-center w-full bg-orange-900">
-            <div className="flex border border-orange-200 rounded">
+            <div className="flex border border-orange-200 rounded w-full">
                 <input
                     type="text"
                     className="block w-full px-4 py-2 text-purple-700 bg-white border rounded-md focus:border-purple-400 focus:ring-purple-300 focus:outline-none focus:ring focus:ring-opacity-40"
