@@ -87,7 +87,7 @@ export default function Example() {
             <div variant="gradient"
              size="sm"
              className="hidden lg:inline-block">
-            <SearchComponent
+            <SearchComponent className="hidden"
              
             />
             </div>
