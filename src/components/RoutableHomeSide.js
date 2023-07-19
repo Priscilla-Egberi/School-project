@@ -44,7 +44,7 @@ function RoutableHomeSide() {
 
                 </div>
     </div>
-    <SearchComponent />
+    <SearchComponent className="block w-full" />
     <Body/>
     </>
 
