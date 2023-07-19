@@ -6,7 +6,7 @@ import Cards from "../components/Cards"
 import Card from "../components/Card"
 import Body from "../components/Body"
 import SearchComponent from "./Search";
-import data from "../data/data"
+import {img} from "../data/data"
 
 function RoutableHomeSide() {
   return (
@@ -45,7 +45,7 @@ function RoutableHomeSide() {
 
                 </div>
     </div>
-    <SearchComponent data={data} />
+    <SearchComponent data={img} />
     <Body/>
     </>
 
