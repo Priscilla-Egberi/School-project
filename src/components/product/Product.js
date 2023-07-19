@@ -9,6 +9,7 @@ function Product() {
     const [src, setSrc] = useState(Img[0].imgUrl[0])
     const clickHandler = (myIndex) =>{
         setSrc(Img[0].imgUrl[myIndex])
+        console.log(src)
     }
   return (
     <div className='md:grid grid-cols-5 gap-x-8'>
