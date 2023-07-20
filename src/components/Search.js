@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import CardSearch from "./CardSearch"
 
-const SearchInput = ({ data }) => {
+function SearchInput({ data }) {
     const [searchValue, setSearchValue] = useState('');
     const [filteredData, setFilteredData] = useState(data);
   
