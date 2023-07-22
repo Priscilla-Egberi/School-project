@@ -9,17 +9,44 @@ import Search from "./Searching";
 // import {Img} from "../data/data"
 
 function RoutableHomeSide() {
-  const data = [
-    { id: 1, name: "Item 1", amount: 10, type: "Type A", imgUrl: ["https://images.unsplash.com/photo-1601524909162-ae8725290836?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGxhcHRvcCUyMGNvbXB1dGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"] },
-    { id: 2, name: "Item 2", amount: 15, type: "Type B", imgUrl: ["https://images.unsplash.com/photo-1601524909162-ae8725290836?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGxhcHRvcCUyMGNvbXB1dGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"] },
-    // Add more items as needed
-  ];
 
-  if (!data || data.length === 0) {
-    return <p>Loading data...</p>; // or render an error message if data is undefined
-  }
+  const data = [
+    {
+      id: 1,
+      title: 'The Great Gatsby',
+      author: 'F. Scott Fitzgerald',
+      year: 1925,
+    },
+    {
+      id: 2,
+      title: 'To Kill a Mockingbird',
+      author: 'Harper Lee',
+      year: 1960,
+    },
+    {
+      id: 3,
+      title: 'Pride and Prejudice',
+      author: 'Jane Austen',
+      year: 1813,
+    },
+    {
+      id: 4,
+      title: '1984',
+      author: 'George Orwell',
+      year: 1949,
+    },
+    {
+      id: 5,
+      title: 'Harry Potter and the Sorcerer\'s Stone',
+      author: 'J.K. Rowling',
+      year: 1997,
+    },
+    // Add more books if you like
+  ];
   
+
   return (
+    
     <>
     <SearchComponent variant="gradient" size="sm" fullWidth className="md:hidden mb-5"/>
     <div className='grid grid-rows-2 gap-y-12'>
@@ -56,7 +83,8 @@ function RoutableHomeSide() {
                 </div>
     </div>
     <Search data={data} />
-    {/* <SearchComponent /> */}
+    <h1>Search Example</h1>
+      <SearchInput data={data} />
     <Body/>
     </>
 
