@@ -11,7 +11,7 @@ function Services() {
     <Navbar />
     <div> 
       <h2 className="mt-2 text-2xl semibold md:hidden ml-3 my-3">Services</h2>
-        <div className="ml-20 md:my-12 flex items-center justify-center g-y-5">
+        <div className="ml-20 md:my-12 g-y-5">
         <Search variant="gradient" size="sm" fullWidth className="mb-5" data={Img}/>
         </div>
         <div className="hidden md:block ml-20 my-12">
