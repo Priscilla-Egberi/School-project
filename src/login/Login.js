@@ -81,7 +81,7 @@ function Login() {
 		<div className="absolute -top-20 -right-20 w-80 h-80 border-4 rounded-full border-opacity-30 border-t-8"></div>
 	</div>
 	<div className="flex md:w-1/2 justify-center py-10 items-center bg-white">
-		<form className="bg-white">
+		<form onSubmit={handleSubmit} className="bg-white">
 			<h1 className="text-gray-800 font-bold text-2xl mb-1">Welcome!</h1>
 			<p className="text-sm font-normal text-gray-600 mb-7">You don't have an account? <Link to="/login/signup" className="text-my-orange hover:text-black cursor-pointer">Sign up</Link></p>
 			
