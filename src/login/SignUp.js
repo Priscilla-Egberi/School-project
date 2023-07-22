@@ -44,7 +44,7 @@ function SignUpForm() {
       const values = error.response.data
       const valuesArray = Object.values(values)
       valuesArray.map((value) => (
-        console.log(value)
+        value.forEach((val)=>console.log(val))
       ))
 
 
