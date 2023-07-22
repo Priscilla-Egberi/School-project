@@ -15,6 +15,10 @@ function RoutableHomeSide() {
     // Add more items as needed
   ];
 
+  if (!data || data.length === 0) {
+    return <p>Loading data...</p>; // or render an error message if data is undefined
+  }
+  
   return (
     <>
     <SearchComponent variant="gradient" size="sm" fullWidth className="md:hidden mb-5"/>
