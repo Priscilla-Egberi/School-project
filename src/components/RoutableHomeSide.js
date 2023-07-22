@@ -5,8 +5,8 @@ import thirdImage from "../images/Group 12.jpg"
 import Cards from "../components/Cards"
 import Card from "../components/Card"
 import Body from "../components/Body"
-import SearchComponent from "./Search";
-import {Img} from "../data/data"
+import SearchComponent from "./SearchComponent";
+// import {Img} from "../data/data"
 
 function RoutableHomeSide() {
   return (
@@ -45,7 +45,8 @@ function RoutableHomeSide() {
 
                 </div>
     </div>
-    <SearchComponent data={Img} />
+    {/* <SearchComponent data={Img} /> */}
+    <SearchComponent />
     <Body/>
     </>
 
