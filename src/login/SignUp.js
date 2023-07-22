@@ -120,7 +120,7 @@ function SignUpForm() {
                             type="text"
                             id="last_name"
                             name="last_name"
-                            placeholder="last name"
+                            placeholder="last namesomething"
                             required
                             value={formData.last_name}
                             onChange={handleChange}
