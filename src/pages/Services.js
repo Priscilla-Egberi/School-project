@@ -3,18 +3,19 @@ import Navbar from '../components/Navbar'
 import Search from "../components/Searching";
 import DropDown from "../components/Goods/DropDown"
 import Cards from "../components/Cards"
+import {Img} from "../data/data"
 
 function Services() {
   return (
     <>
     <Navbar />
     <div> 
-      <h2 className="md:mt-20 text-2xl semibold md:hidden ml-3 my-3">Services</h2>
-        <div className="ml-20 my-12">
-        <DropDown />
+      <h2 className="mt-20 text-2xl semibold md:hidden ml-3 my-3">Services</h2>
+        <div className="md:ml-20 md:my-12 flex items-center justify-center g-y-5">
+        <Search variant="gradient" size="sm" fullWidth className="mb-5" data={Img}/>
         </div>
-        <div className="ml-20 my-12">
-        <Search variant="gradient" size="sm" fullWidth className="mb-5 "/>        
+        <div className="hidden md:block ml-20 my-12">
+        <DropDown />
         </div>
                       <div className="mt-5 mx-3 md:mx-20 grid grid-cols-3 md:grid-cols-6 gap-4 ">
                               <Cards detail="https://images.unsplash.com/photo-1434389677669-e08b4cac3105?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y2xvdGhlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" className="col-span-1" />
