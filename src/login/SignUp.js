@@ -6,6 +6,7 @@ function SignUpForm() {
     const [formData, setFormData] = useState({
         first_name: '',
         last_name: '',
+        username: '',
         email: '',
         password: ''
       });
@@ -23,6 +24,7 @@ function SignUpForm() {
         const userData = {
           first_name: formData.first_name,
           last_name: formData.last_name,
+          username: formData.username,
           email: formData.email,
           password: formData.password,
         };
@@ -42,6 +44,7 @@ function SignUpForm() {
         setFormData({
           first_name: '',
           last_name: '',
+          username: '',
           email: '',
           password: '',
         });
@@ -103,6 +106,23 @@ function SignUpForm() {
                             placeholder="last name"
                             required
                             value={formData.last_name}
+                            onChange={handleChange}
+                            />
+      </div>			
+<div className="flex items-center border-2 py-2 px-3 rounded-2xl mb-4">
+				<svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-gray-400" viewBox="0 0 20 20"
+					fill="currentColor">
+					<path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+						clip-rule="evenodd" />
+				</svg>
+				 <input
+                            className="pl-2 outline-none border-none"
+                            type="text"
+                            id="username"
+                            name="username"
+                            placeholder="username"
+                            required
+                            value={formData.username}
                             onChange={handleChange}
                             />
       </div>			
