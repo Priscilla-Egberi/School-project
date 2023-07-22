@@ -19,6 +19,8 @@ function SearchInput({ data }) {
     );
   }, [data, searchValue]);
 
+  const showNoResultsMessage = searchValue.trim() !== "" && filteredData.length === 0;
+
   return (
     <>
       <div className="flex items-center w-full bg-orange-900">
@@ -46,7 +48,7 @@ function SearchInput({ data }) {
                 detail={item.imgUrl[0]}
               />
             ))
-          ) : (
+          ) : showNoResultsMessage && (
             <p>No results found</p>
           )}
         </div>
