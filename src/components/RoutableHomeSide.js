@@ -82,9 +82,9 @@ function RoutableHomeSide() {
 
                 </div>
     </div>
-    <Search data={data} />
+    {/* <Search data={data} /> */}
     <h1>Search Example</h1>
-      <SearchInput data={data} />
+      <Searching data={data} />
     <Body/>
     </>
 
