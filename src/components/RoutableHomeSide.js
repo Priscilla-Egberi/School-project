@@ -5,10 +5,16 @@ import thirdImage from "../images/Group 12.jpg"
 import Cards from "../components/Cards"
 import Card from "../components/Card"
 import Body from "../components/Body"
-import SearchComponent from "./SearchComponent";
+import SearchComponent from "./Search";
 // import {Img} from "../data/data"
 
 function RoutableHomeSide() {
+  const data = [
+    { id: 1, name: "Item 1", amount: 10, type: "Type A", imgUrl: ["https://images.unsplash.com/photo-1601524909162-ae8725290836?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGxhcHRvcCUyMGNvbXB1dGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"] },
+    { id: 2, name: "Item 2", amount: 15, type: "Type B", imgUrl: ["https://images.unsplash.com/photo-1601524909162-ae8725290836?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGxhcHRvcCUyMGNvbXB1dGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"] },
+    // Add more items as needed
+  ];
+
   return (
     <>
     <SearchComponent variant="gradient" size="sm" fullWidth className="md:hidden mb-5"/>
@@ -45,8 +51,8 @@ function RoutableHomeSide() {
 
                 </div>
     </div>
-    {/* <SearchComponent data={Img} /> */}
-    <SearchComponent />
+    <SearchComponent data={data} />
+    {/* <SearchComponent /> */}
     <Body/>
     </>
 
