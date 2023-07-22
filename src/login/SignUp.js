@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import axios from 'axios';
 
 function SignUpForm() {
     const [formData, setFormData] = useState({
-        firstName: '',
-        lastName: '',
+        first_name: '',
+        last_name: '',
         email: '',
         password: ''
       });
@@ -17,15 +18,35 @@ function SignUpForm() {
     
       const handleSubmit = (e) => {
         e.preventDefault();
-        const newUser = { ...formData, id: Date.now() }; // Adding a unique key using the current timestamp
-        setUsers([...users, newUser]); // Adding the new user object to the existing array of users
-        setFormData({ // Resetting the form fields
-          firstName: '',
-          lastName: '',
+      
+        // Create an object with the user data to be sent in the request body
+        const userData = {
+          first_name: formData.first_name,
+          last_name: formData.last_name,
+          email: formData.email,
+          password: formData.password,
+        };
+      
+        // Make the POST request using Axios
+        axios.post('https://campus-buy.vercel.app/user/create/', userData)
+          .then((response) => {
+            // Handle the successful response here if needed
+            console.log('Response:', response.data);
+          })
+          .catch((error) => {
+            // Handle errors here
+            console.error('Error:', error);
+          });
+      
+        // Resetting the form fields
+        setFormData({
+          first_name: '',
+          last_name: '',
           email: '',
-          password: ''
+          password: '',
         });
       };
+      
       
       useEffect(() => {
         console.log(users); // Log users whenever it changes
@@ -60,11 +81,11 @@ function SignUpForm() {
 				 <input
                             className="pl-2 outline-none border-none"
                             type="text"
-                            id="firstName"
-                            name="firstName"
+                            id="first_name"
+                            name="first_name"
                             placeholder="first name"
                             required
-                            value={formData.firstName}
+                            value={formData.first_name}
                             onChange={handleChange}
                             />
       </div>
@@ -77,11 +98,11 @@ function SignUpForm() {
 				 <input
                             className="pl-2 outline-none border-none"
                             type="text"
-                            id="lastName"
-                            name="lastName"
+                            id="last_name"
+                            name="last_name"
                             placeholder="last name"
                             required
-                            value={formData.lastName}
+                            value={formData.last_name}
                             onChange={handleChange}
                             />
       </div>			
