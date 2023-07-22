@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from "react";
-import CardSearch from "./CardSearch";
+import CardSearch from "./CardSearch"; // Importing the CardSearch component
 
-function Searching({ data }) {
+function SearchInput({ data }) {
   const [searchValue, setSearchValue] = useState('');
 
   const handleInputChange = (event) => {
@@ -11,7 +11,7 @@ function Searching({ data }) {
 
   const filteredData = useMemo(() => {
     if (!searchValue.trim()) {
-      return []; // Return the original data if search is empty
+      return []; // Return an empty array to hide cards when search is empty
     }
 
     return data.filter((item) =>
@@ -28,7 +28,7 @@ function Searching({ data }) {
             value={searchValue}
             onChange={handleInputChange}
             placeholder="Search..."
-            className="block w-full px-4 py-2 text-purple-700 bg-white border  rounded-md focus:border-purple-400 focus:ring-purple-300 focus:outline-none focus:ring focus:ring-opacity-40"
+            className="block w-full px-4 py-2 text-purple-700 bg-white border rounded-md focus:border-purple-400 focus:ring-purple-300 focus:outline-none focus:ring focus:ring-opacity-40"
           />
         </div>
       </div>
@@ -39,7 +39,7 @@ function Searching({ data }) {
             filteredData.map((item) => (
               <CardSearch
                 key={item.id} // Replace 'id' with the unique identifier in your data
-                cardId={item.id} // Replace 'id' with the unique identifier in your data
+                cardId={item.id} // Use 'cardId' instead of 'id'
                 name={item.name}
                 amount={item.amount}
                 type={item.type}
@@ -55,4 +55,4 @@ function Searching({ data }) {
   );
 }
 
-export default Searching;
+export default SearchInput;
