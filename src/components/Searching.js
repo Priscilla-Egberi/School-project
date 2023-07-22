@@ -10,9 +10,9 @@ function Searching({ data }) {
   };
 
   const filteredData = useMemo(() => {
-    // if (!searchValue.trim()) {
-    //   return data; // Return the original data if search is empty
-    // }
+    if (!searchValue.trim()) {
+      return data; // Return the original data if search is empty
+    }
 
     return data.filter((item) =>
       item.name.toLowerCase().includes(searchValue.toLowerCase())
