@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import axios from 'axios';
+import { Redirect } from 'react-router-dom';
 
 function SignUpForm() {
     const [formData, setFormData] = useState({
@@ -37,6 +38,9 @@ function SignUpForm() {
       // Handle the successful response here
       console.log('Response:', response.data);
       console.log('Status code:', response.status); // Get the status code
+      <Redirect to="/login" />;
+    
+    
     })
     .catch((error) => {
       // Handle errors here
