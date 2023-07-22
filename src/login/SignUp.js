@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import axios from 'axios';
-import { Redirect } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 function SignUpForm() {
+  const navigate = useNavigate()
     const [formData, setFormData] = useState({
         first_name: '',
         last_name: '',
@@ -38,7 +39,7 @@ function SignUpForm() {
       // Handle the successful response here
       console.log('Response:', response.data);
       console.log('Status code:', response.status); // Get the status code
-      <Redirect to="/login" />;
+      navigate('/login')
     
     
     })
@@ -73,7 +74,7 @@ function SignUpForm() {
       }, [users]);
   return (
     <>
-	
+	{/* {true && <Redirect to="/login" />}; */}
       {/* <!-- component --> */}
 <div className="h-screen md:flex">
 	<div
