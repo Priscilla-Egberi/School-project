@@ -27,7 +27,7 @@ function Login() {
       
 
         // Make the POST request using Axios
-        axios.post('https://campus-buy.vercel.app/api/token', userData)
+        axios.post('https://campus-buy.vercel.app/api/token/', userData)
     .then((response) => {
       // Handle the successful response here
       console.log('Response:', response.data);
