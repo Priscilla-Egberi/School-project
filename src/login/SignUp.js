@@ -29,16 +29,20 @@ function SignUpForm() {
           password: formData.password,
         };
       
+        // axios.post('https://campus-buy.vercel.app/user/create/', userData)
+
         // Make the POST request using Axios
         axios.post('https://campus-buy.vercel.app/user/create/', userData)
-          .then((response) => {
-            // Handle the successful response here if needed
-            console.log('Response:', response.data);
-          })
-          .catch((error) => {
-            // Handle errors here
-            console.error('Error:', error);
-          });
+    .then((response) => {
+      // Handle the successful response here
+      console.log('Response:', response.data);
+      console.log('Status code:', response.status); // Get the status code
+    })
+    .catch((error) => {
+      // Handle errors here
+      console.error('Error:', error);
+      console.error('Status code:', error.response ? error.response.status : 'Unknown'); // Get the status code from the error response (if available)
+    });
       
         // Resetting the form fields
         setFormData({
