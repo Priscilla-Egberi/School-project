@@ -11,7 +11,7 @@ function Searching({ data }) {
 
   const filteredData = useMemo(() => {
     if (!searchValue.trim()) {
-      return data; // Return the original data if search is empty
+      return []; // Return the original data if search is empty
     }
 
     return data.filter((item) =>
