@@ -5,45 +5,12 @@ import thirdImage from "../images/Group 12.jpg"
 import Cards from "../components/Cards"
 import Card from "../components/Card"
 import Body from "../components/Body"
-import Search from "./Search";
+import Search from "./Searching";
 import {Img} from "../data/data"
 
 function RoutableHomeSide() {
 
-  // const data = [
-  //   {
-  //     id: 1,
-  //     title: 'The Great Gatsby',
-  //     author: 'F. Scott Fitzgerald',
-  //     year: 1925,
-  //   },
-  //   {
-  //     id: 2,
-  //     title: 'To Kill a Mockingbird',
-  //     author: 'Harper Lee',
-  //     year: 1960,
-  //   },
-  //   {
-  //     id: 3,
-  //     title: 'Pride and Prejudice',
-  //     author: 'Jane Austen',
-  //     year: 1813,
-  //   },
-  //   {
-  //     id: 4,
-  //     title: '1984',
-  //     author: 'George Orwell',
-  //     year: 1949,
-  //   },
-  //   {
-  //     id: 5,
-  //     title: 'Harry Potter and the Sorcerer\'s Stone',
-  //     author: 'J.K. Rowling',
-  //     year: 1997,
-  //   },
-  //   // Add more books if you like
-  // ];
-  
+
 
   return (
     
@@ -83,8 +50,7 @@ function RoutableHomeSide() {
                 </div>
     </div>
     <Search data={Img} />
-    {/* <h1>Search Example</h1>
-      <Search data={data} /> */}
+    
     <Body/>
     </>
 
