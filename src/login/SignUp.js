@@ -40,7 +40,8 @@ function SignUpForm() {
     })
     .catch((error) => {
       // Handle errors here
-      console.error('Error:', error);
+      console.error('Error:', error.response.data);
+
       console.error('Status code:', error.response ? error.response.status : 'Unknown'); // Get the status code from the error response (if available)
     });
       
