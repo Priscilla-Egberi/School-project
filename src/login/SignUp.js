@@ -43,9 +43,11 @@ function SignUpForm() {
       console.error('Error:', error.response);
       const values = error.response.data
       const valuesArray = Object.values(values)
+      let errorStr = ''
       valuesArray.map((value) => (
-        value.forEach((val)=>console.log(val))
+        value.forEach((val)=>errorStr += `${val} \n`)
       ))
+      alert(errorStr)
 
 
       console.error('Status code:', error.response ? error.response.status : 'Unknown'); // Get the status code from the error response (if available)
