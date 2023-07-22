@@ -38,7 +38,8 @@ function Searching({ data }) {
           {filteredData.length > 0 ? (
             filteredData.map((item) => (
               <CardSearch
-                id={item.id} // Replace 'id' with the unique identifier in your data
+                key={item.id} // Replace 'id' with the unique identifier in your data
+                cardId={item.id} // Replace 'id' with the unique identifier in your data
                 name={item.name}
                 amount={item.amount}
                 type={item.type}
