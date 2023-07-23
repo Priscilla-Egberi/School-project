@@ -14,7 +14,7 @@ function Services() {
                     <p>Nwaniba</p>
                   </div>
           </div>
-          <p className="text-blue-700">Not Available</p>
+          <p className="text-blue-700 pt-10">Not Available</p>
        </div>
           <p className='px-16'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo modi quam labore aliquid officia illo ipsam commodi dolore excepturi unde numquam, eveniet qui itaque delectus dolorum quasi a et repellat eum beatae aut incidunt, tenetur veniam exercitationem? Magnam odio sunt ut cum, ratione laboriosam tenetur voluptatum sapiente reprehenderit laudantium corporis fugit ipsam id nulla, in iusto voluptatem esse quasi! Magni veniam possimus, aut architecto fuga sint sunt a accusantium, maiores explicabo repellendus nobis voluptas ut doloribus culpa consequuntur accusamus commodi! Sed velit earum voluptas veritatis dolor alias, laudantium amet eum nihil deserunt. Commodi quae dignissimos libero odit possimus ad porro.</p>
     </div>
