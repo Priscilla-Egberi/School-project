@@ -15,7 +15,7 @@ function Services() {
         <div className="md:mx-20 mx-5 my-12">
         <DropDown />
         </div>
-    <div className="mx-20">
+    <div className="mx-10 md:mx-30">
     <div className='py-4 border-b-2 border-gray'>
        <div className="flex items-start justify-between px-16">
        <div className='flex flex-row items-center'>
@@ -25,7 +25,7 @@ function Services() {
                   <div>
                     <h1 className="text-2xl font-bold tracking-tight text-gray-900">Julian Benedict</h1>
                     <p className='font-semibold'>Hairstylist</p>
-                    <p className='font-semibold text-gray-600'>Nwaniba</p>
+                    <p className='font-semibold text-gray-600'>See resume</p>
                   </div>
           </div>
           <p className="text-blue-700 pt-6">Not Available</p>
@@ -42,7 +42,7 @@ function Services() {
                   <div>
                     <h1 className="text-2xl font-bold tracking-tight text-gray-900">Julian Benedict</h1>
                     <p className='font-semibold'>Hairstylist</p>
-                    <p className='font-semibold text-gray-600'>Nwaniba</p>
+                    <p className='font-semibold text-gray-600'>See resume</p>
                   </div>
           </div>
           <p className="text-blue-700 pt-6">Not Available</p>
