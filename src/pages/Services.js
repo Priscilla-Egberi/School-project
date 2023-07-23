@@ -2,14 +2,12 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Search from "../components/Searching";
 import DropDown from "../components/Goods/DropDown"
-import Cards from "../components/Cards"
 import {Img} from "../data/data"
 
 function Services() {
   return (
     <>
     <Navbar />
-    
         <h2 className="mt-2 md:mt-20 text-2xl semibold md:hidden ml-3 my-3">Goods</h2>
         <div className="md:mx-20 mx-5 md:my-12 g-y-5">
         <Search variant="gradient" size="sm" fullWidth className="mb-5" data={Img}/>
@@ -26,8 +24,8 @@ function Services() {
                   className="w-24 h-24 rounded-full border-4 border-gray-700 my-0 mr-4" />
                   <div>
                     <h1 className="text-2xl font-bold tracking-tight text-gray-900">Julian Benedict</h1>
-                    <p>Hairstylist</p>
-                    <p>Nwaniba</p>
+                    <p className='font-semibold '>Hairstylist</p>
+                    <p className='font-semibold text-gray-600'>Nwaniba</p>
                   </div>
           </div>
           <p className="text-blue-700 pt-6">Not Available</p>
