@@ -24,7 +24,7 @@ function Services() {
                   className="w-24 h-24 rounded-full border-4 border-gray-700 my-0 mr-4" />
                   <div>
                     <h1 className="text-2xl font-bold tracking-tight text-gray-900">Julian Benedict</h1>
-                    <p className='font-semibold '>Hairstylist</p>
+                    <p className='font-semibold'>Hairstylist</p>
                     <p className='font-semibold text-gray-600'>Nwaniba</p>
                   </div>
           </div>
@@ -41,8 +41,8 @@ function Services() {
                   className="w-24 h-24 rounded-full border-4 border-gray-700 my-0 mr-4" />
                   <div>
                     <h1 className="text-2xl font-bold tracking-tight text-gray-900">Julian Benedict</h1>
-                    <p>Hairstylist</p>
-                    <p>Nwaniba</p>
+                    <p className='font-semibold'>Hairstylist</p>
+                    <p className='font-semibold text-gray-600'>Nwaniba</p>
                   </div>
           </div>
           <p className="text-blue-700 pt-6">Not Available</p>
