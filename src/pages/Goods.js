@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import SearchComponent from "../components/SearchComponent";
+import Search from "../components/Searching";
 import DropDown from "../components/Goods/DropDown"
 import Cards from "../components/Cards"
 
@@ -9,12 +9,11 @@ function Goods() {
     <>
     <Navbar />
     <div> 
-      <h2 className="text-2xl semibold md:hidden ml-3 my-3">Goods</h2>
-        <div className="flex flex-col md:hidden items-center justify-between g-y-5">
-        <SearchComponent variant="gradient" size="sm" fullWidth className="md:hidden mb-5"/>
-        <DropDown />
+    <h2 className="mt-2 text-2xl semibold md:hidden ml-3 my-3">Services</h2>
+        <div className="md:mx-20 mx-5 md:my-12 g-y-5">
+        <Search variant="gradient" size="sm" fullWidth className="mb-5" data={Img}/>
         </div>
-        <div className="hidden md:block ml-20 my-12">
+        <div className="md:mx-20 mx-5 my-12">
         <DropDown />
         </div>
                       <div className="mt-5 mx-3 md:mx-20 grid grid-cols-3 md:grid-cols-6 gap-4 ">

@@ -1,35 +1,19 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
-import Search from "../components/Searching";
-import DropDown from "../components/Goods/DropDown"
-import Cards from "../components/Cards"
-import {Img} from "../data/data"
 
 function Services() {
   return (
-    <>
-    <Navbar />
-    <div> 
-      <h2 className="mt-2 text-2xl semibold md:hidden ml-3 my-3">Services</h2>
-        <div className="md:mx-20 mx-5 md:my-12 g-y-5">
-        <Search variant="gradient" size="sm" fullWidth className="mb-5" data={Img}/>
-        </div>
-        <div className="md:mx-20 mx-5 my-12">
-        <DropDown />
-        </div>
-                      <div className="mt-5 mx-3 md:mx-20 grid grid-cols-3 md:grid-cols-6 gap-4 ">
-                              <Cards detail="https://images.unsplash.com/photo-1434389677669-e08b4cac3105?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y2xvdGhlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" className="col-span-1" />
-                              <Cards detail="https://images.unsplash.com/photo-1601524909162-ae8725290836?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGxhcHRvcCUyMGNvbXB1dGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" className="col-span-1" />
-                              <Cards detail="https://images.unsplash.com/photo-1434389677669-e08b4cac3105?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y2xvdGhlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" className="col-span-1" />
-                              <Cards detail="https://images.unsplash.com/photo-1562157873-818bc0726f68?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNsb3RoaW5nc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" />
-                              <Cards detail="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg" />
-                              <Cards detail="https://images.unsplash.com/photo-1585298723682-7115561c51b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aGVhZHBob25lc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" />
-                              <Cards detail="https://plus.unsplash.com/premium_photo-1671611822374-4719df5c89bb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d2lyZWxlc3MlMjBtb3VzZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" />
-                              <Cards detail="https://images.unsplash.com/photo-1617775047746-5b36a40109f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YWlyJTIwaHVtaWRpZmllcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" />
-                      </div>
-       
+    <div>
+       <div className='my-4 px-16 flex flex-row items-center'>
+                  <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" 
+                  alt="" 
+                  className="w-24 h-24 rounded-full border-4 border-gray-700 my-0 mr-4" />
+                  <div>
+                    <h1 className="text-2xl font-bold tracking-tight text-gray-900">Julian Benedict</h1>
+                    <p>17/EG/CO/1035</p>
+                  </div>
+          </div>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo modi quam labore aliquid officia illo ipsam commodi dolore excepturi unde numquam, eveniet qui itaque delectus dolorum quasi a et repellat eum beatae aut incidunt, tenetur veniam exercitationem? Magnam odio sunt ut cum, ratione laboriosam tenetur voluptatum sapiente reprehenderit laudantium corporis fugit ipsam id nulla, in iusto voluptatem esse quasi! Magni veniam possimus, aut architecto fuga sint sunt a accusantium, maiores explicabo repellendus nobis voluptas ut doloribus culpa consequuntur accusamus commodi! Sed velit earum voluptas veritatis dolor alias, laudantium amet eum nihil deserunt. Commodi quae dignissimos libero odit possimus ad porro.</p>
     </div>
-    </>
   )
 }
 
