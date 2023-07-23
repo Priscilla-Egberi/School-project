@@ -1,10 +1,8 @@
 import React, {useState, useEffect} from 'react'
 import { Link } from 'react-router-dom'
 import axios from 'axios';
-// import { useNavigate } from 'react-router-dom';
 
 function Login() {
-	// const navigate = useNavigate()
     const [formData, setFormData] = useState({
         username: '',
         password: ''
@@ -32,7 +30,6 @@ function Login() {
       // Handle the successful response here
       console.log('Response:', response.data);
       console.log('Status code:', response.status); // Get the status code
-    //   navigate('/login')
     
     
     })
@@ -40,12 +37,7 @@ function Login() {
       // Handle errors here
       console.error('Error:', error);
       const values = error.response.data
-      const valuesArray = Object.values(values)
-      // let errorStr = ''
-      // valuesArray.map((value) => (
-      //   value.forEach((val)=>errorStr += `${val} \n`)
-      // ))
-      // alert(errorStr)
+      const valuesArray = Object.values(values)     
       alert(valuesArray[0])
 
 
