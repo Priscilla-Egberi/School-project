@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar'
 import Search from "../components/Searching";
 import DropDown from "../components/Goods/DropDown"
 import Cards from "../components/Cards"
+import {Img} from "../data/data"
 
 function Goods() {
   return (
