@@ -12,9 +12,7 @@ function Services() {
         <div className="md:mx-20 mx-5 md:my-12 g-y-5">
         <Search variant="gradient" size="sm" fullWidth className="mb-5" data={Img}/>
         </div>
-        <div className="md:mx-20 mx-5 my-12">
-        <DropDown />
-        </div>
+        
     <div className="mx-10 md:mx-30">
     <div className='py-4 border-b-2 border-gray'>
        <div className="flex items-start justify-between px-16">
