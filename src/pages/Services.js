@@ -1,8 +1,23 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
+import Search from "../components/Searching";
+import DropDown from "../components/Goods/DropDown"
+import Cards from "../components/Cards"
+import {Img} from "../data/data"
 
 function Services() {
   return (
     <>
+    <Navbar />
+    
+        <h2 className="mt-2 md:mt-20 text-2xl semibold md:hidden ml-3 my-3">Goods</h2>
+        <div className="md:mx-20 mx-5 md:my-12 g-y-5">
+        <Search variant="gradient" size="sm" fullWidth className="mb-5" data={Img}/>
+        </div>
+        <div className="md:mx-20 mx-5 my-12">
+        <DropDown />
+        </div>
+    <div className="mx-10">
     <div className='py-4 border-b-2 border-gray'>
        <div className="flex items-start justify-between px-16">
        <div className='flex flex-row items-center'>
@@ -35,6 +50,7 @@ function Services() {
           <p className="text-blue-700 pt-6">Not Available</p>
        </div>
        <p className='px-16'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus doloremque expedita aliquam voluptatum eius, dolores eveniet id pariatur explicabo cupiditate?</p>
+    </div>
     </div>
     </>
   )
