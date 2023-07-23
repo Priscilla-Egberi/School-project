@@ -57,6 +57,7 @@ const ImageUploader = () => {
           onChange={handleImageChange}
         />
       </label>
+      <p>please select the three images at once before droppind or uploading</p>
       {imagePreviews.length > 0 && (
         <div className="grid grid-cols-3 gap-4">
           {imagePreviews.map((imageURL, index) => (
