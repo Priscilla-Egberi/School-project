@@ -13,6 +13,8 @@ const ImageUploader = () => {
     setImages(imageURLs);
   };
 
+  console.log(images)
+
   return (
     <div>
       <h2>Upload 3 Images</h2>
