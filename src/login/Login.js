@@ -46,7 +46,7 @@ function Login() {
       //   value.forEach((val)=>errorStr += `${val} \n`)
       // ))
       // alert(errorStr)
-      console.log(valuesArray)
+      alert(valuesArray[0])
 
 
       console.error('Status code:', error.response ? error.response.status : 'Unknown'); // Get the status code from the error response (if available)
