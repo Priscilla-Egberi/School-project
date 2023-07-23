@@ -15,7 +15,7 @@ function Services() {
         <div className="md:mx-20 mx-5 my-12">
         <DropDown />
         </div>
-    <div className="mx-10">
+    <div className="mx-20">
     <div className='py-4 border-b-2 border-gray'>
        <div className="flex items-start justify-between px-16">
        <div className='flex flex-row items-center'>
