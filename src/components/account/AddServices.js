@@ -10,7 +10,7 @@ function AddServices() {
   return (
     <>
     <div className="px-16">
-        <div className='grid grid-cols-6 gap-16'>
+        <div className='md:grid grid-cols-6 gap-16'>
         {/* ----------first col */}
         <div className="col-span-3" >            
                 <Card color="transparent" className=' px-4 py-3 max-w-max'>                
