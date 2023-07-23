@@ -22,7 +22,7 @@ import AddServices from '../components/account/AddServices'
 import AddNewItemOptions from '../components/account/AddNewItemOptions'
 import {CheckProvider} from "../components/account/CheckContext"
 import {CheckHomProvider} from "../components/CheckHomContext"
-import Images from "./Images"
+
 
 
 
@@ -38,7 +38,7 @@ export default function pages() {
           <Route path="/clothings" element={<Clothings />}/>
           <Route path="/tutorial" element={<Tutorial />}/>
           <Route path="/product" element={<Product />}/>
-          <Route path="/Images" element={<Images />}/>
+          
         </Route>
         <Route path="/login" element={<Login />}>
           <Route path="/login" element={<LoginMain />} />
