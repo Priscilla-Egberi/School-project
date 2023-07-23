@@ -3,7 +3,7 @@ import React from 'react'
 function Services() {
   return (
     <div>
-       <div className=" my-4 flex items-start justify-between px-16">
+       <div className="flex items-start justify-between px-16 py-4">
        <div className='flex flex-row items-center'>
                   <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" 
                   alt="" 
