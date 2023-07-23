@@ -41,11 +41,12 @@ function Login() {
       console.error('Error:', error);
       const values = error.response.data
       const valuesArray = Object.values(values)
-      let errorStr = ''
-      valuesArray.map((value) => (
-        value.forEach((val)=>errorStr += `${val} \n`)
-      ))
-      alert(errorStr)
+      // let errorStr = ''
+      // valuesArray.map((value) => (
+      //   value.forEach((val)=>errorStr += `${val} \n`)
+      // ))
+      // alert(errorStr)
+      console.log(valuesArray)
 
 
       console.error('Status code:', error.response ? error.response.status : 'Unknown'); // Get the status code from the error response (if available)
