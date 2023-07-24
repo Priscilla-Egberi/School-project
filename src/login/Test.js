@@ -4,11 +4,11 @@ import { UserContext } from './UserContext';
 
 const { user, setUser } = useContext(UserContext);
 axiosInstance.get('https://campus-buy.vercel.app/user').then((res) => {
-  console.log(res.data);
+  // console.log(res.data);
   setUser(res.data)
 });
 
-
+console.log(user)
 
 function Test() {
   return (
