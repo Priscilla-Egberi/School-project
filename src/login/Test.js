@@ -23,7 +23,7 @@ function Test() {
     axiosAuthorized
       .get('/user')
       .then((res) => {
-        console.log(res.data)
+        console.log('Response', res.data)
         setUser(res.data);
       })
       .catch((error) => {
@@ -32,7 +32,7 @@ function Test() {
       });
   }, []);
 
-  console.log(user);
+  console.log('User', user);
 
   return (
     <div>Test</div>
