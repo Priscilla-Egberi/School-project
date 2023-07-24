@@ -1,5 +1,6 @@
 import React, { useEffect, useContext } from 'react';
 // import axiosInstance from './Axios';
+import axios from 'axios';
 import { UserContext } from './UserContext';
 
 function Test() {
