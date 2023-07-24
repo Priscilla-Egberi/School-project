@@ -19,7 +19,7 @@ function AddGoods() {
                             </Typography>
                             <form className="mt-8 mb-2 max-w-screen-lg w-96 ">
                                 <div className="mb-4 flex flex-col gap-6">
-                                    <Input size="lg" label="Product name" />
+                                    <Input style={{width:'70%'}} size="lg" label="Product name" />
                                     <Input size="lg" label="Description" />
                                     <Input size="lg" label="Product price" />
                                     <Input size="lg" label="Conditions and features" />
