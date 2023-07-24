@@ -1,7 +1,7 @@
 import React from 'react'
 import axiosInstance from './Axios';
 
-axiosInstance.get('/user').then((res) => {
+axiosInstance.get('https://campus-buy.vercel.app/user').then((res) => {
   console.log(res.data);
 });
 
