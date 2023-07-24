@@ -30,7 +30,7 @@ function Test() {
       });
   }, [setUser]); // Adding setUser to the dependency array to prevent unnecessary re-fetching
 
-  console.log('User', user);
+  console.log('User', user.last_name);
 
   return (
     <div>Test</div>
