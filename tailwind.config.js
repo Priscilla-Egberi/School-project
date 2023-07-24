@@ -25,6 +25,14 @@ module.exports = withMT({
         '48': '48px',
         // Add more values as needed
       },
+      minWidth: {
+        '12': '12px',
+        // Add more values as needed
+      },
+      minHeight: {
+        '12': '12px',
+        // Add more values as needed
+      },
     },
   },
   plugins: [],
