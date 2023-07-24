@@ -13,7 +13,7 @@ function AddGoods() {
         <div className='md:grid grid-cols-6 gap-16'>
         {/* ----------first col */}
         <div className="col-span-3" >            
-                <Card color="transparent" className=' px-4 py-3 max-w-max'>                
+                <Card color="transparent" className=' px-4 py-3 w-full md:max-w-max'>                
                             <Typography color="gray" className="mt-1 font-normal">
                                 Enter your details to register.
                             </Typography>
