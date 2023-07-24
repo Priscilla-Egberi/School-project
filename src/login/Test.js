@@ -1,6 +1,5 @@
-import React, { useEffect, useContext } from 'react';
-// import axiosInstance from './Axios';
-import axios from 'axios';
+import React, { useState, useEffect, useContext } from 'react';
+import axiosInstance from './Axios';
 import { UserContext } from './UserContext';
 
 function Test() {
@@ -23,14 +22,13 @@ function Test() {
     axiosAuthorized
       .get('/user')
       .then((res) => {
-        console.log('Response', res.data)
-        setUser(res.data);
+        setUser('Response', res.data);
       })
       .catch((error) => {
         // Handle errors here
         console.error('Error:', error);
       });
-  }, []);
+  }, [setUser]); // Adding setUser to the dependency array to prevent unnecessary re-fetching
 
   console.log('User', user);
 
