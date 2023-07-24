@@ -19,8 +19,8 @@ function Services() {
                   <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" 
                   alt="" 
                   className="max-w-24 max-h-6 rounded-full border-4 border-gray-700 my-0 mr-4" />
-                  <div>
-                    <h1 className="text-2xl font-bold tracking-tight text-gray-900">Julian Benedict</h1>
+                  <div className='leading-none'>
+                    <h1 className="text-xl md:text-2xl font-bold tracking-tight text-gray-900">Julian Benedict</h1>
                     <p className='font-semibold'>Hairstylist</p>
                     <p className='font-semibold text-gray-600'>See resume</p>
                   </div>
