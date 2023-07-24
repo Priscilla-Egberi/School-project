@@ -30,7 +30,7 @@ module.exports = withMT({
         // Add more values as needed
       },
       minHeight: {
-        '54': '54px',
+        '54': '100px',
         // Add more values as needed
       },
     },
