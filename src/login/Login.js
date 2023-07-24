@@ -2,7 +2,6 @@ import React, {useState, useEffect} from 'react'
 import { Link } from 'react-router-dom'
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-import axiosInstance from './Axios';
 
 function Login() {
   const navigate = useNavigate()
@@ -37,17 +36,6 @@ function Login() {
       localStorage.setItem('access_token', response.data.access);
       localStorage.setItem('refresh_token', response.data.refresh);
       console.log(localStorage.getItem('access_token'))
-
-      axiosInstance.get('/api/data')
-    .then((response) => {
-        // Handle successful response
-        console.log(`DATA: ${response.data}`);
-    })
-    .catch((error) => {
-        // Handle error
-        console.error(error);
-    });
-
       navigate('/test')
     
     })
