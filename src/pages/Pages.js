@@ -22,7 +22,7 @@ import AddServices from '../components/account/AddServices'
 import AddNewItemOptions from '../components/account/AddNewItemOptions'
 import {CheckProvider} from "../components/account/CheckContext"
 import {CheckHomProvider} from "../components/CheckHomContext"
-import Test from './Login/Test'
+import Test from '../login/Test'
 
 
 
