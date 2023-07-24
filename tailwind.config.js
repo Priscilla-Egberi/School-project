@@ -17,7 +17,6 @@ module.exports = withMT({
     extend: {
       colors:{
         'my-orange': '#EB6B39',
-        // 'my-lightorange': '#e9bfaf'
         'my-lightorange': '#eedfd9'
       },
       maxWidth: {
