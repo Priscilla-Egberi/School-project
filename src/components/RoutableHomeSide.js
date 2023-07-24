@@ -15,7 +15,7 @@ function RoutableHomeSide() {
   return (
     
     <>
-    {/* <SearchComponent variant="gradient" size="sm" fullWidth className="md:hidden mb-5"/> */}
+    <Search data={Img} />
     <div className='grid grid-rows-2 gap-y-12'>
 
                 {/* ----------Home images */}
@@ -49,7 +49,7 @@ function RoutableHomeSide() {
 
                 </div>
     </div>
-    <Search data={Img} />
+    
     
     <Body/>
     </>
