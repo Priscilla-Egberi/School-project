@@ -13,7 +13,7 @@ function Services() {
         </div>
         
     <div className="mx-5 md:mx-30">
-    <div className='py-4 border-b-2 border-gray'>
+    <div className='py-4 border-b-2 border-gray-500'>
        <div className="md:flex items-start justify-between md:px-16">
        <div className='flex flex-row items-center'>
                   <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" 
