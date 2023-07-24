@@ -1,7 +1,7 @@
 import React, {useContext} from 'react'
-import Card from "./GoodsCard"
 import { FaBars } from "react-icons/fa";
 import CheckContext from './CheckContext';
+import { Outlet } from 'react-router-dom';
 
 function Goods() {
   const [check, setCheck] = useContext(CheckContext)
@@ -20,19 +20,7 @@ function Goods() {
           </div>    
     </div>
     
-    <div className="mx-10">
-            <div className="flex flex-row gap-x-4 font-bold mt-10 border-b-2 border-gray-700">
-                <p className='border-b-2 border-my-orange'>Available</p>
-                <p>Not-available</p>
-            </div>
-            <div className="md:grid grid-cols-2 gap-x-14">            
-            <Card />           
-            <Card />           
-            <Card />           
-            <Card />           
-            <Card />
-            </div>
-        </div>
+        <Outlet />
     </div>
 
 

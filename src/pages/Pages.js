@@ -16,6 +16,8 @@ import AddItem from "../components/account/AddNewItem"
 import VerficationNot from '../components/account/VerficationNot'
 import Verified from '../components/account/Verified'
 import AccountGoods from '../components/account/Goods'
+import Available from '../components/account/GoodsAvailable'
+import NotAvailable from '../components/account/GoodsNotAvailable'
 import AccountServices from '../components/account/Services'
 import AddGoods from '../components/account/AddGoods'
 import AddServices from '../components/account/AddServices'
@@ -64,7 +66,10 @@ export default function pages() {
                 </Route>
                 <Route path="/account/verification" element={<VerficationNot />}/>
                 <Route path="/account/verified" element={<Verified />}/>
-                <Route path="/account/goods" element={<AccountGoods />}/>
+                <Route path="/account/goods" element={<AccountGoods />}>
+                    <Route path="/account/goods" element={<Available />}/>
+                    <Route path="/account/goods/notavailable" element={<NotAvailable />}/>                
+                </Route>
                 <Route path="/account/services" element={<AccountServices />}/>
         </Route>
       </Routes>
