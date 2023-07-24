@@ -3,7 +3,7 @@ import axios from 'axios';
 const baseURL = 'https://campus-buy.vercel.app';
 
 const axiosInstance = axios.create({
-	baseURL: baseURL,
+	// baseURL: baseURL,
 	timeout: 5000,
 	headers: {
 		Authorization: localStorage.getItem('access_token')
