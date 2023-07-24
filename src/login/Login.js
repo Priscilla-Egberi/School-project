@@ -1,8 +1,11 @@
 import React, {useState, useEffect} from 'react'
 import { Link } from 'react-router-dom'
 import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
 
 function Login() {
+  const navigate = useNavigate()
+  
     const [formData, setFormData] = useState({
         username: '',
         password: ''
@@ -33,6 +36,7 @@ function Login() {
       localStorage.setItem('access_token', response.data.access);
       localStorage.setItem('refresh_token', response.data.refresh);
       console.log(localStorage.getItem('access_token'))
+      navigate('/test')
     
     })
     .catch((error) => {
