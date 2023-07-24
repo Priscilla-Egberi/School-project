@@ -12,7 +12,7 @@ function Services() {
         <Search variant="gradient" size="sm" fullWidth className="mb-5" data={Img}/>
         </div>
         
-    <div className="mx-5 md:mx-32">
+    <div className="mx-5 md:mx-44">
     <div className='py-4 border-b-2 border-gray-300'>
        <div className="md:flex items-start justify-between md:px-16">
        <div className='flex flex-row items-center'>
