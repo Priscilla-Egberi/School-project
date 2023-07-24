@@ -22,7 +22,9 @@ function Test() {
     axiosAuthorized
       .get('/user')
       .then((res) => {
-        setUser('Response', res.data);
+        setUser(res.data);
+        console.log('Response', res.data)
+        console.log('User', user)
       })
       .catch((error) => {
         // Handle errors here
@@ -30,7 +32,6 @@ function Test() {
       });
   }, [setUser]); // Adding setUser to the dependency array to prevent unnecessary re-fetching
 
-  console.log('User', user);
 
   return (
     <div>Test</div>
