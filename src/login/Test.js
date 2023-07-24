@@ -1,7 +1,7 @@
 import React from 'react'
 import axiosInstance from './Axios';
 
-axiosInstance.get().then((res) => {
+axiosInstance.get('/user').then((res) => {
   console.log(res.data);
 });
 

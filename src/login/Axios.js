@@ -13,7 +13,7 @@ const axiosInstance = axios.create({
 		accept: 'application/json',
 	}, 
 });
-
+ 
 console.log(axiosInstance.interceptors.response)
 
 axiosInstance.interceptors.response.use(
