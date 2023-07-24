@@ -14,7 +14,7 @@ const axiosInstance = axios.create({
 	}, 
 });
  
-console.log(axiosInstance.interceptors.response)
+
 
 axiosInstance.interceptors.response.use(
 	(response) => {
