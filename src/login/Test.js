@@ -4,7 +4,7 @@ import axiosInstance from './Axios';
 axiosInstance.get('/api/data')
     .then((response) => {
         // Handle successful response
-        console.log(response.data);
+        console.log(`DATA: ${response.data}`);
     })
     .catch((error) => {
         // Handle error
