@@ -19,7 +19,13 @@ module.exports = withMT({
         'my-orange': '#EB6B39',
         // 'my-lightorange': '#e9bfaf'
         'my-lightorange': '#eedfd9'
-      }
+      },
+      maxWidth: {
+        '24': '24px',
+        '32': '32px',
+        '48': '48px',
+        // Add more values as needed
+      },
     },
   },
   plugins: [],
