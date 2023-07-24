@@ -17,7 +17,7 @@ function AddGoods() {
                             <Typography color="gray" className="mt-1 font-normal">
                                 Enter your details to register.
                             </Typography>
-                            <form className="mt-8 mb-2 max-w-screen-lg w-96 ">
+                            <form className="mt-8 mb-2 w-96 ">
                                 <div className="mb-4 flex flex-col gap-6">
                                     <Input style={{width:'67%'}} size="lg" label="Product name" />
                                     <Input style={{width:'67%'}} size="lg" label="Description" />
