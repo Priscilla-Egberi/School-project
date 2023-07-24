@@ -22,15 +22,15 @@ module.exports = withMT({
       maxWidth: {
         '24': '24px',
         '32': '32px',
-        '48': '48px',
+        '96': '96px',
         // Add more values as needed
       },
       minWidth: {
-        '12': '12px',
+        '54': '54px',
         // Add more values as needed
       },
       minHeight: {
-        '12': '12px',
+        '54': '54px',
         // Add more values as needed
       },
     },
