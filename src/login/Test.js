@@ -1,15 +1,9 @@
 import React from 'react'
 import axiosInstance from './Axios';
 
-axiosInstance.get('/api/data')
-    .then((response) => {
-        // Handle successful response
-        console.log(`DATA: ${response.data}`);
-    })
-    .catch((error) => {
-        // Handle error
-        console.error(error);
-    });
+axiosInstance.get().then((res) => {
+  console.log(res.data);
+});
 
 function Test() {
   return (
