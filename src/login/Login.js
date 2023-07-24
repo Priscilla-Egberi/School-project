@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
@@ -11,7 +11,7 @@ function Login() {
         password: ''
       });
     
-      const [users, setUsers] = useState([]);
+      
     
       const handleChange = (e) => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -58,9 +58,6 @@ function Login() {
       };
       
       
-      useEffect(() => {
-        console.log(users); // Log users whenever it changes
-      }, [users]);
   
   return (
     <>
