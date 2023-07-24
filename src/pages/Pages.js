@@ -22,6 +22,7 @@ import AddServices from '../components/account/AddServices'
 import AddNewItemOptions from '../components/account/AddNewItemOptions'
 import {CheckProvider} from "../components/account/CheckContext"
 import {CheckHomProvider} from "../components/CheckHomContext"
+import { UserProvider } from '../login/UserContext';
 import Test from '../login/Test'
 
 
@@ -30,6 +31,7 @@ export default function pages() {
   return (
     <CheckProvider>
     <CheckHomProvider>
+    <UserProvider>
       
       <Routes>
         <Route  element={<Home />}>
@@ -66,7 +68,8 @@ export default function pages() {
                 <Route path="/account/services" element={<AccountServices />}/>
         </Route>
       </Routes>
-      
+
+     </UserProvider> 
     </CheckHomProvider>
     </CheckProvider>
   );
