@@ -30,7 +30,9 @@ function Login() {
       // Handle the successful response here
       console.log('Response:', response.data);
       console.log('Status code:', response.status); // Get the status code
-    
+      localStorage.setItem('access_token', response.data.access);
+      localStorage.setItem('refresh_token', response.data.refresh);
+      console.log(localStorage.getItem('access_token'))
     
     })
     .catch((error) => {

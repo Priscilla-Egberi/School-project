@@ -3,7 +3,6 @@ import {
     Card,
     Input,          
     Typography,
-    Button
   } from "@material-tailwind/react";
 import ImageUploader from './ImageUploader'
 
@@ -20,11 +19,11 @@ function AddGoods() {
                             </Typography>
                             <form className="mt-8 mb-2 w-80 max-w-screen-lg sm:w-96">
                                 <div className="mb-4 flex flex-col gap-6">
-                                    <Input size="sm" label="Product name" />
-                                    <Input className='min-w-[100px]' size="lg" label="Description" />
-                                    <Input className='min-w-[100px]' size="lg" label="Product price" />
-                                    <Input className='min-w-[100px]' size="lg" label="Conditions and features" />
-                                    <Input className='min-w-[100px]' size="lg" label="Preferred location" />                    
+                                    <Input size="lg" label="Product name" />
+                                    <Input size="lg" label="Description" />
+                                    <Input size="lg" label="Product price" />
+                                    <Input size="lg" label="Conditions and features" />
+                                    <Input size="lg" label="Preferred location" />                    
                                 </div>                  
                             </form>
                 </Card>
