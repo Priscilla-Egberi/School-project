@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useContext } from 'react';
-import axiosInstance from './Axios';
+import React, { useEffect, useContext } from 'react';
+import axios from 'axios';
 import { UserContext } from './UserContext';
 
 function Test() {
