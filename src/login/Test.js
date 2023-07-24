@@ -34,7 +34,7 @@ function Test() {
   
   
   return (
-    <div>Test</div>
+    <div>Test {user.name}</div>
   );
 }
 
