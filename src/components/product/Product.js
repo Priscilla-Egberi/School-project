@@ -4,8 +4,18 @@ import { CiLocationOn } from "react-icons/ci";
 import { Img } from "../../data/data"
 import {useState} from "react"
 import ProductRight from './ProductRight';
+import { useParams } from 'react-router-dom';
 
 function Product() {
+    const params = useParams()
+    console.log(params)
+    // Function to find the object with the matching id
+    // const findObjectById = (id) => {
+    //   return data.find((item) => item.id === id);
+    // };
+  
+    // const item = findObjectById(parseInt(id));
+
     const [src, setSrc] = useState(Img[0].imgUrl[0])
     const clickHandler = (myIndex) =>{
         setSrc(Img[0].imgUrl[myIndex])
