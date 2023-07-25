@@ -5,7 +5,7 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 
-export default function BasicSelect({prop}) {
+export default function BasicSelect(prop) {
   const [age, setAge] = useState('');
 
   const handleChange = (event) => {
