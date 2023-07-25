@@ -36,7 +36,7 @@ function Login() {
       localStorage.setItem('access_token', response.data.access);
       localStorage.setItem('refresh_token', response.data.refresh);
       console.log(localStorage.getItem('access_token'))
-      navigate('/test')
+      navigate('/account')
     
     })
     .catch((error) => {
