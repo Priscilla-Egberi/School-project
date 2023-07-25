@@ -130,7 +130,7 @@ function AddServices() {
         </div>
       </form>
       <button
-        className="w-full md:w-64 mt-4 rounded-sm font-semibold text-xl text-center py-3 text-white bg-my-orange"
+        className="w-full md:w-64 mt-4 mb-10 md:mb-0 rounded-sm font-semibold text-xl text-center py-3 text-white bg-my-orange"
         onClick={handlePostButtonClick}
       >
         Click here to post
