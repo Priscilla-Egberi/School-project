@@ -22,7 +22,7 @@ const FieldWithSaveButton = ({ label, type }) => {
     <div className="px-5 my-5">
       <div className="flex flex-row justify-between">
         <input
-          className="px-2 py-1 border rounded w-full min-w-[200px] md:min-w-[350px]"
+          className="px-2 py-1 border rounded w-full min-w-[200px] md:min-w-[280px]"
           type={type}
           value={inputValue}
           onChange={handleInputChange}
