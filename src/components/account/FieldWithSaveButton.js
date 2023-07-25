@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 
-const FieldWithSaveButton = ({ label, type }) => {
+const FieldWithSaveButton = ({ label, type, placeholder }) => {
   const [inputValue, setInputValue] = useState('');
-  const [editMode, setEditMode] = useState(false);
+  const [editMode, setEditMode] = useState(true);
 
   const handleInputChange = (e) => {
     setInputValue(e.target.value);
@@ -26,6 +26,7 @@ const FieldWithSaveButton = ({ label, type }) => {
           type={type}
           value={inputValue}
           onChange={handleInputChange}
+          placeholder={placeholder}
           readOnly={!editMode}
         />
         <button
