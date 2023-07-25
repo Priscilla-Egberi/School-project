@@ -16,20 +16,6 @@ const ImageUploader = ({ onPost }) => {
     setImages(validImages);
   };
 
-  const handlePost = () => {
-    // Call the onPost callback with the form data and images
-    const formData = {
-      productName: "Your Product Name",
-      description: "Your Product Description",
-      productPrice: "Your Product Price",
-      category: "Your Product Category",
-      kind: "Your Product Kind",
-      preferredLocation: "Your Preferred Location",
-      images: images,
-    };
-
-    onPost(formData);
-  };
 
   return (
     <div className="max-w-xl">
@@ -80,20 +66,15 @@ const ImageUploader = ({ onPost }) => {
           ))}
         </div>
       )}
-      
-      <button
-        className="w-full mt-4 rounded-sm text-center py-3 text-white bg-my-orange"
-        onClick={handlePost}
-      >
-        Post
-      </button>
+
+    <button
+      className="w-full mt-4 rounded-sm text-center py-3 text-white bg-my-orange"
+      onClick={() => onPost({ images, imagePreviews })} // Call the callback function with the data
+    >
+      Post
+    </button>
     </div>
   );
 };
 
 export default ImageUploader;
-
-
-
-
-
