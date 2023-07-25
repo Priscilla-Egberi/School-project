@@ -10,6 +10,7 @@ import {Img} from '../../data/data'
 function Product() {
     const params = useParams()
     console.log(params.cardId)
+    const id = params.cardId
     // Function to find the object with the matching id
     const findObjectById = (id) => {
       return Img.find((item) => item.id === id);
@@ -17,6 +18,7 @@ function Product() {
   
     const item = findObjectById(parseInt(id));
     console.log(item.name, item.id, item.name)
+
     const [src, setSrc] = useState(Img[0].imgUrl[0])
     const clickHandler = (myIndex) =>{
         setSrc(Img[0].imgUrl[myIndex])
