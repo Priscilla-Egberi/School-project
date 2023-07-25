@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function Cards(props) {
   return (
     <div className={props.className} id={props.cardId}>
-      <Link to={`/${props.cardId}`}>
+      <Link to={`/goods/${props.cardId}`}>
         <div className="group relative">
         <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">          
           <img src={props.detail} alt="Basic Tee in black." className="h-full w-full object-cover object-center lg:h-full lg:w-full"/>
