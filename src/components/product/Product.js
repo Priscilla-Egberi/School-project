@@ -1,21 +1,22 @@
 import React from 'react'
 import { AiOutlineClockCircle } from "react-icons/ai";
 import { CiLocationOn } from "react-icons/ci";
-import { Img } from "../../data/data"
+// import { Img } from "../../data/data"
 import {useState} from "react"
 import ProductRight from './ProductRight';
 import { useParams } from 'react-router-dom';
+import {Img} from '../../data/data'
 
 function Product() {
     const params = useParams()
-    console.log(params)
+    console.log(params.cardId)
     // Function to find the object with the matching id
-    // const findObjectById = (id) => {
-    //   return data.find((item) => item.id === id);
-    // };
+    const findObjectById = (id) => {
+      return Img.find((item) => item.id === id);
+    };
   
-    // const item = findObjectById(parseInt(id));
-
+    const item = findObjectById(parseInt(id));
+    console.log(item.name, item.id, item.name)
     const [src, setSrc] = useState(Img[0].imgUrl[0])
     const clickHandler = (myIndex) =>{
         setSrc(Img[0].imgUrl[myIndex])
