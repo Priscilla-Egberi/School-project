@@ -19,7 +19,17 @@ const ImageUploader = ({ onImageUpload }) => {
     onImageUpload(validImages);
   };
 
-  console.log(images)
+  // Add a method to get the images from the component
+  ImageUploader.getImages = () => {
+    return images;
+  };
+
+  // Add a method to clear the images
+  ImageUploader.clearImages = () => {
+    setImages([]);
+    setImagePreviews([]);
+  };
+
   return (
     <div className="max-w-xl">
       <label

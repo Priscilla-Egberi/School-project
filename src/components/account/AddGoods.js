@@ -26,6 +26,12 @@ function AddGoods() {
   const handlePostButtonClick = () => {
     console.log('Post data:', formData);
     // Here you can perform any further actions with the post data, e.g., sending it to an API, etc.
+
+    // Reset the form fields after processing
+    setFormData(initialFormData);
+
+    // Clear uploaded images
+    ImageUploader.clearImages();
   };
 
   const handleImageUpload = (images) => {
