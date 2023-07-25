@@ -6,6 +6,8 @@ import {
   } from "@material-tailwind/react";
 import ImageUploader from './ImageUploader'
 import Select from './SelectInput'
+import { Select, Option } from "@material-tailwind/react";
+ 
 
 function AddGoods() {
   return (
@@ -23,13 +25,18 @@ function AddGoods() {
                                     <Input size="lg" label="Product name" />
                                     <Input size="lg" label="Description" />
                                     <Input size="lg" label="Product price" />
-                                    <Select title='Category' first='Electronics' 
-                                    second='Clothings and Jewelries'
-                                    third='School materials'
-                                    fourth='Home Utensils'
-                                    fifth='Health and Beauty'
-                                    sixth='Others'
-                                     />
+                                    <Select size="lg" label="Category">
+                                      <Option>Electronics</Option>
+                                      <Option>Clothings and Jewelries</Option>
+                                      <Option>School material</Option>
+                                      <Option>Home Utensils</Option>
+                                      <Option>Health and Beauty</Option>
+                                      <Option>Others</Option>
+                                    </Select>
+                                    <Select size="lg" label="What kind?">
+                                        <Option>New</Option>
+                                        <Option>Fairly used</Option>
+                                      </Select>
                                     <Input size="lg" label="Preferred location" />                    
                                 </div>                  
                             </form>
