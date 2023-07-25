@@ -44,7 +44,7 @@ function Product() {
             {/* descriptions-section2 */}
             <div className="py-5">
                     <div className="flex flex-row justify-between border-l-4 border-orange-900 rounded-sm mb-3">
-                        <h1 className='text-2xl font-bold tracking-tight text-gray-900 pl-2'>Designers Dark Red<br/> Complete Suit Set</h1>
+                        <h1 className='text-2xl font-bold tracking-tight text-gray-900 pl-2'>Designers Dark Red<br/> New</h1>
                         <h1 className='text-2xl font-bold tracking-tight text-gray-900'>#85,000</h1>
                     </div>
                     <p className='flex flex-row items-center'><AiOutlineClockCircle /> Posted 3hrs ago</p>
@@ -56,7 +56,7 @@ function Product() {
                     <div className="border-l-4 border-orange-900 rounded-sm mb-3">
                         <h1 className='text-2xl font-bold tracking-tight text-gray-900 pl-2'>Details</h1>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur. Hendrerit lacus malesuada enim nascetur felis. Mauris egestas purus vitae vitae sit pellentesque dui sit.</p>
+                    <p>New Designers Dard Red Suit. Lorem ipsum dolor sit amet consectetur. Hendrerit lacus malesuada enim nascetur felis. Mauris egestas purus vitae vitae sit pellentesque dui sit.</p>
             </div>
             {/* <hr/>
 
