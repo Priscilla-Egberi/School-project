@@ -23,7 +23,13 @@ function AddGoods() {
                                     <Input size="lg" label="Product name" />
                                     <Input size="lg" label="Description" />
                                     <Input size="lg" label="Product price" />
-                                    <Select />
+                                    <Select title='Category' first='Electronics' 
+                                    second='Clothings and Jewelries'
+                                    third='School materials'
+                                    fourth='Home Utensils'
+                                    fifth='Health and Beauty'
+                                    sixth='Others'
+                                     />
                                     <Input size="lg" label="Preferred location" />                    
                                 </div>                  
                             </form>
