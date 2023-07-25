@@ -129,14 +129,12 @@ function AddGoods() {
           </div>
         </div>
       </form>
-      <div className="flex justify-center">
       <button
         className="w-full md:w-64 mt-4 rounded-sm font-semibold text-xl text-center py-3 text-white bg-my-orange"
         onClick={handlePostButtonClick}
       >
         Click here to post
       </button>
-      </div>
     </>
   )
 }
