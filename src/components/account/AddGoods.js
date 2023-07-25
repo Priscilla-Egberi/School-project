@@ -7,6 +7,7 @@ import {
 import ImageUploader from './ImageUploader';
 import { Select, Option } from "@material-tailwind/react";
 
+
 function AddGoods() {
   const initialFormData = {
     productName: '',
@@ -18,10 +19,22 @@ function AddGoods() {
   };
 
   const [formData, setFormData] = useState(initialFormData);
+  const [selectedCategory, setSelectedCategory] = useState('');
+  const [selectedCondition, setSelectedCondition] = useState('');
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
+  };
+
+  const handleCategoryChange = (value) => {
+    setSelectedCategory(value);
+    setFormData({ ...formData, category: value });
+  };
+
+  const handleConditionChange = (value) => {
+    setSelectedCondition(value);
+    setFormData({ ...formData, condition: value });
   };
 
   const handlePostButtonClick = () => {
@@ -42,7 +55,7 @@ function AddGoods() {
   return (
     <>
       <form className="px-5 md:px-16">
-        <div className='grid md:grid-cols-6 gap-10 md:gap-16'>
+        <div className='md:grid grid-cols-6 gap-16'>
           {/* ----------first col */}
           <div className="col-span-3" >
             <Card color="transparent" className=' px-4 py-3 w-full md:max-w-max'>
@@ -75,26 +88,24 @@ function AddGoods() {
                   <Select
                     size="lg"
                     label="Category"
-                    name="category"
-                    value={formData.category}
-                    onChange={handleInputChange}
+                    value={selectedCategory}
+                    onChange={handleCategoryChange}
                   >
-                    <Option>Electronics</Option>
-                    <Option>Clothings and Jewelries</Option>
-                    <Option>School material</Option>
-                    <Option>Home Utensils</Option>
-                    <Option>Health and Beauty</Option>
-                    <Option>Others</Option>
+                    <Option value="Electronics">Electronics</Option>
+                    <Option value="Clothings and Jewelries">Clothings and Jewelries</Option>
+                    <Option value="School material">School material</Option>
+                    <Option value="Home Utensils">Home Utensils</Option>
+                    <Option value="Health and Beauty">Health and Beauty</Option>
+                    <Option value="Others">Others</Option>
                   </Select>
                   <Select
                     size="lg"
-                    label="Condition"
-                    name="condition"
-                    value={formData.condition}
-                    onChange={handleInputChange}
+                    label="What kind?"
+                    value={selectedCondition}
+                    onChange={handleConditionChange}
                   >
-                    <Option>New</Option>
-                    <Option>Fairly used</Option>
+                    <Option value="New">New</Option>
+                    <Option value="Fairly used">Fairly used</Option>
                   </Select>
                   <Input
                     size="lg"
@@ -124,3 +135,4 @@ function AddGoods() {
 }
 
 export default AddGoods;
+
