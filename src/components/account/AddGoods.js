@@ -1,21 +1,14 @@
-import React, { useState } from 'react';
-import {
-  Card,
-  Input,
-  Typography,
-} from "@material-tailwind/react";
-import ImageUploader from './ImageUploader';
-import { Select, Option } from "@material-tailwind/react";
+// ... (previous code)
 
 function AddGoods() {
   const [formData, setFormData] = useState({
     productName: '',
     description: '',
     productPrice: '',
-    category: '',
-    condition: '',
+    category: '', // Added category field
+    condition: '', // Added condition field
     preferredLocation: '',
-    images: [], // Array to store images
+    images: [],
   });
 
   const handleInputChange = (e) => {
@@ -81,7 +74,7 @@ function AddGoods() {
                   </Select>
                   <Select
                     size="lg"
-                    label="What kind?"
+                    label="Condition"
                     name="condition"
                     value={formData.condition}
                     onChange={handleInputChange}
