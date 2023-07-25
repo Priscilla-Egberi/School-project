@@ -44,18 +44,19 @@ export default function pages() {
           <Route path="/test" element={<Test />}/>
           
         </Route>
+        
         <Route path="/login" element={<Login />}>
           <Route path="/login" element={<LoginMain />} />
           <Route path="/login/signup" element={<SignUp />} />
         </Route>
-        {/* ------------------- GOODS */}
-        <Route path="/goods" element={<Goods />}>
-          <Route path="/goods/:id" element={<Product />}/>
 
+        {/* ------------------- GOODS */}
+        <Route exact path="/goods" element={<Goods />}>
+          <Route path="/goods/:cardId" element={<Product />}/>
         </Route>
         <Route path="/services" element={<Services />}>
-
         </Route>
+
         {/* -------------------ACCOUNT */}
         <Route path="/account" element={<Account />}>
                 <Route path="/account" element={<Body />}/>
