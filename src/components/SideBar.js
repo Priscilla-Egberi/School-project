@@ -17,15 +17,7 @@ function SideBar() {
   return (
     <section className='h-100 bg-white flex flex-col sticky top-28'>
         <div id="title" className="flex flex-row items-center text-white p-2" style={{backgroundColor:"#EB6B39"}}> <GiHamburgerMenu className="mr-2"/> Categories</div>
-        <div className="px-4  flex flex-col gap-y-3">
-            <p className="text-gray-500 mt-7 mb-4">Pages______________________</p>
-            <Link to="/" className="flex items-center"><MdComputer className="mr-2"/> Home</Link>
-            <Link to="/goods" className="flex items-center"><IoShirtOutline  className="mr-2"/> Goods</Link>
-            <Link to="/services" className="flex items-center"><GiPencilRuler className="mr-2"/> Services</Link>
-            <Link to="/login" className="flex items-center"><GiComputerFan className="mr-2"/> Login</Link>
-            {/* <p className="flex items-center"><CgGirl className="mr-2"/> Health and Beauty</p>
-            <p className="flex items-center"><TbDotsCircleHorizontal className="mr-2"/>Others</p> */}
-        </div>
+        
         <div className="px-4  flex flex-col gap-y-3">
             <p className="text-gray-500 mt-7 mb-4">Goods______________________</p>
             <Link to="/electronics" className="flex items-center"><MdComputer className="mr-2"/> Electronics</Link>
