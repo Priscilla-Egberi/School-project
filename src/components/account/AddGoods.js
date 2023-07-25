@@ -27,17 +27,17 @@ function AddGoods() {
   const handleSubmit = (data) => {
     // Merge the form data and images before posting to the endpoint
     const completeData = { ...formData, ...data };
-
+    console.log(completeData)
     // Make the HTTP POST request to your endpoint
-    axios.post('YOUR_ENDPOINT_URL', completeData)
-      .then((response) => {
-        // Handle the response if needed
-        console.log("Data posted successfully:", response.data);
-      })
-      .catch((error) => {
-        // Handle any errors that occurred during the request
-        console.error("Error posting data:", error);
-      });
+    // axios.post('YOUR_ENDPOINT_URL', completeData)
+    //   .then((response) => {
+    //     // Handle the response if needed
+    //     console.log("Data posted successfully:", response.data);
+    //   })
+    //   .catch((error) => {
+    //     // Handle any errors that occurred during the request
+    //     console.error("Error posting data:", error);
+    //   });
   };
 
   return (
