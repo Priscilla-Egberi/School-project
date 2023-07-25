@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const FieldWithSaveButton = ({ label, type, placeholder }) => {
+const FieldWithSaveButton = ({ label, type }) => {
   const [inputValue, setInputValue] = useState('');
   const [editMode, setEditMode] = useState(true);
 
@@ -22,11 +22,11 @@ const FieldWithSaveButton = ({ label, type, placeholder }) => {
     <div className="px-5 my-5">
       <div className="flex flex-row justify-between">
         <input
-          className="px-2 py-1 border rounded"
+          className="px-2 py-1 border rounded min-w-[200px]"
           type={type}
           value={inputValue}
           onChange={handleInputChange}
-          placeholder={placeholder}
+          placeholder={label}
           readOnly={!editMode}
         />
         <button
