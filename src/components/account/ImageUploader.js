@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const ImageUploader = () => {
+const ImageUploader = ({ onSubmit }) => {
   const [images, setImages] = useState([]);
   const [imagePreviews, setImagePreviews] = useState([]);
 
@@ -17,8 +17,8 @@ const ImageUploader = () => {
   };
 
   const handlePost = () => {
-    // In a real-world application, you can handle posting the images to a server here
-    console.log('Uploading images:', images);
+    // Call the onSubmit callback with the form data and images
+    onSubmit({ images });
   };
 
   return (
@@ -70,7 +70,6 @@ const ImageUploader = () => {
           ))}
         </div>
       )}
-
       <button
         className="w-full mt-4 rounded-sm text-center py-3 text-white bg-my-orange"
         onClick={handlePost}
@@ -82,3 +81,5 @@ const ImageUploader = () => {
 };
 
 export default ImageUploader;
+
+
