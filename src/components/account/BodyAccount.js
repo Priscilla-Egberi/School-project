@@ -74,41 +74,37 @@ export function BodyAccount () {
           <div className="border border-gray-300 rounded">
                             <h1 className="px-5 py-2 border-b border-gray-300 text-xl font-bold tracking-tight text-gray-900 ">Information</h1>
                             <div className="px-5 my-3">
-                                {/* <p className="text-sm text-gray-500 dark:text-gray-400">Display Name</p> */}
                                 <div className="flex flex-row justify-between">
                                     <Input size='lg' label="Display name" />
                                     <button className="bg-gray-300 hover:bg-gray-600 font-semibold text-sm hover:text-gray-200 py-2 px-3 rounded">Save</button>
                                 </div>
                             </div>
                             <div className="px-5 my-3">
-                                <p className="text-sm text-gray-500 dark:text-gray-400">Department</p>
                                 <div className="flex flex-row justify-between">
-                                    <p className="text-xl font-bold tracking-tight text-gray-900">Computer Engineering</p>
-                                    <p className="bg-gray-300 hover:bg-gray-600 font-semibold text-sm hover:text-gray-200 py-2 px-3 rounded">Edit</p>
+                                    <Input size='lg' label="Department" />
+                                    <button className="bg-gray-300 hover:bg-gray-600 font-semibold text-sm hover:text-gray-200 py-2 px-3 rounded">Save</button>
                                 </div>
                             </div>
                             <div className="px-5 my-3">
-                                <p className="text-sm text-gray-500 dark:text-gray-400">Level</p>
                                 <div className="flex flex-row justify-between">
-                                    <p className="text-xl font-bold tracking-tight text-gray-900">500 Level</p>
-                                    <p className="bg-gray-300 hover:bg-gray-600 font-semibold text-sm hover:text-gray-200 py-2 px-3 rounded">Edit</p>
+                                    <Input size='lg' label="Level" />
+                                    <button className="bg-gray-300 hover:bg-gray-600 font-semibold text-sm hover:text-gray-200 py-2 px-3 rounded">Save</button>
                                 </div>
                             </div>
                             <div className="px-5 my-3">
-                                <p className="text-sm text-gray-500 dark:text-gray-400">Campus</p>
                                 <div className="flex flex-row justify-between">
-                                    <p className="text-xl font-bold tracking-tight text-gray-900">Permsite</p>
-                                    <p className="bg-gray-300 hover:bg-gray-600 font-semibold text-sm hover:text-gray-200 py-2 px-3 rounded">Edit</p>
+                                    <Input size='lg' label="Campus" />
+                                    <button className="bg-gray-300 hover:bg-gray-600 font-semibold text-sm hover:text-gray-200 py-2 px-3 rounded">Save</button>
                                 </div>
                             </div>
                             <div className="px-5 my-3">
-                                <p className="text-sm text-gray-500 dark:text-gray-400">Password</p>
                                 <div className="flex flex-row justify-between">
-                                    <p className="text-xl font-bold tracking-tight text-gray-900">.........</p>
-                                    <p className="bg-gray-300 hover:bg-gray-600 font-semibold text-sm hover:text-gray-200 py-2 px-3 rounded">Edit</p>
+                                    <Input size='lg' type='password' label="Password" />
+                                    <button className="bg-gray-300 hover:bg-gray-600 font-semibold text-sm hover:text-gray-200 py-2 px-3 rounded">Save</button>
                                 </div>
                             </div>
-                        
+                            
+                            
                         <div>
               
           </div>
@@ -117,42 +113,36 @@ export function BodyAccount () {
         {/* table 2 */}
         <div className="border border-gray-300 rounded">
                     <h1 class="px-5 py-2 border-b border-gray-300 text-xl font-bold tracking-tight text-gray-900 ">Connection</h1>
-                    <div class="px-5 my-3">
-                        <p class="text-base font-bold tracking-tight text-gray-900">Facebook</p>
-                        <div class="flex flex-row justify-between items-baseline">
-                            <p class="text-sm text-gray-500 dark:text-gray-400">julianbenedict</p>
-                            <p class="bg-gray-300 hover:bg-gray-600 font-semibold text-xs hover:text-gray-200 py-2 px-3 rounded">Edit</p>
-                        </div>
-                    </div>
-                    <div class="px-5 my-3">
-                        <p class="text-base font-bold tracking-tight text-gray-900">Whatsapp</p>
-                        <div class="flex flex-row justify-between items-baseline">
-                            <p class="text-sm text-gray-500 dark:text-gray-400">09034078558</p>
-                            <p class="bg-gray-300 hover:bg-gray-600 font-semibold text-xs hover:text-gray-200 py-2 px-3 rounded">Edit</p>
-                        </div>
-                    </div>
-                    <div class="px-5 my-3">
-                        <p class="text-base font-bold tracking-tight text-gray-900">Email</p>
-                        <div class="flex flex-row justify-between items-baseline">
-                            <p class="text-sm text-gray-500 dark:text-gray-400">Details</p>
-                            <p class="bg-gray-300 hover:bg-gray-600 font-semibold text-xs hover:text-gray-200 py-2 px-3 rounded">Edit</p>
-                        </div>
-                    </div>
-                    <div class="px-5 my-3">
-                        <p class="text-base font-bold tracking-tight text-gray-900">Instagram</p>
-                        <div class="flex flex-row justify-between items-baseline">
-                            <p class="text-sm text-gray-500 dark:text-gray-400">www.instagram</p>
-                            <p class="bg-gray-300 hover:bg-gray-600 font-semibold text-xs hover:text-gray-200 py-2 px-3 rounded">Edit</p>
-                        </div>
-                    </div>
-                    <div class="px-5 my-3">
-                        <p class="text-base font-bold tracking-tight text-gray-900">Phone number</p>
-                        <div class="flex flex-row justify-between items-baseline">
-                            <p class="text-sm text-gray-500 dark:text-gray-400">090909090909</p>
-                            <p class="bg-gray-300 hover:bg-gray-600 font-semibold text-xs hover:text-gray-200 py-2 px-3 rounded">Edit</p>
-                        </div>
-                    </div>
-                   
+                    <div className="px-5 my-3">
+                                <div className="flex flex-row justify-between">
+                                    <Input size='lg' label="Facebook Handle" />
+                                    <button className="bg-gray-300 hover:bg-gray-600 font-semibold text-sm hover:text-gray-200 py-2 px-3 rounded">Save</button>
+                                </div>
+                            </div>
+                    <div className="px-5 my-3">
+                                <div className="flex flex-row justify-between">
+                                    <Input size='lg' label="Whatsapp" />
+                                    <button className="bg-gray-300 hover:bg-gray-600 font-semibold text-sm hover:text-gray-200 py-2 px-3 rounded">Save</button>
+                                </div>
+                            </div>
+                    <div className="px-5 my-3">
+                                <div className="flex flex-row justify-between">
+                                    <Input size='lg' type='email' label="Email" />
+                                    <button className="bg-gray-300 hover:bg-gray-600 font-semibold text-sm hover:text-gray-200 py-2 px-3 rounded">Save</button>
+                                </div>
+                            </div>
+                    <div className="px-5 my-3">
+                                <div className="flex flex-row justify-between">
+                                    <Input size='lg' label="Instagram" />
+                                    <button className="bg-gray-300 hover:bg-gray-600 font-semibold text-sm hover:text-gray-200 py-2 px-3 rounded">Save</button>
+                                </div>
+                            </div>
+                    <div className="px-5 my-3">
+                                <div className="flex flex-row justify-between">
+                                    <Input size='lg' type='number' label="Phone Number" />
+                                    <button className="bg-gray-300 hover:bg-gray-600 font-semibold text-sm hover:text-gray-200 py-2 px-3 rounded">Save</button>
+                                </div>
+                            </div>                  
         </div>
       </div>
       <div className="md:hidden h-56"></div>
