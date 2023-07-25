@@ -134,7 +134,7 @@ function AddGoods() {
         className="w-full md:w-64 mt-4 rounded-sm font-bold text-xl text-center py-3 text-white bg-my-orange"
         onClick={handlePostButtonClick}
       >
-        Post
+        Click here to post
       </button>
       </div>
     </>
