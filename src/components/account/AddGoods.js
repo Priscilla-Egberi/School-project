@@ -17,7 +17,7 @@ function AddGoods() {
         <div className="col-span-3" >            
                 <Card color="transparent" className=' px-4 py-3 w-full md:max-w-max'>                
                             <Typography color="gray" className="mt-1 font-normal">
-                                Enter your details to register.
+                                Enter your goods details to register.
                             </Typography>
                             <form className="mt-8 mb-2 max-w-screen-lg md:w-96 ">
                                 <div className="mb-4 flex flex-col gap-6">
