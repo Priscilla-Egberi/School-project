@@ -8,15 +8,16 @@ import ImageUploader from './ImageUploader';
 import { Select, Option } from "@material-tailwind/react";
 
 function AddGoods() {
-  const [formData, setFormData] = useState({
+  const initialFormData = {
     productName: '',
     description: '',
     productPrice: '',
-    category: '', // Added category field
-    condition: '', // Added condition field
+    category: '',
+    condition: '',
     preferredLocation: '',
-    images: [],
-  });
+  };
+
+  const [formData, setFormData] = useState(initialFormData);
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
