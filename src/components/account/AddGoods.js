@@ -5,7 +5,6 @@ import {
     Typography,
   } from "@material-tailwind/react";
 import ImageUploader from './ImageUploader'
-import Select from './SelectInput'
 import { Select, Option } from "@material-tailwind/react";
  
 
