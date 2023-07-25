@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const ImageUploader = ({ onSubmit }) => {
+const ImageUploader = ({ onPost }) => {
   const [images, setImages] = useState([]);
   const [imagePreviews, setImagePreviews] = useState([]);
 
@@ -17,8 +17,18 @@ const ImageUploader = ({ onSubmit }) => {
   };
 
   const handlePost = () => {
-    // Call the onSubmit callback with the form data and images
-    onSubmit({ images });
+    // Call the onPost callback with the form data and images
+    const formData = {
+      productName: "Your Product Name",
+      description: "Your Product Description",
+      productPrice: "Your Product Price",
+      category: "Your Product Category",
+      kind: "Your Product Kind",
+      preferredLocation: "Your Preferred Location",
+      images: images,
+    };
+
+    onPost(formData);
   };
 
   return (
@@ -70,6 +80,7 @@ const ImageUploader = ({ onSubmit }) => {
           ))}
         </div>
       )}
+      
       <button
         className="w-full mt-4 rounded-sm text-center py-3 text-white bg-my-orange"
         onClick={handlePost}
@@ -81,5 +92,8 @@ const ImageUploader = ({ onSubmit }) => {
 };
 
 export default ImageUploader;
+
+
+
 
 
