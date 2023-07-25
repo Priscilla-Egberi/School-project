@@ -73,13 +73,13 @@ export function BodyAccount () {
           {/* table 1 */}
           <div className="border border-gray-300 rounded">
                             <h1 className="px-5 py-2 border-b border-gray-300 text-xl font-bold tracking-tight text-gray-900 ">Information</h1>
-                            <label className="px-5 my-3">
-                                <p className="text-sm text-gray-500 dark:text-gray-400">Display Name</p>
+                            <div className="px-5 my-3">
+                                {/* <p className="text-sm text-gray-500 dark:text-gray-400">Display Name</p> */}
                                 <div className="flex flex-row justify-between">
                                     <Input size='lg' label="Display name" />
                                     <button className="bg-gray-300 hover:bg-gray-600 font-semibold text-sm hover:text-gray-200 py-2 px-3 rounded">Save</button>
                                 </div>
-                            </label>
+                            </div>
                             <div className="px-5 my-3">
                                 <p className="text-sm text-gray-500 dark:text-gray-400">Department</p>
                                 <div className="flex flex-row justify-between">
