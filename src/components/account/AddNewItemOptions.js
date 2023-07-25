@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 function AddNewItemOptions() {
   return (
     <>
-            <div className="flex flex-row justify-center">
+            <div className="mt-16 flex flex-row justify-center">
         {/* card 1 */}
         <Link to="/account/additems/goods" className="max-w-xs p-5 flex flex-col justify-center items-center rounded shadow-lg mr-5">
             <div className='rounded-full bg-my-lightorange p-3'>
