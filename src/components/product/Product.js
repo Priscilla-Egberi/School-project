@@ -58,7 +58,7 @@ function Product() {
                     </div>
                     <p>Lorem ipsum dolor sit amet consectetur. Hendrerit lacus malesuada enim nascetur felis. Mauris egestas purus vitae vitae sit pellentesque dui sit.</p>
             </div>
-            <hr/>
+            {/* <hr/>
 
             <div className="py-5">
                     <div className="border-l-4 border-orange-900 rounded-sm mb-3">
@@ -72,7 +72,7 @@ function Product() {
                         <li className="col-span-1 ">Complete Suit</li>
                         <li className="col-span-1 ">Dark Red Color</li>
                     </ul>
-            </div>
+            </div> */}
             
         </div>
     
