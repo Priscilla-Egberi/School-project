@@ -50,7 +50,7 @@ export default function pages() {
         </Route>
         {/* ------------------- GOODS */}
         <Route path="/goods" element={<Goods />}>
-          <Route path="/goods/:cardId" element={<Product />}/>
+          <Route path="/goods/:id" element={<Product />}/>
 
         </Route>
         <Route path="/services" element={<Services />}>
