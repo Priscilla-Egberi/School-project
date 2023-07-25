@@ -1,4 +1,11 @@
-// ... (previous code)
+import React, { useState } from 'react';
+import {
+  Card,
+  Input,
+  Typography,
+} from "@material-tailwind/react";
+import ImageUploader from './ImageUploader';
+import { Select, Option } from "@material-tailwind/react";
 
 function AddGoods() {
   const [formData, setFormData] = useState({
