@@ -5,6 +5,7 @@ import {
     Typography,
   } from "@material-tailwind/react";
 import ImageUploader from './ImageUploader'
+import Select from './SelectInput'
 
 function AddGoods() {
   return (
@@ -22,7 +23,7 @@ function AddGoods() {
                                     <Input size="lg" label="Product name" />
                                     <Input size="lg" label="Description" />
                                     <Input size="lg" label="Product price" />
-                                    <Input size="lg" label="Conditions and features" />
+                                    <Select />
                                     <Input size="lg" label="Preferred location" />                    
                                 </div>                  
                             </form>
