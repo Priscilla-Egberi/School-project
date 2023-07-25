@@ -19,7 +19,7 @@ const FieldWithSaveButton = ({ label, type }) => {
   };
 
   return (
-    <div className="px-5 my-3">
+    <div className="px-5 my-5">
       <div className="flex flex-row justify-between">
         <input
           className="px-2 py-1 border rounded"
