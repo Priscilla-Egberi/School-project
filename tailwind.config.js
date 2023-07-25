@@ -26,7 +26,7 @@ module.exports = withMT({
         // Add more values as needed
       },
       minWidth: {
-        '54': '54px',
+        '54': '100px',
         '97': '97px',
         // Add more values as needed
       },
