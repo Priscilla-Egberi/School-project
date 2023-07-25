@@ -50,7 +50,7 @@ export function BodyAccount () {
       <img
         src={uploadedImage}
         alt=""
-        className="w-full h-full object-cover"
+        className="w-full h-full object-cover object-center"
       />
 
       {/* The file input element is hidden and triggered when the div is clicked */}
