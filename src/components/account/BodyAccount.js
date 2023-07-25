@@ -41,7 +41,7 @@ export function BodyAccount () {
         </div>
           <div className='my-4 px-16 flex flex-row items-center'>
           <div
-      className="max-w-96 min-w-97 w-32 h-32 rounded-full overflow-hidden bg-gray-700 border-4 border-gray-700 my-0 mr-4"
+      className="max-w-96 min-w-97 max-h-36 min-h-54 rounded-full bg-gray-700 border-4 border-gray-700 my-0 mr-4"
       onClick={() => {
         // Clicking on the div opens the file input
         document.getElementById('imageInput').click();
