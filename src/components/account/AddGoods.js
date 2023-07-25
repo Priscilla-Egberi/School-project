@@ -41,7 +41,7 @@ function AddGoods() {
   return (
     <>
       <form className="px-5 md:px-16">
-        <div className='md:grid grid-cols-6 gap-16'>
+        <div className='grid md:grid-cols-6 gap-10 md:gap-16'>
           {/* ----------first col */}
           <div className="col-span-3" >
             <Card color="transparent" className=' px-4 py-3 w-full md:max-w-max'>
