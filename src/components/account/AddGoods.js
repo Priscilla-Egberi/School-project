@@ -105,7 +105,7 @@ function AddGoods() {
                   </Select>
                   <Select
                     size="lg"
-                    label="What kind?"
+                    label="Condition"
                     value={selectedCondition}
                     onChange={handleConditionChange}
                   >
