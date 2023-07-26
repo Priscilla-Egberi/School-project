@@ -7,7 +7,7 @@ function Services() {
     <>
         <h2 className="mt-2 md:mt-20 text-2xl semibold md:hidden ml-3 my-3">Goods</h2>
         <div className="md:mx-20 mx-5 md:my-12 g-y-5">
-        {/* <Search variant="gradient" size="sm" fullWidth className="mb-5" data={Img}/> */}
+        {/* <Search variant="gradient" size="sm" fullWidth className="mb-5" data={}/> */}
         </div>
         
     <div className="mx-5 md:mx-10">
