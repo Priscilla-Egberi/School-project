@@ -1,8 +1,9 @@
 import React from 'react'
 import Cards from "../Cards"
+import {Img} from "../../data/data"
 
 function Electronics() {
-  const filteredElectronics = goodsData.filter((item) => item.category === 'Electronics');
+  const filteredElectronics = Img.filter((item) => item.category === 'Electronics');
 console.log(filteredElectronics);
   return (
     <>
