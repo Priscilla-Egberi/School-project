@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from "react";
-import CardSearch from "./CardSearch"; // Importing the CardSearch component
+import CardSearch from "./Cards"; // Importing the CardSearch component
 
 function SearchInput({ data }) {
   const [searchValue, setSearchValue] = useState('');
