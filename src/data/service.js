@@ -13,7 +13,7 @@ export const serviceData = [
       category:"Hair Dressing",
       service:"Hair Dresser",
       description:"I am passionate about hair, I make all styles of hair, including knotless braid",
-      imgUrl: "https://xsgames.co/randomusers/assets/avatars/female/8.jpg",
+      img: "https://xsgames.co/randomusers/assets/avatars/female/8.jpg",
 userId:1
 },
   {
@@ -29,7 +29,7 @@ userId:1
       category:"Tutoring",
 service:"Tutor",
       description:"I love teaching students to understand. I am good at Engine Maths",
-      imgUrl: "https://xsgames.co/randomusers/assets/avatars/female/6.jpg",
+      img: "https://xsgames.co/randomusers/assets/avatars/female/6.jpg",
 userId:2
 },
   {
@@ -45,7 +45,7 @@ userId:2
       category:"Tutoring",
 service:"Tutor",
       description:"I love teaching students to understand. I am good at Engine Maths",
-      imgUrl: "https://xsgames.co/randomusers/assets/avatars/female/7.jpg",
+      img: "https://xsgames.co/randomusers/assets/avatars/female/7.jpg",
 userId:3
 },
   {
@@ -61,7 +61,7 @@ userId:3
       category:"Laptop and Phone Repairs",
       service:"Technician",
       description:"Hi, I fix laptops and phones. I have worked on different problems on both Phones and Laptops.",
-      imgUrl: "https://xsgames.co/randomusers/assets/avatars/female/1.jpg",
+      img: "https://xsgames.co/randomusers/assets/avatars/female/1.jpg",
 userId:4
 },
   {
@@ -77,7 +77,7 @@ userId:4
       category:"Tutoring",
 service:"Tutor",
       description:"I love teaching students to understand. I am good at Engine Maths",
-      imgUrl: "https://xsgames.co/randomusers/assets/avatars/female/8.jpg",
+      img: "https://xsgames.co/randomusers/assets/avatars/female/8.jpg",
 userId:5
 },
   {
@@ -93,7 +93,7 @@ userId:5
       category:"Laptop and Phone Repairs",
       service:"Phone Fixer",
       description:"Hi, I fix laptops and phones. I have worked on different problems on both Phones and Laptops.",
-      imgUrl: "https://xsgames.co/randomusers/assets/avatars/female/1.jpg",
+      img: "https://xsgames.co/randomusers/assets/avatars/female/1.jpg",
 userId:6
 },
   {
@@ -109,7 +109,7 @@ userId:6
       category:"House Painting",
       service:"Painter",
       description:"hi, I do house painting, I literally can draw a human on the wall, my skills are top notch, test and see for yourself",
-      imgUrl: "https://xsgames.co/randomusers/assets/avatars/male/9.jpg",
+      img: "https://xsgames.co/randomusers/assets/avatars/male/9.jpg",
 userId:7
 },
   {
@@ -125,7 +125,7 @@ userId:7
       category:"Catering",
       service:"Caterer",
       description:"I bake cake, cupcake, meat pie. I can make realistic cakes too. ",
-      imgUrl: "https://xsgames.co/randomusers/assets/avatars/male/1.jpg",
+      img: "https://xsgames.co/randomusers/assets/avatars/male/1.jpg",
 userId:8
 },
   {
@@ -141,7 +141,7 @@ userId:8
       category:"Tutoring",
 service:"Tutor",
       description:"I love teaching students to understand. I am good at Engine Maths",
-      imgUrl: "https://xsgames.co/randomusers/assets/avatars/male/2.jpg",
+      img: "https://xsgames.co/randomusers/assets/avatars/male/2.jpg",
 userId:9
 },
   {
@@ -157,7 +157,7 @@ userId:9
       category:"Hair Dressing",
       service:"Hair Dresser",
       description:"I am passionate about hair, I make all styles of hair, including knotless braid",
-      imgUrl: "https://xsgames.co/randomusers/assets/avatars/male/3.jpg",
+      img: "https://xsgames.co/randomusers/assets/avatars/male/3.jpg",
 userId:10
 },
   {
@@ -173,7 +173,7 @@ userId:10
       category:"Catering",
       service:"Chef",
       description:"Hi, I'm chef, I cook African delicies such as Afang soup, Edikan Soup, Okra soup and so on. I surely deliver",
-      imgUrl: "https://xsgames.co/randomusers/assets/avatars/female/1.jpg",
+      img: "https://xsgames.co/randomusers/assets/avatars/female/1.jpg",
 userId:11
 },
   {
@@ -189,7 +189,7 @@ userId:11
       category:"Hair Dressing",
       service:"Hair Dressing",
       description:"I am passionate about hair, I make all styles of hair, including knotless braid",
-      imgUrl: "https://xsgames.co/randomusers/assets/avatars/female/2.jpg",
+      img: "https://xsgames.co/randomusers/assets/avatars/female/2.jpg",
 userId:12
 },
   {
@@ -205,7 +205,7 @@ userId:12
       category:"Catering",
       service:"Caterer",
       description:"I bake cake, cupcake, meat pie. I can make realistic cakes too. ",
-      imgUrl: "https://xsgames.co/randomusers/assets/avatars/male/4.jpg",
+      img: "https://xsgames.co/randomusers/assets/avatars/male/4.jpg",
 userId:13
 },
   {
@@ -221,7 +221,7 @@ userId:13
       category:"Tech related Jobs",
       service:"Front-End web developer",
       description:"Hello there, I am a web developer, I have 3years experience building with React, tailwind, HTML and CSS",
-      imgUrl: "https://xsgames.co/randomusers/assets/avatars/male/5.jpg",
+      img: "https://xsgames.co/randomusers/assets/avatars/male/5.jpg",
 userId:14
 },
   {
@@ -237,7 +237,7 @@ userId:14
       category:"Tech related Jobs",
       service:"Full Stack developer",
       description:"Hello there, I am a web developer, I have 3years experience building with Nodejs, React, tailwind, HTML and CSS",
-      imgUrl: "https://xsgames.co/randomusers/assets/avatars/female/3.jpg",
+      img: "https://xsgames.co/randomusers/assets/avatars/female/3.jpg",
 userId:15
 },
   {
@@ -253,7 +253,7 @@ userId:15
       category:"Tech related Jobs",
       service:"Graphics Designer",
       description:"I am a graphics desiner, I design besically anything, such as birthday cards, invitation cards, fliers etc.",
-      imgUrl: "https://xsgames.co/randomusers/assets/avatars/female/4.jpg",
+      img: "https://xsgames.co/randomusers/assets/avatars/female/4.jpg",
 userId:16
 },
   {
@@ -269,7 +269,7 @@ userId:16
       category:"Tailoring",
       service:"Tailor",
       description:"Tailoring is my passion, I sew difference kinds of male clothes, Senator suit, hand made suit etc and I sew them very well.",
-      imgUrl: "https://xsgames.co/randomusers/assets/avatars/male/6.jpg",
+      img: "https://xsgames.co/randomusers/assets/avatars/male/6.jpg",
 userId:17
 },
   {
@@ -285,7 +285,7 @@ userId:17
       category:"Others",
       service:"House Agent",
       description:"I help you search, for comfortable, secured and affordable house. My price is negotiable.",
-      imgUrl: "https://xsgames.co/randomusers/assets/avatars/female/5.jpg",
+      img: "https://xsgames.co/randomusers/assets/avatars/female/5.jpg",
 userId:18
 },
   {
@@ -301,7 +301,7 @@ userId:18
       category:"House Painting",
       service:"House Painter",
       description:"hi, I do house painting, I literally can draw a human on the wall, my skills are top notch, test and see for yourself",
-      imgUrl: "https://xsgames.co/randomusers/assets/avatars/male/7.jpg",
+      img: "https://xsgames.co/randomusers/assets/avatars/male/7.jpg",
 userId:19
 },
   {
@@ -317,7 +317,7 @@ userId:19
       category:"Tailoring",
       service:"Tailor",
       description:"Tailoring is my passion, I sew difference kinds of male clothes, Senator suit, hand made suit etc and I sew them very well.",
-      imgUrl: "https://xsgames.co/randomusers/assets/avatars/male/8.jpg",
+      img: "https://xsgames.co/randomusers/assets/avatars/male/8.jpg",
       userId:20
   }
 ]
