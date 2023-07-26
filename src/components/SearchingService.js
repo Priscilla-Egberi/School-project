@@ -15,7 +15,7 @@ function SearchInput({ data }) {
     }
 
     return data.filter((item) =>
-      item.name.toLowerCase().includes(searchValue.toLowerCase())
+      item.service.toLowerCase().includes(searchValue.toLowerCase())
     );
   }, [data, searchValue]);
 
