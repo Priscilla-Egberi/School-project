@@ -12,12 +12,12 @@ function ServiceCards({props}) {
                   <div className='leading-none md:leading-normal'>
                     <h1 className="text-xl md:text-2xl font-bold tracking-tight text-gray-900">{props.userName}</h1>
                     <p className='font-semibold'>{props.service}</p>
-                    <p className='font-semibold text-gray-600'>See resume</p>
+                    <p className='font-semibold text-blue-600'>see resume</p>
                   </div>
           </div>
           <p className="text-blue-700 pt-3 md:pt-6">Available</p>
        </div>
-       <p className='md:px-16'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus doloremque expedita aliquam voluptatum eius, dolores eveniet id pariatur explicabo cupiditate?</p>
+       <p className='md:px-16'>{props.description}</p>
     </div>
     </div>
   )
