@@ -225,13 +225,13 @@ export const Img =[
     },
     {
         id: 17,
-        name: "Item 17",
+        name: "T-square",
         amount: "#2780",
         condition: "new",
         category: "School material",
         addressForPickUp: "Address 17",
         imgUrl: [
-            "https://via.placeholder.com/500?text=Image17&bg=222",
+            "https://media.istockphoto.com/id/539056219/photo/t-square.webp?b=1&s=170667a&w=0&k=20&c=RmAyUKUfGGmAjnDzMeNjdrajKI-8XO2qjMFxJV5qE7s=",
             "https://via.placeholder.com/500?text=Image17&bg=444",
             "https://via.placeholder.com/500?text=Image17&bg=666"
         ],
@@ -267,13 +267,13 @@ export const Img =[
     },
     {
         id: 20,
-        name: "Item 20",
+        name: "Wooden T-square",
         amount: "#23640",
         condition: "fairly used",
         category: "School material",
         addressForPickUp: "Address 20",
         imgUrl: [
-            "https://via.placeholder.com/500?text=Image20&bg=222",
+            "https://media.istockphoto.com/id/622908576/photo/wooden-t-square-ruler-tool-with-inch-and-centimeter-measures.webp?b=1&s=170667a&w=0&k=20&c=rR5iMdBzNtnnRH0xMVt35qrTMrIaw1hfZAhOLj9i_9A=",
             "https://via.placeholder.com/500?text=Image20&bg=444",
             "https://via.placeholder.com/500?text=Image20&bg=666"
         ],
@@ -365,13 +365,13 @@ export const Img =[
     },
     {
         id: 27,
-        name: "Item 27",
+        name: "Notebook",
         amount: "#45827",
         condition: "new",
         category: "School material",
         addressForPickUp: "Address 27",
         imgUrl: [
-            "https://via.placeholder.com/500?text=Image27&bg=222",
+            "https://images.unsplash.com/photo-1554757387-fa0367573d09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bm90ZWJvb2t8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
             "https://via.placeholder.com/500?text=Image27&bg=444",
             "https://via.placeholder.com/500?text=Image27&bg=666"
         ],
