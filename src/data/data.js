@@ -3,7 +3,7 @@ export const Img =[
         id: 1,
         name: "Steel Whisk",
         amount: "#435",
-        condition: "fairly used",
+        condition: "Fairly used",
         category: "Home Utensils",
         addressForPickUp: "Address 1",
         imgUrl: [
@@ -17,7 +17,7 @@ export const Img =[
         id: 2,
         name: "Brush set",
         amount: "#776",
-        condition: "fairly used",
+        condition: "Fairly used",
         category: "Health and Beauty",
         addressForPickUp: "Address 2",
         imgUrl: [
@@ -31,7 +31,7 @@ export const Img =[
         id: 3,
         name: "Bluetooth Earphones",
         amount: "#184",
-        condition: "new",
+        condition: "New",
         category: "Electronics",
         addressForPickUp: "Address 3",
         imgUrl: [
@@ -45,7 +45,7 @@ export const Img =[
         id: 4,
         name: "Item 4",
         amount: "#2766",
-        condition: "fairly used",
+        condition: "Fairly used",
         category: "Others",
         addressForPickUp: "Address 4",
         imgUrl: [
@@ -59,7 +59,7 @@ export const Img =[
         id: 5,
         name: "Sets of spoons",
         amount: "#7890",
-        condition: "fairly used",
+        condition: "Fairly used",
         category: "Home Utensils",
         addressForPickUp: "Address 5",
         imgUrl: [
@@ -73,7 +73,7 @@ export const Img =[
         id: 6,
         name: "Cutting Board",
         amount: "#4490",
-        condition: "fairly used",
+        condition: "Fairly used",
         category: "Home Utensils",
         addressForPickUp: "Address 6",
         imgUrl: [
@@ -87,7 +87,7 @@ export const Img =[
         id: 7,
         name: "Infinix EarPiece",
         amount: "#7960",
-        condition: "fairly used",
+        condition: "Fairly used",
         category: "Electronics",
         addressForPickUp: "Address 7",
         imgUrl: [
@@ -101,7 +101,7 @@ export const Img =[
         id: 8,
         name: "Iphone 8",
         amount: "#4210",
-        condition: "new",
+        condition: "New",
         category: "Electronics",
         addressForPickUp: "Address 8",
         imgUrl: [
@@ -115,7 +115,7 @@ export const Img =[
         id: 9,
         name: "Apple Laptop",
         amount: "#140600",
-        condition: "new",
+        condition: "New",
         category: "Electronics",
         addressForPickUp: "Address 9",
         imgUrl: [
@@ -129,7 +129,7 @@ export const Img =[
         id: 10,
         name: "Item 10",
         amount: "#6960",
-        condition: "new",
+        condition: "New",
         category: "Home Utensils",
         addressForPickUp: "Address 10",
         imgUrl: [
@@ -143,7 +143,7 @@ export const Img =[
         id: 11,
         name: "Sticker notes",
         amount: "#470",
-        condition: "new",
+        condition: "New",
         category: "School Materials",
         addressForPickUp: "Address 11",
         imgUrl: [
@@ -157,7 +157,7 @@ export const Img =[
         id: 12,
         name: "Item 12",
         amount: "#2100",
-        condition: "new",
+        condition: "New",
         category: "Electronics",
         addressForPickUp: "Address 12",
         imgUrl: [
@@ -171,7 +171,7 @@ export const Img =[
         id: 13,
         name: "Enamel frying pan",
         amount: "#27990",
-        condition: "fairly used",
+        condition: "Fairly used",
         category: "Home Utensils",
         addressForPickUp: "Address 13",
         imgUrl: [
@@ -185,7 +185,7 @@ export const Img =[
         id: 14,
         name: "Flower vase",
         amount: "#42940",
-        condition: "new",
+        condition: "New",
         category: "Home Utensils",
         addressForPickUp: "Address 14",
         imgUrl: [
@@ -199,7 +199,7 @@ export const Img =[
         id: 15,
         name: "T-shirt",
         amount: "#39660",
-        condition: "fairly used",
+        condition: "Fairly used",
         category: "Clothings and Jewelries",
         addressForPickUp: "Address 15",
         imgUrl: [
@@ -213,7 +213,7 @@ export const Img =[
         id: 16,
         name: "Item 16",
         amount: "#4940",
-        condition: "new",
+        condition: "New",
         category: "Electronics",
         addressForPickUp: "Address 16",
         imgUrl: [
@@ -227,7 +227,7 @@ export const Img =[
         id: 17,
         name: "T-square",
         amount: "#2780",
-        condition: "new",
+        condition: "New",
         category: "School Materials",
         addressForPickUp: "Address 17",
         imgUrl: [
@@ -241,7 +241,7 @@ export const Img =[
         id: 18,
         name: "Modern pot",
         amount: "#4799",
-        condition: "new",
+        condition: "New",
         category: "Home Utensils",
         addressForPickUp: "Address 18",
         imgUrl: [
@@ -255,7 +255,7 @@ export const Img =[
         id: 19,
         name: "Item 19",
         amount: "#21500",
-        condition: "new",
+        condition: "New",
         category: "Electronics",
         addressForPickUp: "Address 19",
         imgUrl: [
@@ -269,7 +269,7 @@ export const Img =[
         id: 20,
         name: "Wooden T-square",
         amount: "#23640",
-        condition: "fairly used",
+        condition: "Fairly used",
         category: "School Materials",
         addressForPickUp: "Address 20",
         imgUrl: [
@@ -283,7 +283,7 @@ export const Img =[
         id: 21,
         name: "Item 21",
         amount: "#29980",
-        condition: "new",
+        condition: "New",
         category: "Electronics",
         addressForPickUp: "Address 21",
         imgUrl: [
@@ -297,7 +297,7 @@ export const Img =[
         id: 22,
         name: "Item 22",
         amount: "#12710",
-        condition: "fairly used",
+        condition: "Fairly used",
         category: "Others",
         addressForPickUp: "Address 22",
         imgUrl: [
@@ -311,7 +311,7 @@ export const Img =[
         id: 23,
         name: "Sets of Plates",
         amount: "#36231",
-        condition: "new",
+        condition: "New",
         category: "Home Utensils",
         addressForPickUp: "Address 23",
         imgUrl: [
@@ -325,7 +325,7 @@ export const Img =[
         id: 24,
         name: "Mattress",
         amount: "#29950",
-        condition: "new",
+        condition: "New",
         category: "Home Utensils",
         addressForPickUp: "Address 24",
         imgUrl: [
@@ -339,7 +339,7 @@ export const Img =[
         id: 25,
         name: "Item 25",
         amount: "#43346",
-        condition: "new",
+        condition: "New",
         category: "Electronics",
         addressForPickUp: "Address 25",
         imgUrl: [
@@ -353,7 +353,7 @@ export const Img =[
         id: 26,
         name: "Essential Oil",
         amount: "#43910",
-        condition: "new",
+        condition: "New",
         category: "Health and Beauty",
         addressForPickUp: "Address 26",
         imgUrl: [
@@ -367,7 +367,7 @@ export const Img =[
         id: 27,
         name: "Notebook",
         amount: "#45827",
-        condition: "new",
+        condition: "New",
         category: "School Materials",
         addressForPickUp: "Address 27",
         imgUrl: [
@@ -381,7 +381,7 @@ export const Img =[
         id: 28,
         name: "Mattress",
         amount: "#25411",
-        condition: "fairly used",
+        condition: "Fairly used",
         category: "Home Utensils",
         addressForPickUp: "Address 28",
         imgUrl: [
@@ -395,7 +395,7 @@ export const Img =[
         id: 29,
         name: "HardCover Notebook",
         amount: "#21341",
-        condition: "fairly used",
+        condition: "Fairly used",
         category: "School Materials",
         addressForPickUp: "Address 29",
         imgUrl: [
@@ -409,7 +409,7 @@ export const Img =[
         id: 30,
         name: "Item 30",
         amount: "#45384",
-        condition: "fairly used",
+        condition: "Fairly used",
         category: "Others",
         addressForPickUp: "Address 30",
         imgUrl: [
@@ -423,7 +423,7 @@ export const Img =[
         id: 31,
         name: "Item 31",
         amount: "#35612",
-        condition: "fairly used",
+        condition: "Fairly used",
         category: "School Materials",
         addressForPickUp: "Address 31",
         imgUrl: [
@@ -437,7 +437,7 @@ export const Img =[
         id: 32,
         name: "Earrings",
         amount: "#14686",
-        condition: "fairly used",
+        condition: "Fairly used",
         category: "Clothings and Jewelries",
         addressForPickUp: "Address 32",
         imgUrl: [
@@ -451,7 +451,7 @@ export const Img =[
         id: 33,
         name: "VItamin A",
         amount: "#44541",
-        condition: "new",
+        condition: "New",
         category: "Health and Beauty",
         addressForPickUp: "Address 33",
         imgUrl: [
@@ -465,7 +465,7 @@ export const Img =[
         id: 34,
         name: "Item 34",
         amount: "#8106",
-        condition: "new",
+        condition: "New",
         category: "School Materials",
         addressForPickUp: "Address 34",
         imgUrl: [
@@ -479,7 +479,7 @@ export const Img =[
         id: 35,
         name: "Mattress",
         amount: "#27219",
-        condition: "new",
+        condition: "New",
         category: "Home Utensils",
         addressForPickUp: "Address 35",
         imgUrl: [
@@ -493,7 +493,7 @@ export const Img =[
         id: 36,
         name: "Item 36",
         amount: "#18332",
-        condition: "new",
+        condition: "New",
         category: "Home Utensils",
         addressForPickUp: "Address 36",
         imgUrl: [
@@ -507,7 +507,7 @@ export const Img =[
         id: 37,
         name: "Item 37",
         amount: "#2008",
-        condition: "new",
+        condition: "New",
         category: "Others",
         addressForPickUp: "Address 37",
         imgUrl: [
@@ -521,7 +521,7 @@ export const Img =[
         id: 38,
         name: "Mattress",
         amount: "#36505",
-        condition: "fairly used",
+        condition: "Fairly used",
         category: "Others",
         addressForPickUp: "Address 38",
         imgUrl: [
@@ -535,7 +535,7 @@ export const Img =[
         id: 39,
         name: "Item 39",
         amount: "#37713",
-        condition: "new",
+        condition: "New",
         category: "Electronics",
         addressForPickUp: "Address 39",
         imgUrl: [
@@ -549,7 +549,7 @@ export const Img =[
         id: 40,
         name: "Item 40",
         amount: "#1815",
-        condition: "fairly used",
+        condition: "Fairly used",
         category: "Home Utensils",
         addressForPickUp: "Address 40",
         imgUrl: [
@@ -563,7 +563,7 @@ export const Img =[
         id: 41,
         name: "Facial roller",
         amount: "#11691",
-        condition: "fairly used",
+        condition: "Fairly used",
         category: "Health and Beauty",
         addressForPickUp: "Address 41",
         imgUrl: [
@@ -577,7 +577,7 @@ export const Img =[
         id: 42,
         name: "Suit",
         amount: "#37784",
-        condition: "new",
+        condition: "New",
         category: "Clothings and Jewelries",
         addressForPickUp: "Address 42",
         imgUrl: [
@@ -591,7 +591,7 @@ export const Img =[
         id: 43,
         name: "Item 43",
         amount: "#30212",
-        condition: "fairly used",
+        condition: "Fairly used",
         category: "Electronics",
         addressForPickUp: "Address 43",
         imgUrl: [
@@ -605,7 +605,7 @@ export const Img =[
         id: 44,
         name: "Item 44",
         amount: "#22668",
-        condition: "fairly used",
+        condition: "Fairly used",
         category: "Others",
         addressForPickUp: "Address 44",
         imgUrl: [
@@ -619,7 +619,7 @@ export const Img =[
         id: 45,
         name: "Item 45",
         amount: "#16015",
-        condition: "new",
+        condition: "New",
         category: "Home Utensils",
         addressForPickUp: "Address 45",
         imgUrl: [
@@ -633,7 +633,7 @@ export const Img =[
         id: 46,
         name: "Item 46",
         amount: "#47772",
-        condition: "fairly used",
+        condition: "Fairly used",
         category: "School Materials",
         addressForPickUp: "Address 46",
         imgUrl: [
@@ -647,7 +647,7 @@ export const Img =[
         id: 47,
         name: "Item 47",
         amount: "#18140",
-        condition: "new",
+        condition: "New",
         category: "Health and Beauty",
         addressForPickUp: "Address 47",
         imgUrl: [
@@ -661,7 +661,7 @@ export const Img =[
         id: 48,
         name: "Item 48",
         amount: "#2833",
-        condition: "fairly used",
+        condition: "Fairly used",
         category: "Home Utensils",
         addressForPickUp: "Address 48",
         imgUrl: [
@@ -675,7 +675,7 @@ export const Img =[
         id: 49,
         name: "Item 49",
         amount: "#45712",
-        condition: "new",
+        condition: "New",
         category: "Electronics",
         addressForPickUp: "Address 49",
         imgUrl: [
@@ -689,7 +689,7 @@ export const Img =[
         id: 50,
         name: "Item 50",
         amount: "#9445",
-        condition: "new",
+        condition: "New",
         category: "Health and Beauty",
         addressForPickUp: "Address 50",
         imgUrl: [
