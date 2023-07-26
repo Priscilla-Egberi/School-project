@@ -15,7 +15,7 @@ function ProductRight({ userId}) {
                         alt="profilepic" 
                         className="w-60 h-60 rounded-full border-4 border-blue-gray-900 block my-0 mx-auto" />     
             </div>               
-            <h1 className='text-2xl font-bold tracking-tight text-gray-900 text-center'>user.name Benedict</h1>
+            <h1 className='text-2xl font-bold tracking-tight text-gray-900 text-center'>{user.name}</h1>
             <h1 className='text-xl font-bold tracking-tight text-gray-900 mt-5'>About</h1>
             <table className="table-auto text-left">
             <tbody>
@@ -25,11 +25,11 @@ function ProductRight({ userId}) {
                 </tr>
                 <tr>
                     <td>Dept:</td>
-                    <td>Computer Engineering</td>               
+                    <td>{user.department}</td>               
                 </tr>
                 <tr>                
                     <td>Level:</td>
-                    <td>500level</td>
+                    <td>{user.level}level</td>
                 </tr>
                 <tr>                
                     <td>Campus:</td>
