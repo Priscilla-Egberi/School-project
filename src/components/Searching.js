@@ -44,6 +44,7 @@ function SearchInput({ data }) {
                 cardId={item.id} // Use 'cardId' instead of 'id'
                 name={item.name}
                 amount={item.amount}
+                condition={item.condition}
                 type={item.type}
                 detail={item.imgUrl[0]}
               />
