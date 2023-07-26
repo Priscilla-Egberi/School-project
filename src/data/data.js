@@ -197,13 +197,13 @@ export const Img =[
     },
     {
         id: 15,
-        name: "Item 15",
+        name: "T-shirt",
         amount: "#39660",
         condition: "fairly used",
         category: "Clothings and Jewelries",
         addressForPickUp: "Address 15",
         imgUrl: [
-            "https://via.placeholder.com/500?text=Image15&bg=222",
+            "https://images.unsplash.com/photo-1562157873-818bc0726f68?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dCUyMHNoaXJ0fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
             "https://via.placeholder.com/500?text=Image15&bg=444",
             "https://via.placeholder.com/500?text=Image15&bg=666"
         ],
@@ -435,13 +435,13 @@ export const Img =[
     },
     {
         id: 32,
-        name: "Item 32",
+        name: "Earrings",
         amount: "#14686",
         condition: "fairly used",
         category: "Clothings and Jewelries",
         addressForPickUp: "Address 32",
         imgUrl: [
-            "https://via.placeholder.com/500?text=Image32&bg=222",
+            "https://images.unsplash.com/photo-1629224316810-9d8805b95e76?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZWFycmluZ3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
             "https://via.placeholder.com/500?text=Image32&bg=444",
             "https://via.placeholder.com/500?text=Image32&bg=666"
         ],
@@ -575,13 +575,13 @@ export const Img =[
     },
     {
         id: 42,
-        name: "Item 42",
+        name: "Suit",
         amount: "#37784",
         condition: "new",
         category: "Clothings and Jewelries",
         addressForPickUp: "Address 42",
         imgUrl: [
-            "https://via.placeholder.com/500?text=Image42&bg=222",
+            "https://images.unsplash.com/photo-1585412459212-8def26f7e84c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHN1aXR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
             "https://via.placeholder.com/500?text=Image42&bg=444",
             "https://via.placeholder.com/500?text=Image42&bg=666"
         ],
