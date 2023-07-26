@@ -1,24 +1,50 @@
-
+import {
+  Card,
+  CardHeader,
+  CardBody,
+  CardFooter,
+  Typography,
+  Button,
+} from "@material-tailwind/react";
  
 export default function EcommerceCard(props) {
   return (
-    
-<div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-    
-        <img class="p-8 rounded-t-lg" src={props.detail} alt="product image" />
-    
-    <div class="px-5 pb-5">
-        
-            <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">{props.name}</h5>
-        
-        
-        <div class="flex items-center justify-between">
-            <span class="text-3xl font-bold text-gray-900 dark:text-white">{props.amount}</span>
-            <p class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">{props.condition}</p>
+    <Card className="min-w-[100px]">
+      <CardHeader shadow={false} floated={false} className="min-h-[100px]">
+        <img
+          src={props.detail}
+          alt="card-image"
+          className="h-full w-full object-cover"
+        />
+      </CardHeader>
+      <CardBody>
+        <div className="mb-2 flex items-center justify-between">
+          <Typography color="blue-gray" className="font-medium text-xs">
+            {props.name}
+          </Typography>
+          <Typography color="blue-gray" className="font-medium text-xs">
+            {props.amount}
+          </Typography>
         </div>
-    </div>
-</div>
-
+        <Typography
+          variant="small"
+          color="gray"
+          className="font-normal opacity-75"
+        >
+          {/* With plenty of talk and listen time, voice-activated Siri access, and
+          an available wireless charging case. */}
+        </Typography>
+      </CardBody>
+      <CardFooter className="pt-0">
+        <Button
+          ripple={false}
+          fullWidth={true}
+          className="bg-blue-gray-900/10 text-xs text-blue-gray-900 shadow-none hover:scale-105 hover:shadow-none focus:scale-105 focus:shadow-none active:scale-100"
+        >
+          {props.condition}
+        </Button>
+      </CardFooter>
+    </Card>
   );
 }
 
