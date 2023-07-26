@@ -141,13 +141,13 @@ export const Img =[
     },
     {
         id: 11,
-        name: "Item 11",
-        amount: "#47250",
+        name: "Sticker notes",
+        amount: "#470",
         condition: "new",
         category: "School Materials",
         addressForPickUp: "Address 11",
         imgUrl: [
-            "https://via.placeholder.com/500?text=Image11&bg=222",
+            "https://ae01.alicdn.com/kf/HTB1tH7YXLWG3KVjSZFPq6xaiXXau/100-sheets-76-76mm-Size-color-paper-Memo-Pad-Sticky-Notes-Bookmark-Point-it-Marker-Memo.jpg_220x220xz.jpg_.webp",
             "https://via.placeholder.com/500?text=Image11&bg=444",
             "https://via.placeholder.com/500?text=Image11&bg=666"
         ],
