@@ -7,7 +7,7 @@ import {Routes, Route} from "react-router-dom"
 import SignUp from '../login/SignUp'
 import LoginMain from "../login/Login"
 import RoutableHomeSide from '../components/RoutableHomeSide'
-import Electronics from "../components/Electronics"
+import Electronics from "../components/sidebarPages/Electronics"
 import Clothings from "../components/Clothings"
 import Tutorial from "../components/Tutorial"
 import Product from "../components/product/Product"
