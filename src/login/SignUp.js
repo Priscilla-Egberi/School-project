@@ -8,7 +8,7 @@ function SignUpForm() {
     const [formData, setFormData] = useState({
         first_name: '',
         last_name: '',
-        username: '',
+        reg_no: '',
         email: '',
         password: ''
       });
@@ -26,7 +26,7 @@ function SignUpForm() {
         const userData = {
           first_name: formData.first_name,
           last_name: formData.last_name,
-          username: formData.username,
+          reg_no: formData.reg_no,
           email: formData.email,
           password: formData.password,
         };
@@ -62,7 +62,7 @@ function SignUpForm() {
         setFormData({
           first_name: '',
           last_name: '',
-          username: '',
+          reg_no: '',
           email: '',
           password: '',
         });
@@ -136,11 +136,11 @@ function SignUpForm() {
 				 <input
                             className="pl-2 outline-none border-none"
                             type="text"
-                            id="username"
-                            name="username"
-                            placeholder="username"
+                            id="reg_no"
+                            name="reg_no"
+                            placeholder="reg_no"
                             required
-                            value={formData.username}
+                            value={formData.reg_no}
                             onChange={handleChange}
                             />
       </div>			

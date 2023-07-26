@@ -7,7 +7,7 @@ function Login() {
   const navigate = useNavigate()
   
     const [formData, setFormData] = useState({
-        username: '',
+        email: '',
         password: ''
       });
     
@@ -22,7 +22,7 @@ function Login() {
       
         // Create an object with the user data to be sent in the request body
         const userData = {
-          username: formData.username,
+          email: formData.email,
           password: formData.password,
         };
       
@@ -52,7 +52,7 @@ function Login() {
       
         // Resetting the form fields
         setFormData({
-          username: '',
+          email: '',
           password: '',
         });
       };
@@ -89,12 +89,12 @@ function Login() {
 				</svg>
 				 <input
                             className="pl-2 outline-none border-none"
-                            type="text"
-                            id="username"
-                            name="username"
-                            placeholder="username"
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="email"
                             required
-                            value={formData.username}
+                            value={formData.email}
                             onChange={handleChange}
                             />
       </div>
