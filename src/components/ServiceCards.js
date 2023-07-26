@@ -3,6 +3,7 @@ import React from 'react'
 function ServiceCards(props) {
   return (
     <div>
+      <Link to={`/services/${props.cardId}`}>
         <div className='py-4 border-b-2 border-gray-300'>
        <div className="md:flex items-start justify-between md:px-16">
        <div className='flex flex-row items-center'>
@@ -19,6 +20,7 @@ function ServiceCards(props) {
        </div>
        <p className='md:px-16'>{props.description}</p>
     </div>
+    </Link>
     </div>
   )
 }
