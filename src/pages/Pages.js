@@ -21,8 +21,8 @@ import HairDressing from "../components/sidebarPages/HairDressing"
 import ClothingsJewelries from "../components/sidebarPages/ClothingsJewelries"
 import HousePainting from "../components/sidebarPages/HousePainting"
 import LaptopRepairs from "../components/sidebarPages/LaptopRepairs"
-
 import Product from "../components/product/Product"
+import Work from "../components/product/Work"
 import Body from "../components/account/BodyAccount"
 import AddItem from "../components/account/AddNewItem"
 import VerficationNot from '../components/account/VerficationNot'
@@ -66,7 +66,7 @@ export default function pages() {
           <Route path="/tailoring" element={<Tailoring />}/>
           <Route path="/test" element={<Test />}/>
           <Route path="/goods/:cardId" element={<Product />}/>
-          <Route path="/services/:cardId" element={<Product />}/>
+          <Route path="/services/:cardId" element={<Work />}/>
           <Route path="/goods" element={<Goods />} />
           <Route path="/services" element={<Services />}/>          
         </Route>
