@@ -7,7 +7,7 @@ import {
   Button,
 } from "@material-tailwind/react";
  
-export function EcommerceCard(props) {
+export default function EcommerceCard(props) {
   return (
     <Card className="w-96">
       <CardHeader shadow={false} floated={false} className="h-96">
