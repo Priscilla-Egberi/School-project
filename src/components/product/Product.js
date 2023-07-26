@@ -31,7 +31,7 @@ function Product() {
             {/* slide-section1 */}
             <div className="flex flex-row mb-3">
                 <div id="sideslide" className="flex flex-col  justify-center  w-5/12 items-center gap-y-4">                        
-                        <img src="https://images.unsplash.com/photo-1600091166971-7f9faad6c1e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHN1aXR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="" className="rounded-lg w-12"
+                        <img src={Img[0].imgUrl[0]} alt="" className="rounded-lg w-12"
                         key={1}
                         // key={Img[0].id}
                         onClick={() => clickHandler(0)} 
