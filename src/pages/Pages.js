@@ -43,7 +43,8 @@ export default function pages() {
           <Route path="/tutorial" element={<Tutorial />}/>
           <Route path="/test" element={<Test />}/>
           <Route path="/goods/:cardId" element={<Product />}/>
-          
+          <Route path="/goods" element={<Goods />} />
+          <Route path="/services" element={<Services />}/>          
         </Route>
 
         <Route path="/login" element={<Login />}>
@@ -52,10 +53,8 @@ export default function pages() {
         </Route>
 
         {/* ------------------- GOODS */}
-        <Route exact path="/goods" element={<Goods />} />
        
-        <Route path="/services" element={<Services />}>
-        </Route>
+        
 
         {/* -------------------ACCOUNT */}
         <Route path="/account" element={<Account />}>
