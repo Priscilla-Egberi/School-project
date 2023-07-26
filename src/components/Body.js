@@ -18,7 +18,7 @@ function Body() {
       <h2 className="text-2xl font-bold tracking-tight text-gray-900">Electronics</h2>
       <Link to="/electronics" className='flex flex-row items-center'>See more <IoArrowForwardSharp className="ml-1" /></Link>
       </div>
-    <div className="mt-6 grid grid-cols-3 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+    <div className="mt-6 grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
     {filteredElectronics.map((item) => (
           <div key={item.id}>
           <Link to={`/goods/${item.id}`}>
@@ -44,7 +44,7 @@ function Body() {
       <h2 className="text-2xl font-bold tracking-tight text-gray-900">Clothings</h2>
       <Link to="/clothings" className='flex flex-row items-center'>See more <IoArrowForwardSharp className="ml-1" /></Link>
   </div>    
-    <div className="mt-6 grid grid-cols-3 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+    <div className="mt-6 grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
     {filteredClothingsJewelries.map((item) => (
                     <div key={item.id}>
                     <Link to={`/goods/${item.id}`}>
@@ -65,7 +65,7 @@ function Body() {
       <h2 className="text-2xl font-bold tracking-tight text-gray-900">School materials</h2>
       <Link to="/schoolMaterial" className='flex flex-row items-center'>See more <IoArrowForwardSharp className="ml-1" /></Link>
       </div>    
-    <div className="mt-6 grid grid-cols-3 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+    <div className="mt-6 grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
     {filteredSchool.map((item) => (
           <div key={item.id}>
           <Link to={`/goods/${item.id}`}>
@@ -86,7 +86,7 @@ function Body() {
       <h2 className="text-2xl font-bold tracking-tight text-gray-900">Health and Beauty</h2>
       <Link to="/healthBeauty" className='flex flex-row items-center'>See more <IoArrowForwardSharp className="ml-1" /></Link>
       </div>
-    <div className="mt-6 grid grid-cols-3 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">      
+    <div className="mt-6 grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">      
     {filteredHealth.map((item) => (
           <div key={item.id}>
           <Link to={`/goods/${item.id}`}>
