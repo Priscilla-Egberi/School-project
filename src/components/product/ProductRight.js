@@ -3,7 +3,8 @@ import { RiWhatsappFill } from "react-icons/ri";
 import { FaFacebook, FaPhoneAlt, FaFlag } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
-function ProductRight() {
+function ProductRight({ userId, userData }) {
+    const user = userData.find(user => user.id === userId);
   return (
     <>
          <div className="px-3 py-5 bg-white">
@@ -12,7 +13,7 @@ function ProductRight() {
                         alt="profilepic" 
                         className="w-60 h-60 rounded-full border-4 border-blue-gray-900 block my-0 mx-auto" />     
             </div>               
-            <h1 className='text-2xl font-bold tracking-tight text-gray-900 text-center'>Julian Benedict</h1>
+            <h1 className='text-2xl font-bold tracking-tight text-gray-900 text-center'>{user.name} Benedict</h1>
             <h1 className='text-xl font-bold tracking-tight text-gray-900 mt-5'>About</h1>
             <table className="table-auto text-left">
             <tbody>

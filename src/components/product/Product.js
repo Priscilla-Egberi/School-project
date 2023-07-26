@@ -19,11 +19,13 @@ function Product() {
     const item = findObjectById(parseInt(id));
     console.log(item.name, item.id, item.name)
 
-    const [src, setSrc] = useState(Img[0].imgUrl[0])
+    const [src, setSrc] = useState(Img[item.id].imgUrl[0])
     const clickHandler = (myIndex) =>{
-        setSrc(Img[0].imgUrl[myIndex])
+        setSrc(Img[item.id].imgUrl[myIndex])
         console.log(src)
     }
+
+    const selectedGoods = Img.find(goods => goods.id === Number(id));
   return (
     <div className='md:grid grid-cols-5 gap-x-8'>
        
@@ -31,19 +33,19 @@ function Product() {
             {/* slide-section1 */}
             <div className="flex flex-row mb-3">
                 <div id="sideslide" className="flex flex-col  justify-center  w-5/12 items-center gap-y-4">                        
-                        <img src={Img[0].imgUrl[0]} alt="" className="rounded-lg w-12"
+                        <img src={Img[item.id].imgUrl[0]} alt="" className="rounded-lg w-12"
                         key={1}
-                        // key={Img[0].id}
+                        // key={Img[item.id].id}
                         onClick={() => clickHandler(0)} 
                         /> 
-                        <img src="https://images.unsplash.com/photo-1585412459212-8def26f7e84c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHN1aXR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="" className="rounded-lg w-12"
+                        <img src={Img[item.id].imgUrl[1]} alt="" className="rounded-lg w-12"
                         // key={Img[1].id}
                         key={2}
                         onClick={() => clickHandler(1)}
                         /> 
                         
                         
-                        <img src="https://images.unsplash.com/photo-1620754430927-9cb95a5a585f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHN1aXR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="" className="rounded-lg w-12"
+                        <img src={Img[item.id].imgUrl[2]} alt="" className="rounded-lg w-12"
                         // key={Img[2].id}
                         key={3}
                         onClick={() => clickHandler(2)}
@@ -90,7 +92,7 @@ function Product() {
         </div>
     
        <section className='col-span-2 flex flex-col justify-between leading-6'>
-            <ProductRight />
+            <ProductRight userId={selectedGoods.userId} />
        </section>
     </div>
   )
