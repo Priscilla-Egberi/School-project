@@ -11,7 +11,7 @@ function ProductRight({ userId}) {
     <>
          <div className="px-3 py-5 bg-white">
             <div className="flex justify-center items-center">
-                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cHJvZmlsZSUyMGltYWdlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" 
+                        <img src={user.imgUrl} 
                         alt="profilepic" 
                         className="w-60 h-60 rounded-full border-4 border-blue-gray-900 block my-0 mx-auto" />     
             </div>               

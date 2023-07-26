@@ -19,9 +19,9 @@ function Product() {
     const item = findObjectById(parseInt(id));
     console.log(item.name, item.id, item.name)
 
-    const [src, setSrc] = useState(Img[item.id].imgUrl[0])
+    const [src, setSrc] = useState(item.imgUrl[0])
     const clickHandler = (myIndex) =>{
-        setSrc(Img[item.id].imgUrl[myIndex])
+        setSrc(item.imgUrl[myIndex])
         console.log(src)
     }
 
@@ -34,19 +34,19 @@ function Product() {
             {/* slide-section1 */}
             <div className="flex flex-row mb-3">
                 <div id="sideslide" className="flex flex-col  justify-center  w-5/12 items-center gap-y-4">                        
-                        <img src={Img[item.id].imgUrl[0]} alt="" className="rounded-lg w-12"
+                        <img src={item.imgUrl[0]} alt="" className="rounded-lg w-12"
                         key={1}
                         // key={Img[item.id].id}
                         onClick={() => clickHandler(0)} 
                         /> 
-                        <img src={Img[item.id].imgUrl[1]} alt="" className="rounded-lg w-12"
+                        <img src={item.imgUrl[1]} alt="" className="rounded-lg w-12"
                         // key={Img[1].id}
                         key={2}
                         onClick={() => clickHandler(1)}
                         /> 
                         
                         
-                        <img src={Img[item.id].imgUrl[2]} alt="" className="rounded-lg w-12"
+                        <img src={item.imgUrl[2]} alt="" className="rounded-lg w-12"
                         // key={Img[2].id}
                         key={3}
                         onClick={() => clickHandler(2)}
