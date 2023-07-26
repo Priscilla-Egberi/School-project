@@ -66,6 +66,7 @@ export default function pages() {
           <Route path="/tailoring" element={<Tailoring />}/>
           <Route path="/test" element={<Test />}/>
           <Route path="/goods/:cardId" element={<Product />}/>
+          <Route path="/services/:cardId" element={<Product />}/>
           <Route path="/goods" element={<Goods />} />
           <Route path="/services" element={<Services />}/>          
         </Route>
