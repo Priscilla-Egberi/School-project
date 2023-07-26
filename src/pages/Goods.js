@@ -16,7 +16,7 @@ function Goods() {
         {/* <div className="md:mx-20 mx-5 my-12">
         <DropDown />
         </div> */}
-                      <div className="mt-5 mx-3 md:mx-20 grid grid-cols-3 md:grid-cols-4 gap-4 ">
+                      <div className="mt-5 mx-3 md:mx-20 grid grid-cols-1 md:grid-cols-4 gap-4 ">
                       {Img.map(goods => (
                                 <div key={goods.id}>
                                   <Link to={`/goods/${goods.id}`}>
