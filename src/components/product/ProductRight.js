@@ -2,8 +2,9 @@ import React from 'react'
 import { RiWhatsappFill } from "react-icons/ri";
 import { FaFacebook, FaPhoneAlt, FaFlag } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import { userData } from '../../data/user';
 
-function ProductRight({ userId, userData }) {
+function ProductRight({ userId}) {
     const user = userData.find(user => user.id === userId);
   return (
     <>
