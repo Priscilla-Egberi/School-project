@@ -1,13 +1,13 @@
 export const Img =[
     {
         id: 1,
-        name: "Item 1",
-        amount: "#4352",
+        name: "Steel Whisk",
+        amount: "#435",
         condition: "fairly used",
         category: "Home Utensils",
         addressForPickUp: "Address 1",
         imgUrl: [
-            "https://via.placeholder.com/500?text=Image1&bg=222",
+            "https://media.istockphoto.com/id/1359275845/photo/stainless-steel-whisk.webp?b=1&s=170667a&w=0&k=20&c=X5pGvRMY6KYl0ib5s9iWYUuwm9BIH0o_Jx2sn3QPI-E=",
             "https://via.placeholder.com/500?text=Image1&bg=444",
             "https://via.placeholder.com/500?text=Image1&bg=666"
         ],
@@ -16,7 +16,7 @@ export const Img =[
     {
         id: 2,
         name: "Item 2",
-        amount: "#7762",
+        amount: "#776",
         condition: "fairly used",
         category: "Health and Beauty",
         addressForPickUp: "Address 2",
@@ -30,7 +30,7 @@ export const Img =[
     {
         id: 3,
         name: "Item 3",
-        amount: "#1845",
+        amount: "#184",
         condition: "new",
         category: "Electronics",
         addressForPickUp: "Address 3",
@@ -44,7 +44,7 @@ export const Img =[
     {
         id: 4,
         name: "Item 4",
-        amount: "#27661",
+        amount: "#2766",
         condition: "fairly used",
         category: "Others",
         addressForPickUp: "Address 4",
@@ -57,13 +57,13 @@ export const Img =[
     },
     {
         id: 5,
-        name: "Item 5",
+        name: "Sets of spoons",
         amount: "#7890",
         condition: "fairly used",
         category: "Home Utensils",
         addressForPickUp: "Address 5",
         imgUrl: [
-            "https://via.placeholder.com/500?text=Image5&bg=222",
+            "https://media.istockphoto.com/id/1411382374/photo/metal-rack-with-set-of-kitchen-utensils-on-white-background.webp?b=1&s=170667a&w=0&k=20&c=wfo3Am6ujVii8UzT3Wts7fnBJA4gMfA9B0dki5UFpOA=",
             "https://via.placeholder.com/500?text=Image5&bg=444",
             "https://via.placeholder.com/500?text=Image5&bg=666"
         ],
@@ -71,13 +71,13 @@ export const Img =[
     },
     {
         id: 6,
-        name: "Item 6",
-        amount: "#44963",
+        name: "Cutting Board",
+        amount: "#4490",
         condition: "fairly used",
         category: "Home Utensils",
         addressForPickUp: "Address 6",
         imgUrl: [
-            "https://via.placeholder.com/500?text=Image6&bg=222",
+            "https://media.istockphoto.com/id/1401502719/photo/modern-kitchen-kitchenware-in-light-wood-color-with-ladle-cutting-boards-and-cookware-on-gray.webp?b=1&s=170667a&w=0&k=20&c=gERU13V0vCFW30i5ZF-lR304t9SvZsuRDMcjJTtEBgA=",
             "https://via.placeholder.com/500?text=Image6&bg=444",
             "https://via.placeholder.com/500?text=Image6&bg=666"
         ],
@@ -86,7 +86,7 @@ export const Img =[
     {
         id: 7,
         name: "Item 7",
-        amount: "#7964",
+        amount: "#7960",
         condition: "fairly used",
         category: "Electronics",
         addressForPickUp: "Address 7",
@@ -100,7 +100,7 @@ export const Img =[
     {
         id: 8,
         name: "Item 8",
-        amount: "#42106",
+        amount: "#4210",
         condition: "new",
         category: "Electronics",
         addressForPickUp: "Address 8",
@@ -114,7 +114,7 @@ export const Img =[
     {
         id: 9,
         name: "Item 9",
-        amount: "#14067",
+        amount: "#1406",
         condition: "new",
         category: "Electronics",
         addressForPickUp: "Address 9",
@@ -128,7 +128,7 @@ export const Img =[
     {
         id: 10,
         name: "Item 10",
-        amount: "#6966",
+        amount: "#6960",
         condition: "new",
         category: "Home Utensils",
         addressForPickUp: "Address 10",
@@ -142,7 +142,7 @@ export const Img =[
     {
         id: 11,
         name: "Item 11",
-        amount: "#47255",
+        amount: "#47250",
         condition: "new",
         category: "School material",
         addressForPickUp: "Address 11",
@@ -156,7 +156,7 @@ export const Img =[
     {
         id: 12,
         name: "Item 12",
-        amount: "#2102",
+        amount: "#2100",
         condition: "new",
         category: "Electronics",
         addressForPickUp: "Address 12",
@@ -169,13 +169,13 @@ export const Img =[
     },
     {
         id: 13,
-        name: "Item 13",
-        amount: "#27998",
+        name: "Enamel frying pan",
+        amount: "#27990",
         condition: "fairly used",
         category: "Home Utensils",
         addressForPickUp: "Address 13",
         imgUrl: [
-            "https://via.placeholder.com/500?text=Image13&bg=222",
+            "https://media.istockphoto.com/id/1370697180/photo/red-cast-iron-enamel-frying-pan-dutch-oven-isolated-on-white.webp?b=1&s=170667a&w=0&k=20&c=IuY9Kht36QneIsX4gv-ulN3nzUBnUTmk1Fuz_ioCQLk=",
             "https://via.placeholder.com/500?text=Image13&bg=444",
             "https://via.placeholder.com/500?text=Image13&bg=666"
         ],
@@ -183,13 +183,13 @@ export const Img =[
     },
     {
         id: 14,
-        name: "Item 14",
-        amount: "#42944",
+        name: "Flower vase",
+        amount: "#42940",
         condition: "new",
         category: "Home Utensils",
         addressForPickUp: "Address 14",
         imgUrl: [
-            "https://via.placeholder.com/500?text=Image14&bg=222",
+            "https://images.unsplash.com/photo-1523413651479-597eb2da0ad6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGhvbWUlMjB1dGVuc2lsc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
             "https://via.placeholder.com/500?text=Image14&bg=444",
             "https://via.placeholder.com/500?text=Image14&bg=666"
         ],
@@ -212,7 +212,7 @@ export const Img =[
     {
         id: 16,
         name: "Item 16",
-        amount: "#49431",
+        amount: "#4940",
         condition: "new",
         category: "Electronics",
         addressForPickUp: "Address 16",
@@ -226,7 +226,7 @@ export const Img =[
     {
         id: 17,
         name: "Item 17",
-        amount: "#2782",
+        amount: "#2780",
         condition: "new",
         category: "School material",
         addressForPickUp: "Address 17",
@@ -239,13 +239,13 @@ export const Img =[
     },
     {
         id: 18,
-        name: "Item 18",
-        amount: "#47993",
+        name: "Modern pot",
+        amount: "#4799",
         condition: "new",
         category: "Home Utensils",
         addressForPickUp: "Address 18",
         imgUrl: [
-            "https://via.placeholder.com/500?text=Image18&bg=222",
+            "https://plus.unsplash.com/premium_photo-1661338814009-a466bfa31acd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhvbWUlMjB1dGVuc2lsc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
             "https://via.placeholder.com/500?text=Image18&bg=444",
             "https://via.placeholder.com/500?text=Image18&bg=666"
         ],
@@ -268,7 +268,7 @@ export const Img =[
     {
         id: 20,
         name: "Item 20",
-        amount: "#23643",
+        amount: "#23640",
         condition: "fairly used",
         category: "School material",
         addressForPickUp: "Address 20",
@@ -282,7 +282,7 @@ export const Img =[
     {
         id: 21,
         name: "Item 21",
-        amount: "#29981",
+        amount: "#29980",
         condition: "new",
         category: "Electronics",
         addressForPickUp: "Address 21",
@@ -296,7 +296,7 @@ export const Img =[
     {
         id: 22,
         name: "Item 22",
-        amount: "#12719",
+        amount: "#12710",
         condition: "fairly used",
         category: "Others",
         addressForPickUp: "Address 22",
@@ -309,13 +309,13 @@ export const Img =[
     },
     {
         id: 23,
-        name: "Item 23",
+        name: "Sets of Plates",
         amount: "#36231",
         condition: "new",
         category: "Home Utensils",
         addressForPickUp: "Address 23",
         imgUrl: [
-            "https://via.placeholder.com/500?text=Image23&bg=222",
+            "https://images.unsplash.com/photo-1484632152040-840235adc262?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGhvbWUlMjB1dGVuc2lsc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
             "https://via.placeholder.com/500?text=Image23&bg=444",
             "https://via.placeholder.com/500?text=Image23&bg=666"
         ],
@@ -323,13 +323,13 @@ export const Img =[
     },
     {
         id: 24,
-        name: "Item 24",
+        name: "Mattress",
         amount: "#29950",
         condition: "new",
         category: "Home Utensils",
         addressForPickUp: "Address 24",
         imgUrl: [
-            "https://via.placeholder.com/500?text=Image24&bg=222",
+            "https://media.istockphoto.com/id/1386819139/photo/bed-and-single-mattress-white-color-in-a-bedroom-comfort-sleep-concept-3d-render.webp?b=1&s=170667a&w=0&k=20&c=Ep_ExlXRLN48an20JUCI8kKtFpOWgMbbAsv0zqXa4pE=",
             "https://via.placeholder.com/500?text=Image24&bg=444",
             "https://via.placeholder.com/500?text=Image24&bg=666"
         ],
@@ -379,13 +379,13 @@ export const Img =[
     },
     {
         id: 28,
-        name: "Item 28",
+        name: "Mattress",
         amount: "#25411",
         condition: "fairly used",
         category: "Home Utensils",
         addressForPickUp: "Address 28",
         imgUrl: [
-            "https://via.placeholder.com/500?text=Image28&bg=222",
+            "https://media.istockphoto.com/id/1430080532/photo/bedroom-without-sheets.webp?b=1&s=170667a&w=0&k=20&c=nr7-trqA-P0HiysMRnHCwl_wvZznOSeQyeIojfGKI0Y=",
             "https://via.placeholder.com/500?text=Image28&bg=444",
             "https://via.placeholder.com/500?text=Image28&bg=666"
         ],
@@ -477,13 +477,13 @@ export const Img =[
     },
     {
         id: 35,
-        name: "Item 35",
+        name: "Mattress",
         amount: "#27219",
         condition: "new",
         category: "Home Utensils",
         addressForPickUp: "Address 35",
         imgUrl: [
-            "https://via.placeholder.com/500?text=Image35&bg=222",
+            "https://media.istockphoto.com/id/1430080532/photo/bedroom-without-sheets.webp?b=1&s=170667a&w=0&k=20&c=nr7-trqA-P0HiysMRnHCwl_wvZznOSeQyeIojfGKI0Y=",
             "https://via.placeholder.com/500?text=Image35&bg=444",
             "https://via.placeholder.com/500?text=Image35&bg=666"
         ],
@@ -519,13 +519,13 @@ export const Img =[
     },
     {
         id: 38,
-        name: "Item 38",
+        name: "Mattress",
         amount: "#36505",
         condition: "fairly used",
         category: "Others",
         addressForPickUp: "Address 38",
         imgUrl: [
-            "https://via.placeholder.com/500?text=Image38&bg=222",
+            "https://images.unsplash.com/photo-1583535045024-e2479a694777?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bWF0dHJlc3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
             "https://via.placeholder.com/500?text=Image38&bg=444",
             "https://via.placeholder.com/500?text=Image38&bg=666"
         ],
