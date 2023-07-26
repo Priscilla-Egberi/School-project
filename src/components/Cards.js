@@ -12,12 +12,12 @@ function Cards(props) {
             <h3 className="text-sm text-gray-700">
               <a href="#">
                 <span aria-hidden="true" className="absolute inset-0"></span>
-                Basic Tee
+                {props.name}
               </a>
             </h3>
-            <p className="mt-1 text-sm text-gray-500">Black</p>
+            <p className="mt-1 text-sm text-gray-500">{props.condition}</p>
           </div>
-          <p className="text-sm font-medium text-gray-900">$35</p>
+          <p className="text-sm font-medium text-gray-900">{props.amount}</p>
         </div>
       </div>
     </div>
