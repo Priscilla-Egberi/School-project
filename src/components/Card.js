@@ -27,10 +27,13 @@ import {
         </CardHeader>
         <CardBody className="p-1 h-1/4" style={{backgroundColor:"#F3F3F3 !important"}}>
           <Typography variant="h3" color="blue-gray" className="text-sm">
-            $4000
+            {props.name}
+          </Typography>
+          <Typography variant="h3" color="blue-gray" className="text-sm">
+            {props.amount}
           </Typography>
           <Typography variant="lead" color="gray" className="mt-3 font-normal text-xs">
-            Because it's about 
+            {props.condition} 
           </Typography>
         </CardBody>
         
