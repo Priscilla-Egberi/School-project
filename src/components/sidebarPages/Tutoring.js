@@ -1,10 +1,9 @@
 import React from 'react'
-import Cards from "../Cards"
-import {Img} from "../../data/data"
-import { Link } from 'react-router-dom'
+import Cards from "../ServiceCards"
+import {serviceData} from "../../data/service"
 
 function Tutoring() {
-  const filteredTutoring = Img.filter((item) => item.category === 'Tutoring');
+  const filteredTutoring = serviceData.filter((item) => item.category === 'Tutoring');
 console.log(filteredTutoring);
   return (
     <>
@@ -16,12 +15,19 @@ console.log(filteredTutoring);
     <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
         {filteredTutoring.map((item) => (
           <div key={item.id}>
-          <Link to={`/goods/${item.id}`}>
-                <Cards name={item.name} condition={item.condition} amount={item.amount} detail={item.imgUrl[0]} className="col-span-1" />
+                                  
+          <Cards 
+          // Replace 'id' with the unique identifier in your data
+         cardId={item.id} // Use 'cardId' instead of 'id'
+         userName={item.name}
+         service={item.service}              
+         description={item.description}
+         userImg={item.img}
+         className="col-span-1" />
 
-            {/* <h3>{item.title}</h3> */}
-          </Link>
-        </div>
+      {/* <h3>{goods.title}</h3> */}
+    
+  </div>
         ))}
     </div>
   </div>
