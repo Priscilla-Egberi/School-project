@@ -67,7 +67,7 @@ export const userData = [
         name: "Elijah Monye",
         department: "Computer Engineering",
         level: "300",
-        imgUrl: "hhttps://xsgames.co/randomusers/assets/avatars/male/3.jpg"
+        imgUrl: "https://xsgames.co/randomusers/assets/avatars/male/3.jpg"
     },
     {
         id: 11,
@@ -88,14 +88,14 @@ export const userData = [
         name: "Jackson Sebastian",
         department: "Petroleum Engineering",
         level: "300",
-        imgUrl: "hhttps://xsgames.co/randomusers/assets/avatars/male/4.jpg"
+        imgUrl: "https://xsgames.co/randomusers/assets/avatars/male/4.jpg"
     },
     {
         id: 14,
         name: "Andrew Crutle",
         department: "Petroleum Engineering",
         level: "400",
-        imgUrl: "hhttps://xsgames.co/randomusers/assets/avatars/male/5.jpg"
+        imgUrl: "https://xsgames.co/randomusers/assets/avatars/male/5.jpg"
     },
     {
         id: 15,

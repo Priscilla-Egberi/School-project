@@ -29,13 +29,13 @@ export const Img =[
     },
     {
         id: 3,
-        name: "Item 3",
+        name: "Bluetooth Earphones",
         amount: "#184",
         condition: "new",
         category: "Electronics",
         addressForPickUp: "Address 3",
         imgUrl: [
-            "https://via.placeholder.com/500?text=Image3&bg=222",
+            "https://media.istockphoto.com/id/1363897157/photo/wireless-in-ear-headphones-insulated-with-black-leather-on-a-white-background.webp?b=1&s=170667a&w=0&k=20&c=mIsIC3vfgFyqR-_72fhs6V69fyXXpEpJgHHhVv1RZbQ=",
             "https://via.placeholder.com/500?text=Image3&bg=444",
             "https://via.placeholder.com/500?text=Image3&bg=666"
         ],
@@ -85,13 +85,13 @@ export const Img =[
     },
     {
         id: 7,
-        name: "Item 7",
+        name: "Infinix EarPiece",
         amount: "#7960",
         condition: "fairly used",
         category: "Electronics",
         addressForPickUp: "Address 7",
         imgUrl: [
-            "https://via.placeholder.com/500?text=Image7&bg=222",
+            "https://images.unsplash.com/photo-1608156639585-b3a032ef9689?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZWFycGhvbmVzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
             "https://via.placeholder.com/500?text=Image7&bg=444",
             "https://via.placeholder.com/500?text=Image7&bg=666"
         ],
@@ -99,13 +99,13 @@ export const Img =[
     },
     {
         id: 8,
-        name: "Item 8",
+        name: "Iphone 8",
         amount: "#4210",
         condition: "new",
         category: "Electronics",
         addressForPickUp: "Address 8",
         imgUrl: [
-            "https://via.placeholder.com/500?text=Image8&bg=222",
+            "https://images.unsplash.com/photo-1513595086754-ae9ec42d7e90?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZWFycGhvbmVzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
             "https://via.placeholder.com/500?text=Image8&bg=444",
             "https://via.placeholder.com/500?text=Image8&bg=666"
         ],
@@ -113,13 +113,13 @@ export const Img =[
     },
     {
         id: 9,
-        name: "Item 9",
-        amount: "#1406",
+        name: "Apple Laptop",
+        amount: "#140600",
         condition: "new",
         category: "Electronics",
         addressForPickUp: "Address 9",
         imgUrl: [
-            "https://via.placeholder.com/500?text=Image9&bg=222",
+            "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TGFwdG9wfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
             "https://via.placeholder.com/500?text=Image9&bg=444",
             "https://via.placeholder.com/500?text=Image9&bg=666"
         ],
