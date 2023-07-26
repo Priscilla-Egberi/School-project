@@ -9,7 +9,7 @@ import LoginMain from "../login/Login"
 import RoutableHomeSide from '../components/RoutableHomeSide'
 import Electronics from "../components/sidebarPages/Electronics"
 import OthersGoods from '../components/sidebarPages/OthersGoods'
-import OthersService from "../components/sidebarPages/OtherService"
+import OthersService from "../components/sidebarPages/OthersService"
 import SchoolMaterial from "../components/sidebarPages/SchoolMaterial"
 import Tailoring from "../components/sidebarPages/Tailoring"
 import TechJob from "../components/sidebarPages/TechJob"
