@@ -449,13 +449,13 @@ export const Img =[
     },
     {
         id: 33,
-        name: "Item 33",
+        name: "VItamin A",
         amount: "#44541",
         condition: "new",
         category: "Health and Beauty",
         addressForPickUp: "Address 33",
         imgUrl: [
-            "https://via.placeholder.com/500?text=Image33&bg=222",
+            "https://media.istockphoto.com/id/1355237368/photo/facial-serum-in-a-glass-bottle-with-vitamin-c-a-cosmetic-product-with-a-natural-ingredient.webp?b=1&s=170667a&w=0&k=20&c=MjzIAKkiuoohKp1vDr2lKppkB71lM8hue6t7UtMA4qo=",
             "https://via.placeholder.com/500?text=Image33&bg=444",
             "https://via.placeholder.com/500?text=Image33&bg=666"
         ],
@@ -561,13 +561,13 @@ export const Img =[
     },
     {
         id: 41,
-        name: "Item 41",
+        name: "Facial roller",
         amount: "#11691",
         condition: "fairly used",
         category: "Health and Beauty",
         addressForPickUp: "Address 41",
         imgUrl: [
-            "https://via.placeholder.com/500?text=Image41&bg=222",
+            "https://plus.unsplash.com/premium_photo-1661583858269-08663e903abf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGJlYXV0eSUyMHByb2R1Y3RzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
             "https://via.placeholder.com/500?text=Image41&bg=444",
             "https://via.placeholder.com/500?text=Image41&bg=666"
         ],

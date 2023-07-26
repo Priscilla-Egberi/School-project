@@ -60,7 +60,7 @@ function Product() {
             {/* descriptions-section2 */}
             <div className="py-5">
                     <div className="flex flex-row justify-between border-l-4 border-orange-900 rounded-sm mb-3">
-                        <h1 className='text-2xl font-bold tracking-tight text-gray-900 pl-2'>Designers Dark Red<br/> New</h1>
+                        <h1 className='text-2xl font-bold tracking-tight text-gray-900 pl-2'>{item.name}<br/>{item.condition}</h1>
                         <h1 className='text-2xl font-bold tracking-tight text-gray-900'>#85,000</h1>
                     </div>
                     <p className='flex flex-row items-center'><AiOutlineClockCircle /> Posted 3hrs ago</p>
