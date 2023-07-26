@@ -1,6 +1,6 @@
 import React from 'react'
 
-function ServiceCards({props}) {
+function ServiceCards(props) {
   return (
     <div>
         <div className='py-4 border-b-2 border-gray-300'>
