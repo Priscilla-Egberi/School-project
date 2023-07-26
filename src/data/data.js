@@ -15,13 +15,13 @@ export const Img =[
     },
     {
         id: 2,
-        name: "Item 2",
+        name: "Brush set",
         amount: "#776",
         condition: "fairly used",
         category: "Health and Beauty",
         addressForPickUp: "Address 2",
         imgUrl: [
-            "https://via.placeholder.com/500?text=Image2&bg=222",
+            "https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmVhdXR5JTIwcHJvZHVjdHN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60https://via.placeholder.com/500?text=Image2&bg=222",
             "https://via.placeholder.com/500?text=Image2&bg=444",
             "https://via.placeholder.com/500?text=Image2&bg=666"
         ],
@@ -351,13 +351,13 @@ export const Img =[
     },
     {
         id: 26,
-        name: "Item 26",
+        name: "Essential Oil",
         amount: "#43910",
         condition: "new",
         category: "Health and Beauty",
         addressForPickUp: "Address 26",
         imgUrl: [
-            "https://via.placeholder.com/500?text=Image26&bg=222",
+            "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YmVhdXR5JTIwcHJvZHVjdHN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
             "https://via.placeholder.com/500?text=Image26&bg=444",
             "https://via.placeholder.com/500?text=Image26&bg=666"
         ],
