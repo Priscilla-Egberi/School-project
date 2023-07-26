@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
 import Search from "../components/Searching";
 import {Img} from "../data/data"
 
