@@ -1,5 +1,6 @@
 import React, { useState, useMemo } from "react";
 import CardSearch from "./Cards"; // Importing the CardSearch component
+import { Link } from "react-router-dom";
 
 function SearchInput({ data }) {
   const [searchValue, setSearchValue] = useState('');
