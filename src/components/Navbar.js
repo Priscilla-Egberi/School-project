@@ -6,7 +6,6 @@ import {
   IconButton,
 } from "@material-tailwind/react";
 import logo from "../images/logo.jpg";
-import SearchComponent from "./SearchComponent";
 import CheckHomContext from './CheckHomContext';
 
  
