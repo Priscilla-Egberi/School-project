@@ -1,6 +1,7 @@
 import React from 'react'
 import Cards from "../Cards"
 import {Img} from "../../data/data"
+import { Link } from 'react-router-dom';
 
 function Catering() {
   const filteredCatering = Img.filter((item) => item.category === 'Catering');
@@ -14,11 +15,11 @@ console.log(filteredCatering);
 
     <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
         {filteredCatering.map((item) => (
-          <div key={goods.id}>
-          <Link to={`/goods/${goods.id}`}>
-                <Cards name={goods.name} condition={goods.condition} amount={goods.amount} detail={goods.imgUrl[0]} className="col-span-1" />
+          <div key={item.id}>
+          <Link to={`/goods/${item.id}`}>
+                <Cards name={item.name} condition={item.condition} amount={item.amount} detail={item.imgUrl[0]} className="col-span-1" />
 
-            {/* <h3>{goods.title}</h3> */}
+            {/* <h3>{item.title}</h3> */}
           </Link>
         </div>
         ))}
