@@ -25,7 +25,8 @@ function Product() {
         console.log(src)
     }
 
-    const selectedGoods = Img.find(goods => goods.id === Number(id));
+    // const selectedGoods = Img.find(goods => goods.id === Number(id));
+    const selectedGoods = item;
   return (
     <div className='md:grid grid-cols-5 gap-x-8'>
        
