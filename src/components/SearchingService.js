@@ -45,7 +45,7 @@ function SearchInput({ data }) {
                 userName={item.name}
                 service={item.service}              
                 description={item.description}
-                userImg={item.userImg}
+                userImg={item.img}
               />
             ))
           ) : showNoResultsMessage && (
