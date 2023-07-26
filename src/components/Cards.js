@@ -10,9 +10,16 @@ import {
 export default function EcommerceCard(props) {
   return (
     <Card className="min-w-[100px]">
-      <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">          
+      <CardHeader shadow={false} floated={false} className="overflow-hidden min-h-[100px]">
+        <img
+          src={props.detail}
+          alt="card-image"
+          className="h-full w-full object-cover object-center lg:h-full lg:w-full"
+        />
+      </CardHeader>
+{/* <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">          
 <img src={props.detail} alt="Basic Tee in black." className="h-full w-full object-cover object-center lg:h-full lg:w-full"/>
-</div>
+</div> */}
       <CardBody>
         <div className="mb-2 flex items-center justify-between">
           <Typography color="blue-gray" className="font-medium text-xs">
