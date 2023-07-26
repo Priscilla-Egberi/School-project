@@ -38,7 +38,7 @@ function Body() {
   <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
   <div className="hidden md:flex justify-between items-center">
       <h2 className="text-2xl font-bold tracking-tight text-gray-900">Jewelries and Clothings</h2>
-      <p className='flex flex-row items-center'>See more <IoArrowForwardSharp className="ml-1" /></p>
+      <Link to="/clothings" className='flex flex-row items-center'>See more <IoArrowForwardSharp className="ml-1" /></Link>
   </div>    
   <div className="flex md:hidden justify-between items-center">
       <h2 className="text-2xl font-bold tracking-tight text-gray-900">Clothings</h2>

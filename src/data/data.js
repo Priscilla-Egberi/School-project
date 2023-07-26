@@ -144,7 +144,7 @@ export const Img =[
         name: "Item 11",
         amount: "#47250",
         condition: "new",
-        category: "School material",
+        category: "School Materials",
         addressForPickUp: "Address 11",
         imgUrl: [
             "https://via.placeholder.com/500?text=Image11&bg=222",
@@ -228,7 +228,7 @@ export const Img =[
         name: "T-square",
         amount: "#2780",
         condition: "new",
-        category: "School material",
+        category: "School Materials",
         addressForPickUp: "Address 17",
         imgUrl: [
             "https://media.istockphoto.com/id/539056219/photo/t-square.webp?b=1&s=170667a&w=0&k=20&c=RmAyUKUfGGmAjnDzMeNjdrajKI-8XO2qjMFxJV5qE7s=",
@@ -270,7 +270,7 @@ export const Img =[
         name: "Wooden T-square",
         amount: "#23640",
         condition: "fairly used",
-        category: "School material",
+        category: "School Materials",
         addressForPickUp: "Address 20",
         imgUrl: [
             "https://media.istockphoto.com/id/622908576/photo/wooden-t-square-ruler-tool-with-inch-and-centimeter-measures.webp?b=1&s=170667a&w=0&k=20&c=rR5iMdBzNtnnRH0xMVt35qrTMrIaw1hfZAhOLj9i_9A=",
@@ -368,7 +368,7 @@ export const Img =[
         name: "Notebook",
         amount: "#45827",
         condition: "new",
-        category: "School material",
+        category: "School Materials",
         addressForPickUp: "Address 27",
         imgUrl: [
             "https://images.unsplash.com/photo-1554757387-fa0367573d09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bm90ZWJvb2t8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
@@ -393,13 +393,13 @@ export const Img =[
     },
     {
         id: 29,
-        name: "Item 29",
+        name: "HardCover Notebook",
         amount: "#21341",
         condition: "fairly used",
-        category: "School material",
+        category: "School Materials",
         addressForPickUp: "Address 29",
         imgUrl: [
-            "https://via.placeholder.com/500?text=Image29&bg=222",
+            "https://images.unsplash.com/photo-1581431886211-6b932f8367f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bm90ZWJvb2t8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
             "https://via.placeholder.com/500?text=Image29&bg=444",
             "https://via.placeholder.com/500?text=Image29&bg=666"
         ],
@@ -424,7 +424,7 @@ export const Img =[
         name: "Item 31",
         amount: "#35612",
         condition: "fairly used",
-        category: "School material",
+        category: "School Materials",
         addressForPickUp: "Address 31",
         imgUrl: [
             "https://via.placeholder.com/500?text=Image31&bg=222",
@@ -466,7 +466,7 @@ export const Img =[
         name: "Item 34",
         amount: "#8106",
         condition: "new",
-        category: "School material",
+        category: "School Materials",
         addressForPickUp: "Address 34",
         imgUrl: [
             "https://via.placeholder.com/500?text=Image34&bg=222",
@@ -634,7 +634,7 @@ export const Img =[
         name: "Item 46",
         amount: "#47772",
         condition: "fairly used",
-        category: "School material",
+        category: "School Materials",
         addressForPickUp: "Address 46",
         imgUrl: [
             "https://via.placeholder.com/500?text=Image46&bg=222",
