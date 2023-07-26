@@ -96,14 +96,15 @@ function AddServices() {
                     value={selectedCategory}
                     onChange={handleCategoryChange}
                   >
-                    <Option value="Electronics">Electronics</Option>
-                    <Option value="Clothings and Jewelries">Clothings and Jewelries</Option>
-                    <Option value="School material">School material</Option>
-                    <Option value="Home Utensils">Home Utensils</Option>
-                    <Option value="Health and Beauty">Health and Beauty</Option>
+                    <Option value="Tutoring">Tutoring</Option>
+                    <Option value="House Painting">House Painting</Option>
+                    <Option value="Hair Dressing">Hair Dressing</Option>
+                    <Option value="Laptop and Phone Repairs">Laptop and Phone Repairs</Option>
+                    <Option value="Tech related Jobs">Tech related Jobs</Option>
+                    <Option value="Tailoring">Tailoring</Option>
                     <Option value="Others">Others</Option>
                   </Select>
-                  <Select
+                  {/* <Select
                     size="lg"
                     label="Condition"
                     value={selectedCondition}
@@ -111,7 +112,7 @@ function AddServices() {
                   >
                     <Option value="New">New</Option>
                     <Option value="Fairly used">Fairly used</Option>
-                  </Select>
+                  </Select> */}
                   <Input
                     size="lg"
                     label="Preferred location"
