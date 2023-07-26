@@ -698,5 +698,19 @@ export const Img =[
             "https://via.placeholder.com/500?text=Image50&bg=666"
         ],
         userId: 10
+    },
+    {
+        id: 51,
+        name: "Tote bags",
+        amount: "#400",
+        condition: "New",
+        category: "Clothings and Jewelries",
+        addressForPickUp: "Address 50",
+        imgUrl: [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUSz0yKErbtzYHA4UF6arObXo0SEIY_485xw&usqp=CAU",
+            "https://via.placeholder.com/500?text=Image50&bg=444",
+            "https://via.placeholder.com/500?text=Image50&bg=666"
+        ],
+        userId: 10
     }
 ]

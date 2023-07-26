@@ -35,14 +35,14 @@ function RoutableHomeSide() {
                 <h2 className="text-2xl font-bold tracking-tight text-gray-900 mb-5">Trending</h2>
                       <div className="md:hidden grid grid-cols-2 gap-4 ">
                               
-                              <Cards name="Tote bags" amount="#400" condition="New" detail="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUSz0yKErbtzYHA4UF6arObXo0SEIY_485xw&usqp=CAU" className="col-span-1" />
+                      <Link to={`/goods/${51}`}><Cards name="Tote bags" amount="#400" condition="New" detail="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUSz0yKErbtzYHA4UF6arObXo0SEIY_485xw&usqp=CAU" className="col-span-1" /></Link>
                               <Cards name="T-shirs" amount="#2000" condition="New" detail="https://images.unsplash.com/photo-1562157873-818bc0726f68?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNsb3RoaW5nc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" />
                       </div>
                       <div className="hidden md:grid grid-cols-4 gap-4 ">
-                              <Cards name="T-square" amount="#2000" condition="Fairly Used" detail="https://images.unsplash.com/photo-1434389677669-e08b4cac3105?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y2xvdGhlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" className="col-span-1" />
-                              <Cards name="Hp laptop" amount="#12000" condition="Fairly Used" detail="https://images.unsplash.com/photo-1601524909162-ae8725290836?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGxhcHRvcCUyMGNvbXB1dGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" className="col-span-1" />
-                              <Cards name="Tote bags" amount="#400" condition="New" detail="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUSz0yKErbtzYHA4UF6arObXo0SEIY_485xw&usqp=CAU" className="col-span-1" />
-                              <Cards name="T-shirs" amount="#2000" condition="New" detail="https://images.unsplash.com/photo-1562157873-818bc0726f68?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNsb3RoaW5nc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" />
+                              <Link to={`/goods/${51}`}><Card name="Tote bags" amount="#400" condition="New" detail="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUSz0yKErbtzYHA4UF6arObXo0SEIY_485xw&usqp=CAU" className="col-span-1" /></Link>
+                              <Card name="T-square" amount="#2000" condition="Fairly Used" detail="https://images.unsplash.com/photo-1434389677669-e08b4cac3105?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y2xvdGhlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" className="col-span-1" />
+                              <Card name="Hp laptop" amount="#12000" condition="Fairly Used" detail="https://images.unsplash.com/photo-1601524909162-ae8725290836?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGxhcHRvcCUyMGNvbXB1dGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" className="col-span-1" />
+                              <Card name="T-shirs" amount="#2000" condition="New" detail="https://images.unsplash.com/photo-1562157873-818bc0726f68?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNsb3RoaW5nc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" />
                       </div>
                   
 
