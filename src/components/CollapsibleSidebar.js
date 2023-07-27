@@ -26,7 +26,7 @@ function SideBar() {
       
         <div>
               <div id="title" className="flex flex-row items-center justify-between pl-4 py-3 text-xl font-bold tracking-tight"> 
-              <p className='flex'>CampusBuy <img src={logo} alt="logo" className='ml-3 inline w-6' /></p>
+              <p className='flex'>UniuyoConnect <img src={logo} alt="logo" className='ml-3 inline w-6' /></p>
               <div className="inline">
                 <IoClose size={32} className="ml-3  lg:hidden" id="openSidebar"/>
             </div>

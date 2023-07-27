@@ -79,7 +79,7 @@ export default function Example() {
             href="#"
             className="mr-4 cursor-pointer py-1.5 font-medium"
           >
-            CampusBuy <img src={logo} alt="logo" className='inline w-6' />
+            UniuyoConnect <img src={logo} alt="logo" className='inline w-6' />
           </Typography>
           <div className="flex items-center gap-4">
             <div className="mr-4 hidden lg:block">{navList}</div>
