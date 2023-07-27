@@ -21,6 +21,10 @@ function SearchInput({ data }) {
   }, [data, searchValue]);
 
   const showNoResultsMessage = searchValue.trim() !== "" && filteredData.length === 0;
+  const handleClick = () =>{
+    window.scrollTo(0, 0);
+    
+      }
 
   return (
     <>
@@ -40,7 +44,7 @@ function SearchInput({ data }) {
         <div className="mt-2 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
           {filteredData.length > 0 ? (
             filteredData.map((item) => (
-            <Link to={`/goods/${item.id}`}>
+            <Link to={`/goods/${item.id}`} onClick={handleClick}>
               <CardSearch
                 key={item.id} // Replace 'id' with the unique identifier in your data
                 cardId={item.id} // Use 'cardId' instead of 'id'

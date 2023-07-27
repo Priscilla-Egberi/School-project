@@ -6,6 +6,10 @@ import { Link } from 'react-router-dom';
 function Health() {
   const filteredHealth = Img.filter((item) => item.category === 'Health and Beauty');
 console.log(filteredHealth);
+const handleClick = () =>{
+  window.scrollTo(0, 0);
+  
+    }
   return (
     <>
     
@@ -16,7 +20,7 @@ console.log(filteredHealth);
     <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
         {filteredHealth.map((item) => (
           <div key={item.id}>
-          <Link to={`/goods/${item.id}`}>
+          <Link to={`/goods/${item.id}`} onClick={handleClick}>
                 <Cards name={item.name} condition={item.condition} amount={item.amount} detail={item.imgUrl[0]} className="col-span-1" />
 
             {/* <h3>{item.title}</h3> */}

@@ -37,7 +37,6 @@ import AddNewItemOptions from '../components/account/AddNewItemOptions'
 import {CheckProvider} from "../components/account/CheckContext"
 import {CheckHomProvider} from "../components/CheckHomContext"
 import { UserProvider } from '../login/UserContext';
-import Test from '../login/Test'
 
 
 
@@ -64,7 +63,6 @@ export default function pages() {
           <Route path="/catering" element={<Catering />}/>
           <Route path="/techJob" element={<TechJob />}/>
           <Route path="/tailoring" element={<Tailoring />}/>
-          <Route path="/test" element={<Test />}/>
           <Route path="/goods/:cardId" element={<Product />}/>
           <Route path="/services/:cardId" element={<Work />}/>
           <Route path="/goods" element={<Goods />} />

@@ -9,6 +9,10 @@ function Body() {
   const filteredClothingsJewelries = Img.filter((item) => item.category === 'Clothings and Jewelries').slice(0, 4);
   const filteredSchool = Img.filter((item) => item.category === 'School Materials').splice(0, 4);
   const filteredHealth = Img.filter((item) => item.category === 'Health and Beauty').splice(0, 4);
+  const handleClick = () =>{
+    window.scrollTo(0, 0);
+    
+      }
   return (
     <>
     {/* Electronics */}
@@ -16,12 +20,12 @@ function Body() {
   <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
     <div className="flex justify-between items-center">
       <h2 className="text-2xl font-bold tracking-tight text-gray-900">Electronics</h2>
-      <Link to="/electronics" className='flex flex-row items-center'>See more <IoArrowForwardSharp className="ml-1" /></Link>
+      <Link to="/electronics" onClick={handleClick} className='flex flex-row items-center'>See more <IoArrowForwardSharp className="ml-1" /></Link>
       </div>
     <div className="mt-6 grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
     {filteredElectronics.map((item) => (
           <div key={item.id}>
-          <Link to={`/goods/${item.id}`}>
+          <Link to={`/goods/${item.id}`} onClick={handleClick}>
                 <Cards name={item.name} condition={item.condition} amount={item.amount} detail={item.imgUrl[0]} className="col-span-1" />
 
             {/* <h3>{item.title}</h3> */}
@@ -38,16 +42,16 @@ function Body() {
   <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
   <div className="hidden md:flex justify-between items-center">
       <h2 className="text-2xl font-bold tracking-tight text-gray-900">Jewelries and Clothings</h2>
-      <Link to="/clothings" className='flex flex-row items-center'>See more <IoArrowForwardSharp className="ml-1" /></Link>
+      <Link to="/clothings" className='flex flex-row items-center' onClick={handleClick}>See more <IoArrowForwardSharp className="ml-1" /></Link>
   </div>    
   <div className="flex md:hidden justify-between items-center">
       <h2 className="text-2xl font-bold tracking-tight text-gray-900">Clothings</h2>
-      <Link to="/clothings" className='flex flex-row items-center'>See more <IoArrowForwardSharp className="ml-1" /></Link>
+      <Link to="/clothings" className='flex flex-row items-center' onClick={handleClick}>See more <IoArrowForwardSharp className="ml-1" /></Link>
   </div>    
     <div className="mt-6 grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
     {filteredClothingsJewelries.map((item) => (
                     <div key={item.id}>
-                    <Link to={`/goods/${item.id}`}>
+                    <Link to={`/goods/${item.id}`} onClick={handleClick}>
                         <Cards name={item.name} condition={item.condition} amount={item.amount} detail={item.imgUrl[0]} className="col-span-1" />
 
                     {/* <h3>{item.title}</h3> */}
@@ -63,12 +67,12 @@ function Body() {
   <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
   <div className="flex justify-between items-center">
       <h2 className="text-2xl font-bold tracking-tight text-gray-900">School materials</h2>
-      <Link to="/schoolMaterial" className='flex flex-row items-center'>See more <IoArrowForwardSharp className="ml-1" /></Link>
+      <Link to="/schoolMaterial" className='flex flex-row items-center' onClick={handleClick}>See more <IoArrowForwardSharp className="ml-1" /></Link>
       </div>    
     <div className="mt-6 grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
     {filteredSchool.map((item) => (
           <div key={item.id}>
-          <Link to={`/goods/${item.id}`}>
+          <Link to={`/goods/${item.id}`} onClick={handleClick}>
                 <Cards name={item.name} condition={item.condition} amount={item.amount} detail={item.imgUrl[0]} className="col-span-1" />
 
             {/* <h3>{item.title}</h3> */}
@@ -84,12 +88,12 @@ function Body() {
   <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
   <div className="flex justify-between items-center">
       <h2 className="text-2xl font-bold tracking-tight text-gray-900">Health and Beauty</h2>
-      <Link to="/healthBeauty" className='flex flex-row items-center'>See more <IoArrowForwardSharp className="ml-1" /></Link>
+      <Link to="/healthBeauty" className='flex flex-row items-center' onClick={handleClick}>See more <IoArrowForwardSharp className="ml-1" /></Link>
       </div>
     <div className="mt-6 grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">      
     {filteredHealth.map((item) => (
           <div key={item.id}>
-          <Link to={`/goods/${item.id}`}>
+          <Link to={`/goods/${item.id}`} onClick={handleClick}>
                 <Cards name={item.name} condition={item.condition} amount={item.amount} detail={item.imgUrl[0]} className="col-span-1" />
 
             {/* <h3>{item.title}</h3> */}

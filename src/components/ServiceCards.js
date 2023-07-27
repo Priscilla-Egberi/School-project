@@ -2,9 +2,13 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 function ServiceCards(props) {
+  const handleClick = () =>{
+    window.scrollTo(0, 0);
+    
+      }
   return (
     <div>
-      <Link to={`/services/${props.cardId}`}>
+      <Link to={`/services/${props.cardId}`} onClick={handleClick}>
         <div className='py-4 border-b-2 border-gray-300'>
        <div className="md:flex items-start justify-between md:px-16">
        <div className='flex flex-row items-center'>

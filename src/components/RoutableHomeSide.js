@@ -7,6 +7,7 @@ import Card from "../components/Card"
 import Body from "../components/Body"
 import Search from "./Searching";
 import {Img} from "../data/data"
+import {Link} from "react-router-dom"
 
 function RoutableHomeSide() {
 
