@@ -42,10 +42,10 @@ function ProductRight({ userId}) {
             <div>
             <h1 className='text-xl font-bold tracking-tight text-gray-900 mt-5 mb-2'>Connect with student on</h1>
             <div className="flex flex-row justify-between">
-                <div className="flex flex-col  items-center ">
+                <a href="https://wa.me/2349034078558"className="flex flex-col  items-center ">
                     <RiWhatsappFill />
                     <p className=" text-xs">Whatsapp</p>
-                </div>
+                </a>
                 <div className="flex flex-col  items-center ">
                     <FaFacebook />
                     <p className=" text-xs">Facebook</p>
