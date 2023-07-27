@@ -17,9 +17,13 @@ import CheckHomContext from './CheckHomContext';
 function SideBar() {
   const [checks, setChecks] = useContext(CheckHomContext)
   
-
+  const handleClick = () =>{
+    window.scrollTo(0, 0);
+    
+      }
   return (
     <section onClick={()=>{setChecks(true)}}  id="openSidebarHere" className={`side-bar md:hidden ${checks? "":'openSidebar'} font-semibold h-full bg-white flex flex-col justify-between border-r-gray border-2`}>
+      
         <div>
               <div id="title" className="flex flex-row items-center justify-between pl-4 py-3 text-xl font-bold tracking-tight"> 
               <p className='flex'>CampusBuy <img src={logo} alt="logo" className='ml-3 inline w-6' /></p>
