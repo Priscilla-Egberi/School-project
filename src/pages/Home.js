@@ -15,19 +15,15 @@ function Home() {
     <Navbar />
     <CollapsibleSidebar />
       <div className='w-11/12 mx-auto  md:grid grid-cols-4 gap-16 mt-2 md:mt-12 h-auto'>
-        {/* ----------Sidebar */}
-      <div className="hidden md:block col-span-1" >
-        <SideBar />
-      </div>
+                {/* ----------Sidebar */}
+              <div className="hidden md:block col-span-1" >
+                <SideBar />
+              </div>
 
-      {/* Routable side of the page */}
-      
-      <div className='col-span-3 pt-5 md:pt-0'>
-
-      <Outlet />
-      </div>
-      
-      
+              {/* Routable side of the page */}      
+              <div className='col-span-3 pt-5 md:pt-0'>
+              <Outlet />
+              </div> 
     </div>
     
     <div className="h-36"></div>

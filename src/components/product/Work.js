@@ -1,7 +1,5 @@
 import React from 'react'
-import { AiOutlineClockCircle } from "react-icons/ai";
 import { CiLocationOn } from "react-icons/ci";
-// import { Img } from "../../data/data"
 import {useState} from "react"
 import ProductRight from './ProductRight';
 import { useParams } from 'react-router-dom';
@@ -64,14 +62,13 @@ function Product() {
                         <h1 className='text-2xl font-bold tracking-tight text-gray-900 pl-2'>{item.name}<br/>{item.condition}</h1>
                         <h1 className='text-2xl font-bold tracking-tight text-gray-900'>{item.amount}</h1>
                     </div>
-                    <p className='flex flex-row items-center'><AiOutlineClockCircle /> Posted 3hrs ago</p>
                     <p className='flex flex-row items-center'><CiLocationOn /> Perm Site, University of Uyo</p>
             </div>
             <hr/>
 
             <div className="py-5">
                     <div className="border-l-4 border-orange-900 rounded-sm mb-3">
-                        <h1 className='text-2xl font-bold tracking-tight text-gray-900 pl-2'>Details</h1>
+                        <h1 className='text-2xl font-bold tracking-tight text-gray-900 pl-2'>Introduction</h1>
                     </div>
                     <p>{item.description}</p>
             </div>

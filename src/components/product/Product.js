@@ -65,7 +65,6 @@ function Product() {
                         <h1 className='text-2xl font-bold tracking-tight text-gray-900 pl-2'>{item.name}<br/>{item.condition}</h1>
                         <h1 className='text-2xl font-bold tracking-tight text-gray-900'>{item.amount}</h1>
                     </div>
-                    {/* <p className='flex flex-row items-center'><AiOutlineClockCircle /> Posted 3hrs ago</p> */}
                     <p className='flex flex-row items-center'><CiLocationOn /> Perm Site, University of Uyo</p>
             </div>
             <hr/>
@@ -76,7 +75,7 @@ function Product() {
             
             <div className="py-5">
                     <div className="border-l-4 border-orange-900 rounded-sm mb-3">
-                        <h1 className='text-2xl font-bold tracking-tight text-gray-900 pl-2'>Details/Introduction</h1>
+                        <h1 className='text-2xl font-bold tracking-tight text-gray-900 pl-2'>Details</h1>
                     </div>
                     <p>New Designers Dard Red Suit. Lorem ipsum dolor sit amet consectetur. Hendrerit lacus malesuada enim nascetur felis. Mauris egestas purus vitae vitae sit pellentesque dui sit.</p>
             </div>

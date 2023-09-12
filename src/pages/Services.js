@@ -2,9 +2,11 @@ import React from 'react'
 import { serviceData } from '../data/service'
 import Search from "../components/SearchingService";
 import Cards from "../components/ServiceCards"
-// import {Img} from "../data/data"
+import ServiceContext from "../components/ServiceContext"
+import ProductContext from "../components/ProductContext"
 
 function Services() {
+  const post = React.useContext(ServiceContext)
   return (
     <>
         <h2 className="mt-2 md:mt-20 text-2xl semibold md:hidden ml-3 my-3">Services</h2>
@@ -48,6 +50,14 @@ function Services() {
                                 </div>
       ))}
     
+    <p>TESTINGSERVICE</p>
+      {post.map((item) =>
+        <div>{item.seller.first_name}</div>
+      )}
+    <p>TESTINGPRODUCT</p>
+      {post.map((item) =>
+        <div>{item.seller.first_name}</div>
+      )}
    
     </div>
     </>
