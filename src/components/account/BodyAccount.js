@@ -119,10 +119,10 @@ export function BodyAccount () {
                       Information
                     </h1>
                     <FieldWithSaveButton label="Facebook Handle" type="text" />
-                    <FieldWithSaveButton label="Whatsapp" type="number" />
+                    <FieldWithSaveButton label="Whatsapp" type="text" />
                     <FieldWithSaveButton label="Email" type="email" />
                     <FieldWithSaveButton label="Instagram" type="text" />
-                    <FieldWithSaveButton label="Phone Number" type="number" />
+                    <FieldWithSaveButton label="Phone Number" type="text" />
                   </div>
        
       </div>

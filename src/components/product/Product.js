@@ -7,6 +7,7 @@ import ProductRight from './ProductRight';
 import { useParams } from 'react-router-dom';
 import {Img} from '../../data/data'
 
+
 function Product() {
     const params = useParams()
     console.log(params.cardId)
@@ -67,7 +68,11 @@ function Product() {
                     <p className='flex flex-row items-center'><CiLocationOn /> Perm Site, University of Uyo</p>
             </div>
             <hr/>
-
+            <div>
+      
+ 
+    </div>
+            
             <div className="py-5">
                     <div className="border-l-4 border-orange-900 rounded-sm mb-3">
                         <h1 className='text-2xl font-bold tracking-tight text-gray-900 pl-2'>Details</h1>

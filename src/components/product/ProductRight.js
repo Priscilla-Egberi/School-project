@@ -3,6 +3,7 @@ import { RiWhatsappFill } from "react-icons/ri";
 import { FaFacebook, FaPhoneAlt, FaFlag } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { userData } from '../../data/user';
+import LikeButton from './Rating'
 
 function ProductRight({ userId}) {
     const user = userData.find(user => user.id === userId);
@@ -64,6 +65,9 @@ function ProductRight({ userId}) {
 
         </div>
 
+        <LikeButton />
+
+        <p className='font-bold text-xs my-3'>see others comments</p>
         {/* second container */}
         <div className="px-3 py-5 bg-white">
                     <h1 className='text-2xl font-bold tracking-tight text-gray-900 pl-2 mb-3'>Safety Tips</h1>

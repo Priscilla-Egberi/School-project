@@ -39,7 +39,7 @@ function Footer() {
       </div>
 
       <div className="hidden pt-4 md:flex flex-col gap-y-4">
-        <p>Uniuyo Market is an Online platform set to provide opportunities for Students of the university of uyo exclusively, allowing them to show case goods they want to sell and services they can to render. </p>
+        <p>Uniuyo Market is an Online platform set to provide opportunities for Students of the University of Uyo exclusively, allowing them to show case goods they want to sell and services they can to render. </p>
         <p>UniUyo Market <img src={logo} alt="logo" className='inline' /></p>
       </div>
 
