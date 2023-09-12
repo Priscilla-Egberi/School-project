@@ -69,7 +69,7 @@ function Login() {
 		<div>
 			<h1 className="text-white font-bold text-4xl font-sans">Get Empowered</h1>
 			<p className="text-white mt-1">Show what you have. Get what you need</p>
-			<Link to="/login/signup" className="block w-28 bg-white text-orange-800 mt-4 py-2 rounded-2xl font-bold mb-2">Sign up</Link>
+			<Link to="/login/signup" className="block w-28 bg-white text-orange-800 mt-4 py-2 rounded-md text-center font-bold mb-2">Sign up</Link>
 		</div>
 		<div className="absolute -bottom-32 -left-40 w-80 h-80 border-4 rounded-full border-opacity-30 border-t-8"></div>
 		<div className="absolute -bottom-40 -left-20 w-80 h-80 border-4 rounded-full border-opacity-30 border-t-8"></div>

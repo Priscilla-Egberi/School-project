@@ -34,7 +34,7 @@ function SearchInput({ data }) {
             type="text"
             value={searchValue}
             onChange={handleInputChange}
-            placeholder="Search..."
+            placeholder="Search for items to buy..."
             className="block w-full px-4 py-2 text-purple-700 bg-white border rounded-md focus:border-purple-400 focus:ring-purple-300 focus:outline-none focus:ring focus:ring-opacity-40"
           />
         </div>
