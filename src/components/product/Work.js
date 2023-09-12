@@ -6,6 +6,7 @@ import {useState} from "react"
 import ProductRight from './ProductRight';
 import { useParams } from 'react-router-dom';
 import {serviceData} from '../../data/service'
+import Review from "./Review"
 
 function Product() {
     const params = useParams()
@@ -74,22 +75,8 @@ function Product() {
                     </div>
                     <p>{item.description}</p>
             </div>
-            {/* <hr/>
-
-            <div className="py-5">
-                    <div className="border-l-4 border-orange-900 rounded-sm mb-3">
-                        <h1 className='text-2xl font-bold tracking-tight text-gray-900 pl-2'>Conditions and Features</h1>
-                    </div>
-                    <ul className="grid grid-cols-3 gap-3" style={{listStyle:"circle", listStyleType:"inherit", listStylePosition:"inside"}}>
-                        <li className="col-span-1 ">Size XL</li>
-                        <li className="col-span-1 ">Brand New</li>
-                        <li className="col-span-1 ">Shoe included</li>
-                        <li className="col-span-1 ">Men only</li>
-                        <li className="col-span-1 ">Complete Suit</li>
-                        <li className="col-span-1 ">Dark Red Color</li>
-                    </ul>
-            </div> */}
             
+            <Review />
         </div>
     
        <section className='col-span-2 flex flex-col justify-between leading-6'>

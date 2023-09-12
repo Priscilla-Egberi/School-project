@@ -1,11 +1,12 @@
 import React from 'react'
-import { AiOutlineClockCircle } from "react-icons/ai";
+// import { AiOutlineClockCircle } from "react-icons/ai";
 import { CiLocationOn } from "react-icons/ci";
 // import { Img } from "../../data/data"
 import {useState} from "react"
 import ProductRight from './ProductRight';
 import { useParams } from 'react-router-dom';
 import {Img} from '../../data/data'
+import Review from './Review'
 
 
 function Product() {
@@ -64,7 +65,7 @@ function Product() {
                         <h1 className='text-2xl font-bold tracking-tight text-gray-900 pl-2'>{item.name}<br/>{item.condition}</h1>
                         <h1 className='text-2xl font-bold tracking-tight text-gray-900'>{item.amount}</h1>
                     </div>
-                    <p className='flex flex-row items-center'><AiOutlineClockCircle /> Posted 3hrs ago</p>
+                    {/* <p className='flex flex-row items-center'><AiOutlineClockCircle /> Posted 3hrs ago</p> */}
                     <p className='flex flex-row items-center'><CiLocationOn /> Perm Site, University of Uyo</p>
             </div>
             <hr/>
@@ -75,25 +76,12 @@ function Product() {
             
             <div className="py-5">
                     <div className="border-l-4 border-orange-900 rounded-sm mb-3">
-                        <h1 className='text-2xl font-bold tracking-tight text-gray-900 pl-2'>Details</h1>
+                        <h1 className='text-2xl font-bold tracking-tight text-gray-900 pl-2'>Details/Introduction</h1>
                     </div>
                     <p>New Designers Dard Red Suit. Lorem ipsum dolor sit amet consectetur. Hendrerit lacus malesuada enim nascetur felis. Mauris egestas purus vitae vitae sit pellentesque dui sit.</p>
             </div>
-            {/* <hr/>
-
-            <div className="py-5">
-                    <div className="border-l-4 border-orange-900 rounded-sm mb-3">
-                        <h1 className='text-2xl font-bold tracking-tight text-gray-900 pl-2'>Conditions and Features</h1>
-                    </div>
-                    <ul className="grid grid-cols-3 gap-3" style={{listStyle:"circle", listStyleType:"inherit", listStylePosition:"inside"}}>
-                        <li className="col-span-1 ">Size XL</li>
-                        <li className="col-span-1 ">Brand New</li>
-                        <li className="col-span-1 ">Shoe included</li>
-                        <li className="col-span-1 ">Men only</li>
-                        <li className="col-span-1 ">Complete Suit</li>
-                        <li className="col-span-1 ">Dark Red Color</li>
-                    </ul>
-            </div> */}
+            
+            <Review />
             
         </div>
     

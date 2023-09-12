@@ -49,6 +49,7 @@ function App() {
     };
 
     return (
+        <div>
         <div style={styles.container}>
             <h2 className="text-base font-medium my-4">Please rate and comment</h2>
             <div style={styles.stars}>
@@ -87,6 +88,9 @@ function App() {
                 onChange={handleTextChange}
             />
             <button style={styles.button} onClick={handleSubmit}>Submit</button>
+        </div>
+
+            {/* <p className='font-bold text-xs my-3'>see others comments</p> */}
         </div>
     );
 }
