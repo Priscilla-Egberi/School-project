@@ -7,6 +7,7 @@ import ProductContext from "../components/ProductContext"
 
 function Services() {
   const post = React.useContext(ServiceContext)
+  const goods = React.useContext(ProductContext)
   return (
     <>
         <h2 className="mt-2 md:mt-20 text-2xl semibold md:hidden ml-3 my-3">Services</h2>
@@ -54,8 +55,9 @@ function Services() {
       {post.map((item) =>
         <div>{item.seller.first_name}</div>
       )}
+      {console.log(post)}
     <p>TESTINGPRODUCT</p>
-      {post.map((item) =>
+      {goods.map((item) =>
         <div>{item.seller.first_name}</div>
       )}
    

@@ -23,34 +23,8 @@
    translate:ease;
   }
 
-/* src/components/LikeButton.css */
-.thumbs-up-button,
-.thumbs-down-button {
-  color: black; /* Initial color is blue */
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  outline: none;
-  margin-right: 10px;
-}
 
-.thumbs-up-button.liked,
-.thumbs-down-button.disliked {
-  color: blue; /* Color remains blue when clicked */
-}
 
-button {
-  background-color: transparent;
-  border: none;
-  outline: none;
-  cursor: pointer;
-}
-.on {
-  color: #000;
-}
-.off {
-  color: #ccc;
-}
 
 
   

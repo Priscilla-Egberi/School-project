@@ -5,13 +5,11 @@ import { useNavigate } from 'react-router-dom';
 
 function Login() {
   const navigate = useNavigate()
-  
+
     const [formData, setFormData] = useState({
         email: '',
         password: ''
       });
-    
-      
     
       const handleChange = (e) => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -19,46 +17,35 @@ function Login() {
     
       const handleSubmit = (e) => {
         e.preventDefault();
-      
         // Create an object with the user data to be sent in the request body
         const userData = {
           email: formData.email,
           password: formData.password,
         };
-      
-
         // Make the POST request using Axios
-        axios.post('https://campus-buy.vercel.app/api/token/', userData)
+        axios.post('https://campus-buy.onrender.com/api/token/', userData)
     .then((response) => {
       // Handle the successful response here
-      console.log('Response:', response.data);
-      console.log('Status code:', response.status); // Get the status code
       localStorage.setItem('access_token', response.data.access);
       localStorage.setItem('refresh_token', response.data.refresh);
-      console.log(localStorage.getItem('access_token'))
       navigate('/account')
     
     })
     .catch((error) => {
       // Handle errors here
-      console.error('Error:', error);
+      // console.error('Error:', error);
       const values = error.response.data
       const valuesArray = Object.values(values)     
       alert(valuesArray[0])
-
-
-      console.error('Status code:', error.response ? error.response.status : 'Unknown'); // Get the status code from the error response (if available)
+      // console.error('Status code:', error.response ? error.response.status : 'Unknown'); // Get the status code from the error response (if available)
     });
-      
         // Resetting the form fields
         setFormData({
           email: '',
           password: '',
         });
-      };
+      }; 
       
-      
-  
   return (
     <>
 	

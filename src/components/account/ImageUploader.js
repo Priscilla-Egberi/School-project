@@ -6,15 +6,17 @@ const ImageUploader = ({ onImageUpload }) => {
 
   const handleImageChange = (e) => {
     const files = e.target.files;
-    const newImages = Array.from(files).slice(0, 3); // Limit to three images
+    const newImages = Array.from(files).slice(0, 4); // Limit to three images
     const validImages = newImages.filter((file) => file.type.startsWith('image/'));
-
+    // const formData = new FormData();
+    // validImages.forEach((photo) => {
+    //   formData.append('uploaded_image', photo);
+    // });
+    
     // Convert FileList to an array of URLs and set image previews
     const imageURLs = validImages.map((file) => URL.createObjectURL(file));
     setImagePreviews(imageURLs);
-
     setImages(validImages);
-
     // Pass the images back to the AddGoods component
     onImageUpload(validImages);
   };
@@ -72,30 +74,17 @@ const ImageUploader = ({ onImageUpload }) => {
             <img
               key={index}
               src={imageURL}
-              alt={`Image ${index}`}
+              alt={`product ${index}`}
               style={{ width: '150px', height: '150px', margin: '10px' }}
             />
           ))}
         </div>
       )}
-      {/* ... Remaining JSX code ... */}
     </div>
   );
 };
 
 export default ImageUploader;
 
-
-//     <button
-//       className="w-full mt-4 rounded-sm text-center py-3 text-white bg-my-orange"
-//       onClick={() => onPost({ images, imagePreviews })} // Call the callback function with the data
-//     >
-//       Post
-//     </button>
-//     </div>
-//   );
-// };
-
-// export default ImageUploader;
 
 

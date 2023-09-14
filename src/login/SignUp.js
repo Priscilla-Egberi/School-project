@@ -29,12 +29,10 @@ function SignUpForm() {
           reg_no: formData.reg_no,
           email: formData.email,
           password: formData.password,
-        };
-      
-        // axios.post('https://campus-buy.vercel.app/user/create/', userData)
+        }
 
         // Make the POST request using Axios
-        axios.post('https://campus-buy.vercel.app/user/create/', userData)
+        axios.post('https://campus-buy.onrender.com/user/create/', userData)
     .then((response) => {
       // Handle the successful response here
       console.log('Response:', response.data);
