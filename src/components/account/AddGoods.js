@@ -40,22 +40,6 @@ function AddGoods() {
     setFormData({ ...formData, condition: value });
   };
 
-  // const handlePostButtonClick = () => {
-  //   console.log('Post data:', formData);
-  //   // Here you can perform any further actions with the post data, e.g., sending it to an API, etc.
-  
-  //   // Reset the form fields after processing
-  //   setFormData(initialFormData);
-  
-  //   // Clear uploaded images
-  //   ImageUploader.clearImages();
-  
-  //   // Clear the selected values for Select components
-  //   setSelectedCategory('');
-  //   setSelectedCondition('');
-  // };
-  
-
   const handleImageUpload = (images) => {
     setPhotos(images);
   };
@@ -96,31 +80,20 @@ function AddGoods() {
       sent_category: formData.category,
       condition: formData.condition,
       description: formData.description,
-      // uploaded_images:formData.images,
       thumbnail:formData.thumbnail,
       location: formData.preferredLocation,
       name: formData.productName,
       price: formData.productPrice,
     };
-    console.log(userData)
     const productData = new FormData();
     Object.entries(userData).forEach(([key, value]) => {
       productData.append(key, value);
-      console.log(value)
     });
     
-    // const formData = new FormData();
     photos.forEach((photo) => {
       productData.append('uploaded_images', photo);
     });
 
-    for (let [name, value] of productData) {
-      if (value instanceof File) {
-        console.log(`${name} - Name: ${value.name}, Type: ${value.type}, Size: ${value.size} bytes`);
-      } else {
-        console.log(`${name} = ${value}`);
-      }
-    }
     // Reset the form fields after processing
     // setFormData(initialFormData);
     // Clear uploaded images

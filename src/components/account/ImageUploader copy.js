@@ -54,8 +54,8 @@ const ImageUploader = ({ onImageUpload }) => {
           </svg>
           <span className="font-medium text-gray-600">
             {imagePreviews.length === 0
-              ? "Drop Item's Image to Attach, or"
-              : 'Uploaded Images:'}
+              ? "Drop images to prove your work, or"
+              : 'Images Uploaded:'}
             <span className="text-blue-600 underline"> browse</span>
           </span>
         </span>

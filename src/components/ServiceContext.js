@@ -5,7 +5,7 @@ import React from "react";
 
 const ServiceContext = React.createContext()
 
-const baseURL = "https://campus-buy.vercel.app/market/services/";
+const baseURL = "https://campus-buy.onrender.com/market/services/";
 
 export function ServiceProvider({children}) {
     const [response, setResponse] = React.useState([]);
