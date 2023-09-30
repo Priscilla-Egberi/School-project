@@ -7,7 +7,8 @@ import {
 } from "@material-tailwind/react";
 import logo from "../images/logo.jpg";
 import CheckHomContext from './CheckHomContext';
-import { BsCart3} from 'react-icons/bs'
+import {BsCart3} from 'react-icons/bs'
+import Dropdown from "./Dropdown"
 
  
 export default function Example() {
@@ -64,8 +65,8 @@ export default function Example() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <Link to="/login" className="flex items-center">
-          <BsCart3 className="mr-1"/> Cart
+        <Link to="/home/cart" className="flex items-center">
+        <BsCart3 className="mr-1"/> Cart
         </Link>
       </Typography>
       <Typography
@@ -75,7 +76,17 @@ export default function Example() {
         className="p-1 font-normal"
       >
         <Link to="/login" className="flex items-center">
-          Login
+          Account
+        </Link>
+      </Typography>
+      <Typography
+        as="li"
+        variant="small"
+        color="blue-gray"
+        className="p-1 font-normal"
+      >
+        <Link to="/login" className="flex items-center">
+          <Dropdown />
         </Link>
       </Typography>
     </ul>

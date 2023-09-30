@@ -1,3 +1,4 @@
+import Landing from './Landing'
 import Home from './Home'
 import Login from "./Login"
 import Account from "./Account"
@@ -7,6 +8,7 @@ import {Routes, Route} from "react-router-dom"
 import SignUp from '../login/SignUp'
 import LoginMain from "../login/Login"
 import RoutableHomeSide from '../components/RoutableHomeSide'
+import Cart from '../components/Cart'
 import Electronics from "../components/sidebarPages/Electronics"
 import OthersGoods from '../components/sidebarPages/OthersGoods'
 import OthersService from "../components/sidebarPages/OthersService"
@@ -51,7 +53,7 @@ export default function pages() {
     <ProductProvider>
       
       <Routes>
-        <Route  element={<Home />}>
+        <Route  element={<Landing />}>
           <Route path="/" element={<RoutableHomeSide />}/>
           <Route path="/electronics" element={<Electronics />}/>
           <Route path="/clothings" element={<ClothingsJewelries />}/>
@@ -78,9 +80,29 @@ export default function pages() {
           <Route path="/login/signup" element={<SignUp />} />
         </Route>
 
-        {/* ------------------- GOODS */}
-       
-        
+        {/* ------------------- Home */}
+        <Route  path ="/home" element={<Home />}>
+          <Route path="/home" element={<RoutableHomeSide />}/>
+          <Route path="/home/cart" element={<Cart />}/>
+          <Route path="/home/electronics" element={<Electronics />}/>
+          <Route path="/home/clothings" element={<ClothingsJewelries />}/>
+          <Route path="/home/tutorial" element={<Tutoring />}/>
+          <Route path="/home/schoolmaterial" element={<SchoolMaterial />}/>
+          <Route path="/home/homeUtensils" element={<HomeUtensils />}/>
+          <Route path="/home/healthBeauty" element={<HealthBeauty />}/>
+          <Route path="/home/othersGoods" element={<OthersGoods />}/>
+          <Route path="/home/othersService" element={<OthersService />}/>
+          <Route path="/home/housePainting" element={<HousePainting />}/>
+          <Route path="/home/hairDressing" element={<HairDressing />}/>
+          <Route path="/home/laptopRepairs" element={<LaptopRepairs />}/>
+          <Route path="/home/catering" element={<Catering />}/>
+          <Route path="/home/techJob" element={<TechJob />}/>
+          <Route path="/home/tailoring" element={<Tailoring />}/>
+          <Route path="/home/goods/:cardId" element={<Product />}/>
+          <Route path="/home/services/:cardId" element={<Work />}/>
+          <Route path="/home/goods" element={<Goods />} />
+          <Route path="/home/services" element={<Services />}/>          
+        </Route>
 
         {/* -------------------ACCOUNT */}
         <Route path="/account" element={<Account />}>

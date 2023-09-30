@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import Backdrop from './Loading';
 
 function Login() {
   const navigate = useNavigate()
@@ -28,7 +29,7 @@ function Login() {
       // Handle the successful response here
       localStorage.setItem('access_token', response.data.access);
       localStorage.setItem('refresh_token', response.data.refresh);
-      navigate('/account')
+      navigate('/home')
     
     })
     .catch((error) => {
@@ -104,7 +105,7 @@ function Login() {
                                 />
 							
       </div>
-							<button type="submit" className="block w-full bg-my-orange mt-4 py-2 rounded-2xl text-white font-semibold mb-2">Login</button>
+							<Backdrop name="login" func={handleSubmit} />
 							<span className="text-sm ml-2 hover:text-my-orange cursor-pointer">Forgot Password ?</span>
 		</form>
 	</div>

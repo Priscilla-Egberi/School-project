@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import Backdrop from './Loading'
 
 function SignUpForm() {
   const navigate = useNavigate()
@@ -179,7 +180,7 @@ function SignUpForm() {
                                 />
 							
       </div>
-							<button type="submit" className="block w-full bg-my-orange mt-4 py-2 rounded-2xl text-white font-semibold mb-2">Sign Up</button>
+							<Backdrop name="Sign up" />
 							
 		</form>
 	</div>

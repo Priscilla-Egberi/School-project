@@ -4,7 +4,7 @@ import CollapsibleSidebar from "../components/CollapsibleSidebar"
 import SideBar from '../components/SideBar'
 import { Outlet } from 'react-router-dom'
 import Footer from "../components/Footer"
-import Navbar from "../components/NavbarHome"
+import Navbar from "../components/Navbar"
 
 
 
