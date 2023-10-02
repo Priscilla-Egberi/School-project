@@ -8,8 +8,8 @@ const CartContext = React.createContext()
 export function CartProvider({children}) {
     const [items, setItems] = useState([])
 
-    const AddItems =(name, amount)=>{
-        setItems((prevState)=>[...prevState, {name, amount}])
+    const AddItems =(name, amount, id)=>{
+        setItems((prevState)=>[...prevState, {name, amount, id}])
     }
   
     return (

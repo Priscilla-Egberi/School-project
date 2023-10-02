@@ -1,5 +1,5 @@
 import React from 'react'
-import Cards from "../Cards"
+import Cards from "./Card"
 import {IoArrowForwardSharp} from "react-icons/io5"
 import { Img } from '../../data/data';
 import { Link } from 'react-router-dom';
@@ -25,7 +25,7 @@ function Body() {
     <div className="mt-6 grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
     {filteredElectronics.map((item) => (
           <div key={item.id}>
-          <Cards link={`/home/goods/${item.id}`} name={item.name} condition={item.condition} amount={item.amount} detail={item.imgUrl[0]} className="col-span-1" />
+          <Cards link={`/home/goods/${item.id}`} name={item.name} id={item.id} condition={item.condition} amount={item.amount} detail={item.imgUrl[0]} className="col-span-1" />
         </div>
         ))}
     </div>
@@ -47,7 +47,7 @@ function Body() {
     <div className="mt-6 grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
     {filteredClothingsJewelries.map((item) => (
                     <div key={item.id}>
-                    <Cards link={`/home/goods/${item.id}`} name={item.name} condition={item.condition} amount={item.amount} detail={item.imgUrl[0]} className="col-span-1" />
+                    <Cards link={`/home/goods/${item.id}`} name={item.name} id={item.id} condition={item.condition} amount={item.amount} detail={item.imgUrl[0]} className="col-span-1" />
                 </div>
                 ))}
     </div>
@@ -64,7 +64,7 @@ function Body() {
     <div className="mt-6 grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
     {filteredSchool.map((item) => (
           <div key={item.id}>
-          <Cards link={`/home/goods/${item.id}`} name={item.name} condition={item.condition} amount={item.amount} detail={item.imgUrl[0]} className="col-span-1" />
+          <Cards link={`/home/goods/${item.id}`} name={item.name} id={item.id} condition={item.condition} amount={item.amount} detail={item.imgUrl[0]} className="col-span-1" />
         </div>
         ))}
     </div>
@@ -81,7 +81,7 @@ function Body() {
     <div className="mt-6 grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">      
     {filteredHealth.map((item) => (
           <div key={item.id}>
-          <Cards link={`/home/goods/${item.id}`} name={item.name} condition={item.condition} amount={item.amount} detail={item.imgUrl[0]} className="col-span-1" />
+          <Cards link={`/home/goods/${item.id}`} name={item.name} id={item.id} condition={item.condition} amount={item.amount} detail={item.imgUrl[0]} className="col-span-1" />
         </div>
         ))}
     </div>
