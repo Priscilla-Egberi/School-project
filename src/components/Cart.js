@@ -1,6 +1,6 @@
 import { useContext } from "react"
 import CartContext from "./context/CartContext"
-import Cards from "./Cards"
+import Cards from "./CardCart"
 export default function Cart(){
     const {items} = useContext(CartContext)
     

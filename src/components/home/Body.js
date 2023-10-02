@@ -1,5 +1,5 @@
 import React from 'react'
-import Cards from "./Card"
+import Cards from "../Cards"
 import {IoArrowForwardSharp} from "react-icons/io5"
 import { Img } from '../../data/data';
 import { Link } from 'react-router-dom';
