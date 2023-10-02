@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import {Img} from "../data/data"
 
 function Goods() {
+  
   return (
     <>
     <div> 

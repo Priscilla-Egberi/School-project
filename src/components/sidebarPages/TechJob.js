@@ -1,5 +1,5 @@
 import React from 'react'
-import Cards from "../ServiceCards"
+import Cards from "../service/ServiceCards"
 import {serviceData} from "../../data/service"
 
 function Tech() {

@@ -5,8 +5,8 @@ import {
   Typography,
   IconButton,
 } from "@material-tailwind/react";
-import logo from "../images/logo.jpg";
-import CheckHomContext from './CheckHomContext';
+import logo from "../../images/logo.jpg";
+import CheckHomContext from '../context/CheckHomContext';
 import { BsCart3} from 'react-icons/bs'
 
  

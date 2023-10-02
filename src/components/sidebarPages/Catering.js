@@ -1,14 +1,11 @@
 import React from 'react'
-import Cards from "../ServiceCards"
+import Cards from "../service/ServiceCards"
 import {serviceData} from "../../data/service"
 
 function Catering() {
   const filteredCatering = serviceData.filter((item) => item.category === 'Catering');
 console.log(filteredCatering);
-  const handleClick = () =>{
-window.scrollTo(0, 0);
-
-  }
+  
   return (
     <>
     

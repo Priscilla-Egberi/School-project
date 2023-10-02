@@ -7,6 +7,7 @@ import {
   } from "@material-tailwind/react";
    
   export default function Example(props) {
+    
     return (
       <Card className="max-w-[24rem] overflow-hidden pb-0 h-72 rounded-sm shadow-none bg-transparent">
         <CardHeader

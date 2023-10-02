@@ -1,7 +1,7 @@
 import React from 'react'
-import Cards from "../ServiceCards"
+import Cards from "../service/ServiceCards"
 import {serviceData} from "../../data/service"
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 function LaptopRepair() {
   const filteredLaptopRepair = serviceData.filter((item) => item.category === 'Laptop and Phone Repair');

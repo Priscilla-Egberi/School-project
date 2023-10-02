@@ -7,7 +7,8 @@ import Services from "./Services"
 import {Routes, Route} from "react-router-dom"
 import SignUp from '../login/SignUp'
 import LoginMain from "../login/Login"
-import RoutableHomeSide from '../components/RoutableHomeSide'
+import RoutableLanding from '../components/RoutableLanding'
+import RoutableHome from '../components/home/RoutableHome'
 import Cart from '../components/Cart'
 import Electronics from "../components/sidebarPages/Electronics"
 import OthersGoods from '../components/sidebarPages/OthersGoods'
@@ -37,10 +38,11 @@ import AddGoods from '../components/account/AddGoods'
 import AddServices from '../components/account/AddServices'
 import AddNewItemOptions from '../components/account/AddNewItemOptions'
 import {CheckProvider} from "../components/account/CheckContext"
-import {CheckHomProvider} from "../components/CheckHomContext"
+import {CheckHomProvider} from "../components/context/CheckHomContext"
 import { UserProvider } from '../login/UserContext';
-import {ServiceProvider} from "../components/ServiceContext"
-import {ProductProvider} from "../components/ProductContext"
+import {ServiceProvider} from "../components/context/ServiceContext"
+import {ProductProvider} from "../components/context/ProductContext"
+import {CartProvider} from "../components/context/CartContext"
 
 
 
@@ -51,10 +53,11 @@ export default function pages() {
     <UserProvider>
     <ServiceProvider>
     <ProductProvider>
+    <CartProvider>
       
       <Routes>
         <Route  element={<Landing />}>
-          <Route path="/" element={<RoutableHomeSide />}/>
+          <Route path="/" element={<RoutableLanding />}/>
           <Route path="/electronics" element={<Electronics />}/>
           <Route path="/clothings" element={<ClothingsJewelries />}/>
           <Route path="/tutorial" element={<Tutoring />}/>
@@ -82,7 +85,7 @@ export default function pages() {
 
         {/* ------------------- Home */}
         <Route  path ="/home" element={<Home />}>
-          <Route path="/home" element={<RoutableHomeSide />}/>
+          <Route path="/home" element={<RoutableHome />}/>
           <Route path="/home/cart" element={<Cart />}/>
           <Route path="/home/electronics" element={<Electronics />}/>
           <Route path="/home/clothings" element={<ClothingsJewelries />}/>
@@ -122,6 +125,7 @@ export default function pages() {
         </Route>
       </Routes>
 
+     </CartProvider> 
      </ProductProvider> 
      </ServiceProvider> 
      </UserProvider> 

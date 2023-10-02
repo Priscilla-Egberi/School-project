@@ -1,12 +1,12 @@
 import React from 'react'
-import firstImage from "../images/Group 34.jpg"
-import secondImage from "../images/Group 11.jpg"
-import thirdImage from "../images/Group 12.jpg"
-import Cards from "../components/Cards"
-import Card from "../components/Card"
-import Body from "../components/Body"
-import Search from "./Searching";
-import {Img} from "../data/data"
+import firstImage from "../../images/Group 34.jpg"
+import secondImage from "../../images/Group 11.jpg"
+import thirdImage from "../../images/Group 12.jpg"
+import Cards from "../Cards"
+import Card from "../Card"
+import Body from "./Body"
+import Search from "../Searching";
+import {Img} from "../../data/data"
 import {Link} from "react-router-dom"
 
 function RoutableHomeSide() {

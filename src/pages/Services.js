@@ -1,9 +1,9 @@
 import React from 'react'
 import { serviceData } from '../data/service'
-import Search from "../components/SearchingService";
-import Cards from "../components/ServiceCards"
-import ServiceContext from "../components/ServiceContext"
-import ProductContext from "../components/ProductContext"
+import Search from "../components/service/SearchingService";
+import Cards from "../components/service/ServiceCards"
+import ServiceContext from "../components/context/ServiceContext"
+import ProductContext from "../components/context/ProductContext"
 
 function Services() {
   const post = React.useContext(ServiceContext)

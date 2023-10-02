@@ -5,8 +5,8 @@ import {
   Typography,
   IconButton,
 } from "@material-tailwind/react";
-import logo from "../images/logo.jpg";
-import CheckHomContext from './CheckHomContext';
+import logo from "../../images/logo.jpg";
+import CheckHomContext from '../context/CheckHomContext';
 import {BsCart3} from 'react-icons/bs'
 import Dropdown from "./Dropdown"
 
@@ -35,7 +35,7 @@ export default function Example() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <Link to="/" className="flex items-center">
+        <Link to="/home" className="flex items-center">
           Home
         </Link>
       </Typography>
@@ -45,7 +45,7 @@ export default function Example() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <Link to="/goods" className="flex items-center">
+        <Link to="/home/goods" className="flex items-center">
           Goods
         </Link>
       </Typography>
@@ -55,7 +55,7 @@ export default function Example() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <Link to="/services" className="flex items-center">
+        <Link to="/home/services" className="flex items-center">
           Services
         </Link>
       </Typography>
@@ -75,19 +75,9 @@ export default function Example() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <Link to="/login" className="flex items-center">
-          Account
-        </Link>
-      </Typography>
-      <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="p-1 font-normal"
-      >
-        <Link to="/login" className="flex items-center">
+        
           <Dropdown />
-        </Link>
+        
       </Typography>
     </ul>
   );

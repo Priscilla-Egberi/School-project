@@ -10,7 +10,7 @@ import {BiBookBookmark} from "react-icons/bi";
 import {TfiPaintRoller} from "react-icons/tfi";
 import {TiScissorsOutline} from "react-icons/ti";
 import {Link} from "react-router-dom"
-import CheckHomContext from './CheckHomContext';
+import CheckHomContext from './context/CheckHomContext';
 
 
 
