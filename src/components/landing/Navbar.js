@@ -11,6 +11,9 @@ import { BsCart3} from 'react-icons/bs'
 
  
 export default function Example() {
+  const handleClick = () =>{
+    window.scrollTo(0, 0);    
+      }
   const [openNav, setOpenNav] = useState(false);
   const [checks, setChecks] = useContext(CheckHomContext)
     console.log(checks)
@@ -34,7 +37,7 @@ export default function Example() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <Link to="/" className="flex items-center">
+        <Link to="/" className="flex items-center" onClick={()=>{handleClick()}}>
           Home
         </Link>
       </Typography>
@@ -44,7 +47,7 @@ export default function Example() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <Link to="/goods" className="flex items-center">
+        <Link to="/goods" className="flex items-center" onClick={()=>{handleClick()}}>
           Goods
         </Link>
       </Typography>
@@ -54,7 +57,7 @@ export default function Example() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <Link to="/services" className="flex items-center">
+        <Link to="/services" className="flex items-center" onClick={()=>{handleClick()}}>
           Services
         </Link>
       </Typography>
@@ -64,7 +67,7 @@ export default function Example() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <Link to="/login" className="flex items-center">
+        <Link to="/login" className="flex items-center" onClick={()=>{handleClick()}}>
           <BsCart3 className="mr-1"/> Cart
         </Link>
       </Typography>
@@ -74,7 +77,7 @@ export default function Example() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <Link to="/login" className="flex items-center">
+        <Link to="/login" className="flex items-center" onClick={()=>{handleClick()}}>
           Login
         </Link>
       </Typography>

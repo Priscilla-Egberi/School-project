@@ -1,13 +1,37 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { serviceData } from '../data/service'
 import Search from "../components/service/SearchingService";
 import Cards from "../components/service/ServiceCards"
 import ServiceContext from "../components/context/ServiceContext"
 import ProductContext from "../components/context/ProductContext"
+import axios from 'axios';
 
 function Services() {
   const post = React.useContext(ServiceContext)
   const goods = React.useContext(ProductContext)
+  useEffect(() => {
+    const refreshAccessToken = async () => {
+      const refresh_token = localStorage.getItem('refresh_token');
+      if (refresh_token) {
+        try {
+          // Send a refresh request to get a new access token
+          const response = await axios.post('https://campus-buy.onrender.com/api/token/refresh/', {"refresh": refresh_token });
+          localStorage.setItem('access_token', response.data.access);
+		console.log('token has been refreshed')
+        } catch (error) {
+          // Handle refresh token error (e.g., if refresh token has expired)
+          // You may want to redirect the user to the login page or handle it in another way
+          console.error('Error refreshing access token:', error);
+        }
+      }
+    };
+    // Refresh the token every minute (adjust the interval as needed)
+    const tokenRefreshInterval = setInterval(refreshAccessToken, 6 * 1000); // 60 seconds * 1000 milliseconds
+    // Cleanup the interval when the component unmounts
+    return () => clearInterval(tokenRefreshInterval);
+  }, []); // Empty dependency array means this effect runs once when the component mounts
+
+
   return (
     <>
         <h2 className="mt-2 md:mt-20 text-2xl semibold md:hidden ml-3 my-3">Services</h2>

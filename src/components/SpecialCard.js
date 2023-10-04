@@ -9,7 +9,7 @@ import {
   export default function Example(props) {
     
     return (
-      <Card className="max-w-[24rem] overflow-hidden pb-0 h-72 rounded-sm shadow-none bg-transparent">
+      <Card className="max-w-[24rem] overflow-hidden p-3 h-72 rounded-md shadow-sm bg-white">
         <CardHeader
           floated={false}
           shadow={false}
@@ -27,15 +27,17 @@ import {
        
         </CardHeader>
         <CardBody className="p-1 h-1/4" style={{backgroundColor:"#F3F3F3 !important"}}>
+          <Typography variant="lead" color="gray" className="mt-3 font-normal text-xs">
+            {props.condition} 
+          </Typography>
+          <div className="flex justify-between">
           <Typography variant="h3" color="blue-gray" className="text-sm">
             {props.name}
           </Typography>
           <Typography variant="h3" color="blue-gray" className="text-sm">
             {props.amount}
           </Typography>
-          <Typography variant="lead" color="gray" className="mt-3 font-normal text-xs">
-            {props.condition} 
-          </Typography>
+          </div>
         </CardBody>
         
       </Card>

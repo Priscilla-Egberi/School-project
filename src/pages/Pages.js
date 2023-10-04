@@ -7,9 +7,9 @@ import Services from "./Services"
 import {Routes, Route} from "react-router-dom"
 import SignUp from '../login/SignUp'
 import LoginMain from "../login/Login"
-import RoutableLanding from '../components/RoutableLanding'
+import RoutableLanding from '../components/landing/RoutableLanding'
 import RoutableHome from '../components/home/RoutableHome'
-import Cart from '../components/Cart'
+import Cart from '../components/home/Cart'
 import Electronics from "../components/sidebarPages/Electronics"
 import OthersGoods from '../components/sidebarPages/OthersGoods'
 import OthersService from "../components/sidebarPages/OthersService"

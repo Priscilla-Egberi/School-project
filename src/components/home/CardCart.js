@@ -32,18 +32,19 @@ import {
             color="gray"
             className="font-normal opacity-75"
           >
-            {/* With plenty of talk and listen time, voice-activated Siri access, and
-            an available wireless charging case. */}
+            {props.condition}
           </Typography>
         </CardBody>
         <CardFooter className="pt-0">
-          <Link to={props.link}  onClick={handleClick}>
+          
+          <Link to={props.link}   onClick={handleClick}>
+            {console.log(props.link)}
           <Button
             ripple={false}
             fullWidth={true}
             className="bg-blue-gray-900/10 text-xs text-blue-gray-900 shadow-none hover:scale-105 hover:shadow-none focus:scale-105 focus:shadow-none active:scale-100"
           >
-            {props.condition}
+            View
             
           </Button></Link>
         </CardFooter>

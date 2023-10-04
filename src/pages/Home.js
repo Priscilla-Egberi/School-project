@@ -1,15 +1,37 @@
-import React from 'react'
-import firstImage from "../images/Group 34.jpg"
+import React, {useEffect} from 'react'
 import CollapsibleSidebar from "../components/CollapsibleSidebar"
 import SideBar from '../components/SideBar'
 import { Outlet } from 'react-router-dom'
 import Footer from "../components/Footer"
 import Navbar from "../components/home/NavbarHome"
+import axios from 'axios'
 
 
 
 function Home() {
-  console.log(firstImage)
+  useEffect(() => {
+    const refreshAccessToken = async () => {
+      const refresh_token = localStorage.getItem('refresh_token');
+      if (refresh_token) {
+        try {
+          // Send a refresh request to get a new access token
+          const response = await axios.post('https://campus-buy.onrender.com/api/token/refresh/', {"refresh": refresh_token });
+          localStorage.setItem('access_token', response.data.access);
+		console.log('token has been refreshed')
+        } catch (error) {
+          // Handle refresh token error (e.g., if refresh token has expired)
+          // You may want to redirect the user to the login page or handle it in another way
+          console.error('Error refreshing access token:', error);
+        }
+      }
+    };
+    // Refresh the token every minute (adjust the interval as needed)
+    const tokenRefreshInterval = setInterval(refreshAccessToken, 6 * 1000); // 60 seconds * 1000 milliseconds
+    // Cleanup the interval when the component unmounts
+    return () => clearInterval(tokenRefreshInterval);
+  }, []); // Empty dependency array means this effect runs once when the component mounts
+
+
   return (
     <>
     <Navbar />
