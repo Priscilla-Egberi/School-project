@@ -3,12 +3,11 @@ import { serviceData } from '../data/service'
 import Search from "../components/service/SearchingService";
 import Cards from "../components/service/ServiceCards"
 import ServiceContext from "../components/context/ServiceContext"
-import ProductContext from "../components/context/ProductContext"
 import axios from 'axios';
 
 function Services() {
   const post = React.useContext(ServiceContext)
-  const goods = React.useContext(ProductContext)
+  
   useEffect(() => {
     const refreshAccessToken = async () => {
       const refresh_token = localStorage.getItem('refresh_token');
@@ -57,7 +56,6 @@ function Services() {
        <p className='md:px-16'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus doloremque expedita aliquam voluptatum eius, dolores eveniet id pariatur explicabo cupiditate?</p>
     </div> */}
     
-
     {serviceData.map(item => (
                                 <div key={item.id}>
                                   
@@ -74,17 +72,23 @@ function Services() {
                                   
                                 </div>
       ))}
-    
-    <p>TESTINGSERVICE</p>
-      {post.map((item) =>
-        <div>{item.seller.first_name}</div>
-      )}
-      {console.log(post)}
-    <p>TESTINGPRODUCT</p>
-      {goods.map((item) =>
-        <div>{item.seller.first_name}</div>
-      )}
-   
+    {post.map(item => (
+                                <div key={item.pk}>
+                                  
+                                        <Cards 
+                                        // Replace 'id' with the unique identifier in your data
+                                       cardId={item.pk} // Use 'cardId' instead of 'id'
+                                       userName={item.seller.first_name}
+                                       service={item.category.name? item.category.name : ""}              
+                                       description={item.description}
+                                       userImg={item.seller.profile_image}
+                                       className="col-span-1" />
+
+                                    {/* <h3>{goods.title}</h3> */}
+                                  
+                                </div>
+      ))}
+       
     </div>
     </>
   )

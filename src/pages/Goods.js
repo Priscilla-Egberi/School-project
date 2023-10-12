@@ -2,10 +2,12 @@ import React, {useEffect} from 'react'
 import Search from "../components/Searching";
 // import DropDown from "../components/Goods/DropDown"
 import Cards from "../components/Cards"
+import ProductContext from "../components/context/ProductContext"
 import {Img} from "../data/data"
 import axios from 'axios';
 
 function Goods() {
+  const goods = React.useContext(ProductContext)
   useEffect(() => {
     const refreshAccessToken = async () => {
       const refresh_token = localStorage.getItem('refresh_token');
@@ -45,9 +47,14 @@ function Goods() {
                                         <Cards name={goods.name} link={goods.id} condition={goods.condition} amount={goods.amount} detail={goods.imgUrl[0]} className="col-span-1" />
                                 </div>
       ))} */}
-      {Img.map((item) => (
+       {Img.map((item) => (
           <div key={item.id}>
           <Cards link={`${item.id}`} name={item.name} id={item.id} condition={item.condition} amount={item.amount} detail={item.imgUrl[0]} className="col-span-1" />
+        </div>
+        ))}
+      {goods.map((item) => (
+          <div key={item.pk}>
+          <Cards link={`${item.pk}`} name={item.name} id={item.pk} amount={item.price} detail={item.images && item.images.length > 0 && item.images[0].image} className="col-span-1" />
         </div>
         ))}
                               

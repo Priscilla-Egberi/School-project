@@ -1,18 +1,19 @@
 import React from 'react'
 
-function GoodsCard() {
+
+function GoodsCard({amount, name, category, detail }) {
   return (
     <div className="max-h-40 py-4 flex flex-row justify-between border-b-2 border-gray text-gray-500 font-semibold">
                 <div className='flex flex-row'>
-                      <img src='https://images.unsplash.com/photo-1601524909162-ae8725290836?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGxhcHRvcCUyMGNvbXB1dGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60'
+                      <img src={detail}
                       alt='' className='h-full rounded mr-4' />
                       <div className="flex flex-col justify-between">
                         <div className="text-sm">
-                            <p className="text-gray-700 text-base">Shirt</p>
-                            <p>Red color</p>
-                            <p>Large</p>
+                            <p className="text-gray-700 text-base">{name}</p>
+                            <p>New</p>
+                            <p>{category}</p>
                         </div>
-                            <p>$100</p>
+                            <p>{amount}</p>
                       </div>
                 </div>
 
